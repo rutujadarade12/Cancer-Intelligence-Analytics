@@ -1,0 +1,29 @@
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Dependencies and build files
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Logs and temporary files
+logs/
+scratch/
+*.log
+
+# Local editor files
+.vscode/

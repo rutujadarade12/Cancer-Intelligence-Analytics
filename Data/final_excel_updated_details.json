@@ -1,0 +1,1322 @@
+{
+  "README": {
+    "rows": 29,
+    "cols": 5,
+    "columns": [
+      "Sheet",
+      "Source",
+      "Contents",
+      "Rows (approx.)",
+      "Group"
+    ],
+    "nulls": {},
+    "sample": [
+      {
+        "Sheet": "Source Documents",
+        "Source": "All",
+        "Contents": "Bibliographic details of the four source documents and which sheets come from each",
+        "Rows (approx.)": 4,
+        "Group": "Guide"
+      },
+      {
+        "Sheet": "Key Findings (3 PDFs)",
+        "Source": "S1-S3",
+        "Contents": "Headline statistics, methods, coverage and data-quality facts from the three new PDFs, with page numbers",
+        "Rows (approx.)": 46,
+        "Group": "Guide"
+      }
+    ]
+  },
+  "Source Documents": {
+    "rows": 4,
+    "cols": 11,
+    "columns": [
+      "Ref",
+      "File",
+      "Title",
+      "Authors / publisher",
+      "Journal / series",
+      "Year",
+      "Volume / pages",
+      "DOI / link",
+      "Data period",
+      "Geography and scope",
+      "Sheets built from it"
+    ],
+    "nulls": {},
+    "sample": [
+      {
+        "Ref": "S1",
+        "File": "1792240250346_cancer_dataset.pdf",
+        "Title": "Cancer incidence estimates for 2022 & projection for 2025: Result from National Cancer Registry Programme, India",
+        "Authors / publisher": "Krishnan Sathishkumar, Meesha Chaturvedi, Priyanka Das, S. Stephen, Prashant Mathur (ICMR-NCDIR, Bengaluru)",
+        "Journal / series": "Indian Journal of Medical Research",
+        "Year": 2022,
+        "Volume / pages": "156 (Oct & Nov), pp 598-607",
+        "DOI / link": "DOI 10.4103/ijmr.ijmr_1821_22",
+        "Data period": "Rates 2012-2016; estimates 2022; projection 2025",
+        "Geography and scope": "India national, by sex, age group and anatomical site; state/region PBCR representation",
+        "Sheets built from it": "India Sites 2022; India Age-Sex Sites; India Top10 Sites 2022; India Trend 2015-2025; India Age Structure; Method Comparison; State-wise Incidence (cols I-J); Key Findings"
+      },
+      {
+        "Ref": "S2",
+        "File": "1792240259450_FS_Maharashtra.pdf",
+        "Title": "Profile of Cancer and Related Factors - Maharashtra",
+        "Authors / publisher": "ICMR-National Centre for Disease Informatics and Research (NCDIR), Bengaluru",
+        "Journal / series": "Cancer fact sheet series (NCRP)",
+        "Year": 2021,
+        "Volume / pages": "11 pages (9 content pages)",
+        "DOI / link": "https://www.ncdirindia.org/",
+        "Data period": "Registry data 2012-2016; projections 2020 and 2025",
+        "Geography and scope": "Maharashtra state: 8 PBCRs, 5 HBCRs, socio-demographic, health indicators and infrastructure",
+        "Sheets built from it": "MH PBCR Profile; MH Childhood Cancer; MH Sites & Tobacco; MH Projections; MH Socio-Health Profile; MH Health Infrastructure; Clinical Stage"
+      }
+    ]
+  },
+  "Key Findings (3 PDFs)": {
+    "rows": 46,
+    "cols": 7,
+    "columns": [
+      "Source",
+      "Topic",
+      "Finding / metric",
+      "Value",
+      "Unit",
+      "Context / detail",
+      "Page"
+    ],
+    "nulls": {
+      "Unit": 22,
+      "Context / detail": 6
+    },
+    "sample": [
+      {
+        "Source": "IJMR 2022 (Sathishkumar)",
+        "Topic": "Burden",
+        "Finding / metric": "Estimated new cancer cases in India, 2022",
+        "Value": 1461427,
+        "Unit": "cases",
+        "Context / detail": "Crude rate 100.4 per 100,000; age-adjusted rate 107.0 per 100,000",
+        "Page": "598, 600"
+      },
+      {
+        "Source": "IJMR 2022 (Sathishkumar)",
+        "Topic": "Burden",
+        "Finding / metric": "Estimated cases among females, 2022",
+        "Value": 749251,
+        "Unit": "cases",
+        "Context / detail": "Crude rate 105.4 per 100,000",
+        "Page": "600"
+      }
+    ]
+  },
+  "Cross-Validation": {
+    "rows": 25,
+    "cols": 10,
+    "columns": [
+      "#",
+      "Check",
+      "Value A - description",
+      "Value A",
+      "Value B - description",
+      "Value B",
+      "Difference (A - B)",
+      "Tolerance",
+      "Status",
+      "Comment"
+    ],
+    "nulls": {
+      "#": 1,
+      "Value A - description": 1,
+      "Value A": 2,
+      "Value B - description": 1,
+      "Value B": 2,
+      "Difference (A - B)": 2,
+      "Tolerance": 3,
+      "Comment": 11
+    },
+    "sample": [
+      {
+        "#": 1.0,
+        "Check": "India 2020 cases",
+        "Value A - description": "Sum of 37 states, \"2020 Observed\" (existing sheet)",
+        "Value A": 1392179.0,
+        "Value B - description": "JCO 2020 projected national cases",
+        "Value B": 1392179.0,
+        "Difference (A - B)": 0.0,
+        "Tolerance": 0.0,
+        "Status": "Match",
+        "Comment": "Identical: the existing \"observed\" 2020 column is the NCRP national projection, not raw registry counts."
+      },
+      {
+        "#": 2.0,
+        "Check": "India 2022 cases",
+        "Value A - description": "Sum of 37 states, \"2022 Observed\" (existing sheet)",
+        "Value A": 1461427.0,
+        "Value B - description": "IJMR 2022 estimated national cases (Table I)",
+        "Value B": 1461427.0,
+        "Difference (A - B)": 0.0,
+        "Tolerance": 0.0,
+        "Status": "Match",
+        "Comment": "Identical: the existing \"2022 Observed\" column equals the IJMR NCRP estimate."
+      }
+    ]
+  },
+  "State-wise Incidence": {
+    "rows": 41,
+    "cols": 15,
+    "columns": [
+      "State/UT",
+      "2019 Observed",
+      "2020 Observed",
+      "2021 Observed",
+      "2022 Observed",
+      "Predicted 2026",
+      "Predicted 2030",
+      "Predicted 2045",
+      "Region (NCRP zone)",
+      "NCRP PBCR representation used for state estimates",
+      "CAGR 2019-22 (observed)",
+      "CAGR 2022-26 (projected)",
+      "CAGR 2022-45 (projected)",
+      "Share of all-India 2022 cases",
+      "Projected 2045 / 2022 (x)"
+    ],
+    "nulls": {
+      "2020 Observed": 3,
+      "2021 Observed": 3,
+      "2022 Observed": 3,
+      "Predicted 2026": 3,
+      "Predicted 2030": 3,
+      "Predicted 2045": 3,
+      "Region (NCRP zone)": 4,
+      "NCRP PBCR representation used for state estimates": 4,
+      "CAGR 2019-22 (observed)": 3,
+      "CAGR 2022-26 (projected)": 3,
+      "CAGR 2022-45 (projected)": 3,
+      "Share of all-India 2022 cases": 3,
+      "Projected 2045 / 2022 (x)": 3
+    },
+    "sample": [
+      {
+        "State/UT": "Jammu and Kashmir",
+        "2019 Observed": 12396,
+        "2020 Observed": 12726.0,
+        "2021 Observed": 13060.0,
+        "2022 Observed": 13395.0,
+        "Predicted 2026": 14857.0,
+        "Predicted 2030": 16475.0,
+        "Predicted 2045": 24277.0,
+        "Region (NCRP zone)": "North",
+        "NCRP PBCR representation used for state estimates": "Pooled Rest of India",
+        "CAGR 2019-22 (observed)": 0.0261725271102942,
+        "CAGR 2022-26 (projected)": 0.0262356594162736,
+        "CAGR 2022-45 (projected)": 0.026191376743095,
+        "Share of all-India 2022 cases": 0.00916569900515045,
+        "Projected 2045 / 2022 (x)": 1.81239268383725
+      },
+      {
+        "State/UT": "Ladakh",
+        "2019 Observed": 279,
+        "2020 Observed": 286.0,
+        "2021 Observed": 294.0,
+        "2022 Observed": 302.0,
+        "Predicted 2026": 336.0,
+        "Predicted 2030": 373.0,
+        "Predicted 2045": 556.0,
+        "Region (NCRP zone)": "North",
+        "NCRP PBCR representation used for state estimates": "Pooled Rest of India",
+        "CAGR 2019-22 (observed)": 0.0267567813604415,
+        "CAGR 2022-26 (projected)": 0.0270298909625619,
+        "CAGR 2022-45 (projected)": 0.0268918074587305,
+        "Share of all-India 2022 cases": 0.000206647338525975,
+        "Projected 2045 / 2022 (x)": 1.84105960264901
+      }
+    ]
+  },
+  "India Sites 2022": {
+    "rows": 56,
+    "cols": 19,
+    "columns": [
+      "Site (ICD-10 group)",
+      "Level",
+      "Parent group",
+      "Male - estimated cases 2022",
+      "Male - crude rate /100,000",
+      "Male - age-adjusted rate /100,000",
+      "Male - cum. risk 0-74 (1 in N)",
+      "Female - estimated cases 2022",
+      "Female - crude rate /100,000",
+      "Female - age-adjusted rate /100,000",
+      "Female - cum. risk 0-74 (1 in N)",
+      "Both sexes - estimated cases 2022",
+      "Both sexes - crude rate /100,000",
+      "Both sexes - age-adjusted rate /100,000",
+      "Both sexes - cum. risk 0-74 (1 in N)",
+      "Share of all-site cases (both sexes)",
+      "Female : male case ratio",
+      "Both sexes - 2020 projected cases (JCO)",
+      "Change in cases 2020 to 2022"
+    ],
+    "nulls": {
+      "Level": 1,
+      "Parent group": 19,
+      "Male - estimated cases 2022": 7,
+      "Male - crude rate /100,000": 7,
+      "Male - age-adjusted rate /100,000": 7,
+      "Male - cum. risk 0-74 (1 in N)": 7,
+      "Female - estimated cases 2022": 4,
+      "Female - crude rate /100,000": 4,
+      "Female - age-adjusted rate /100,000": 4,
+      "Female - cum. risk 0-74 (1 in N)": 4,
+      "Both sexes - estimated cases 2022": 1,
+      "Both sexes - crude rate /100,000": 1,
+      "Both sexes - age-adjusted rate /100,000": 1,
+      "Both sexes - cum. risk 0-74 (1 in N)": 1,
+      "Share of all-site cases (both sexes)": 1,
+      "Female : male case ratio": 10,
+      "Both sexes - 2020 projected cases (JCO)": 1,
+      "Change in cases 2020 to 2022": 1
+    },
+    "sample": [
+      {
+        "Site (ICD-10 group)": "All sites",
+        "Level": "Total",
+        "Parent group": NaN,
+        "Male - estimated cases 2022": 712176.0,
+        "Male - crude rate /100,000": 95.6,
+        "Male - age-adjusted rate /100,000": 105.7,
+        "Male - cum. risk 0-74 (1 in N)": 9.0,
+        "Female - estimated cases 2022": 749251.0,
+        "Female - crude rate /100,000": 105.4,
+        "Female - age-adjusted rate /100,000": 109.0,
+        "Female - cum. risk 0-74 (1 in N)": 9.0,
+        "Both sexes - estimated cases 2022": 1461427.0,
+        "Both sexes - crude rate /100,000": 100.4,
+        "Both sexes - age-adjusted rate /100,000": 107.0,
+        "Both sexes - cum. risk 0-74 (1 in N)": 9.0,
+        "Share of all-site cases (both sexes)": 1.0,
+        "Female : male case ratio": 1.05205876075577,
+        "Both sexes - 2020 projected cases (JCO)": 1392179.0,
+        "Change in cases 2020 to 2022": 0.0497407301790933
+      },
+      {
+        "Site (ICD-10 group)": "Oral cavity and pharynx",
+        "Level": "Group",
+        "Parent group": NaN,
+        "Male - estimated cases 2022": 145844.0,
+        "Male - crude rate /100,000": 19.6,
+        "Male - age-adjusted rate /100,000": 21.2,
+        "Male - cum. risk 0-74 (1 in N)": 42.0,
+        "Female - estimated cases 2022": 52594.0,
+        "Female - crude rate /100,000": 7.4,
+        "Female - age-adjusted rate /100,000": 7.7,
+        "Female - cum. risk 0-74 (1 in N)": 115.0,
+        "Both sexes - estimated cases 2022": 198438.0,
+        "Both sexes - crude rate /100,000": 13.6,
+        "Both sexes - age-adjusted rate /100,000": 14.4,
+        "Both sexes - cum. risk 0-74 (1 in N)": 62.0,
+        "Share of all-site cases (both sexes)": 0.135783723716614,
+        "Female : male case ratio": 0.360618194783467,
+        "Both sexes - 2020 projected cases (JCO)": 188969.0,
+        "Change in cases 2020 to 2022": 0.050108747995703
+      }
+    ]
+  },
+  "India Sites 2020": {
+    "rows": 56,
+    "cols": 14,
+    "columns": [
+      "Site (ICD-10 group)",
+      "Level",
+      "Parent group",
+      "Male - projected cases 2020",
+      "Male - crude rate /100,000",
+      "Male - cum. risk 0-74 (1 in N)",
+      "Female - projected cases 2020",
+      "Female - crude rate /100,000",
+      "Female - cum. risk 0-74 (1 in N)",
+      "Both sexes - projected cases 2020",
+      "Both sexes - crude rate /100,000",
+      "Both sexes - cum. risk 0-74 (1 in N)",
+      "Share of all-site cases (both sexes)",
+      "Female : male case ratio"
+    ],
+    "nulls": {
+      "Level": 1,
+      "Parent group": 19,
+      "Male - projected cases 2020": 7,
+      "Male - crude rate /100,000": 7,
+      "Male - cum. risk 0-74 (1 in N)": 7,
+      "Female - projected cases 2020": 4,
+      "Female - crude rate /100,000": 4,
+      "Female - cum. risk 0-74 (1 in N)": 4,
+      "Both sexes - projected cases 2020": 1,
+      "Both sexes - crude rate /100,000": 1,
+      "Both sexes - cum. risk 0-74 (1 in N)": 1,
+      "Share of all-site cases (both sexes)": 1,
+      "Female : male case ratio": 10
+    },
+    "sample": [
+      {
+        "Site (ICD-10 group)": "All sites",
+        "Level": "Total",
+        "Parent group": NaN,
+        "Male - projected cases 2020": 679421.0,
+        "Male - crude rate /100,000": 94.1,
+        "Male - cum. risk 0-74 (1 in N)": 9.0,
+        "Female - projected cases 2020": 712758.0,
+        "Female - crude rate /100,000": 103.6,
+        "Female - cum. risk 0-74 (1 in N)": 9.0,
+        "Both sexes - projected cases 2020": 1392179.0,
+        "Both sexes - crude rate /100,000": 98.7,
+        "Both sexes - cum. risk 0-74 (1 in N)": 9.0,
+        "Share of all-site cases (both sexes)": 1.0,
+        "Female : male case ratio": 1.04906677891911
+      },
+      {
+        "Site (ICD-10 group)": "Oral cavity and pharynx",
+        "Level": "Group",
+        "Parent group": NaN,
+        "Male - projected cases 2020": 139018.0,
+        "Male - crude rate /100,000": 19.2,
+        "Male - cum. risk 0-74 (1 in N)": 41.0,
+        "Female - projected cases 2020": 49951.0,
+        "Female - crude rate /100,000": 7.3,
+        "Female - cum. risk 0-74 (1 in N)": 112.0,
+        "Both sexes - projected cases 2020": 188969.0,
+        "Both sexes - crude rate /100,000": 13.4,
+        "Both sexes - cum. risk 0-74 (1 in N)": 60.0,
+        "Share of all-site cases (both sexes)": 0.135736137378886,
+        "Female : male case ratio": 0.35931318246558
+      }
+    ]
+  },
+  "India Age-Sex Sites": {
+    "rows": 57,
+    "cols": 10,
+    "columns": [
+      "Age group",
+      "Sex",
+      "Rank",
+      "Cancer site",
+      "ICD-10 codes",
+      "Estimated cases 2022 (n)",
+      "Share of age-sex total (% as printed)",
+      "Share recomputed (%)",
+      "Row type",
+      "Check: listed rows - All sites"
+    ],
+    "nulls": {
+      "Sex": 1,
+      "Rank": 17,
+      "Cancer site": 1,
+      "ICD-10 codes": 17,
+      "Estimated cases 2022 (n)": 1,
+      "Share of age-sex total (% as printed)": 1,
+      "Share recomputed (%)": 1,
+      "Row type": 1,
+      "Check: listed rows - All sites": 49
+    },
+    "sample": [
+      {
+        "Age group": "0-14 yr",
+        "Sex": "Male",
+        "Rank": 1.0,
+        "Cancer site": "Lymphoid leukaemia",
+        "ICD-10 codes": "C91",
+        "Estimated cases 2022 (n)": 6233.0,
+        "Share of age-sex total (% as printed)": 29.3,
+        "Share recomputed (%)": 29.2519241599399,
+        "Row type": "Top-5 site",
+        "Check: listed rows - All sites": NaN
+      },
+      {
+        "Age group": "0-14 yr",
+        "Sex": "Male",
+        "Rank": 2.0,
+        "Cancer site": "Brain and NS",
+        "ICD-10 codes": "C70-C72",
+        "Estimated cases 2022 (n)": 2643.0,
+        "Share of age-sex total (% as printed)": 12.4,
+        "Share recomputed (%)": 12.4037920030036,
+        "Row type": "Top-5 site",
+        "Check: listed rows - All sites": NaN
+      }
+    ]
+  },
+  "India Top10 Sites 2022": {
+    "rows": 21,
+    "cols": 8,
+    "columns": [
+      "Sex",
+      "Rank",
+      "Site (as in Fig. 1)",
+      "Share of all cancers (%) - Fig. 1",
+      "Matching site in Table I",
+      "Estimated cases 2022 (Table I)",
+      "Share recomputed from Table I (%)",
+      "Difference (pct-points)"
+    ],
+    "nulls": {
+      "Rank": 1,
+      "Site (as in Fig. 1)": 1,
+      "Share of all cancers (%) - Fig. 1": 1,
+      "Matching site in Table I": 1,
+      "Estimated cases 2022 (Table I)": 1,
+      "Share recomputed from Table I (%)": 1,
+      "Difference (pct-points)": 1
+    },
+    "sample": [
+      {
+        "Sex": "Male",
+        "Rank": 1.0,
+        "Site (as in Fig. 1)": "Lung",
+        "Share of all cancers (%) - Fig. 1": 10.6,
+        "Matching site in Table I": "Lung and bronchus",
+        "Estimated cases 2022 (Table I)": 75474.0,
+        "Share recomputed from Table I (%)": 10.5976612522747,
+        "Difference (pct-points)": -0.00233874772528075
+      },
+      {
+        "Sex": "Male",
+        "Rank": 2.0,
+        "Site (as in Fig. 1)": "Mouth",
+        "Share of all cancers (%) - Fig. 1": 8.4,
+        "Matching site in Table I": "Mouth",
+        "Estimated cases 2022 (Table I)": 60164.0,
+        "Share recomputed from Table I (%)": 8.44791175215115,
+        "Difference (pct-points)": 0.047911752151153
+      }
+    ]
+  },
+  "India Trend 2015-2025": {
+    "rows": 18,
+    "cols": 10,
+    "columns": [
+      "Sex",
+      "Site (ICD-10)",
+      "Cases 2015",
+      "Cases 2020",
+      "Cases 2025 (projected)",
+      "Change 2015-2020",
+      "Change 2020-2025",
+      "Change 2015-2025",
+      "CAGR 2015-2025",
+      "Share of sex all-site cases 2025"
+    ],
+    "nulls": {
+      "Site (ICD-10)": 1,
+      "Cases 2015": 1,
+      "Cases 2020": 1,
+      "Cases 2025 (projected)": 1,
+      "Change 2015-2020": 3,
+      "Change 2020-2025": 3,
+      "Change 2015-2025": 3,
+      "CAGR 2015-2025": 3,
+      "Share of sex all-site cases 2025": 4
+    },
+    "sample": [
+      {
+        "Sex": "Male",
+        "Site (ICD-10)": "Lung (C33-34)",
+        "Cases 2015": 63087.0,
+        "Cases 2020": 71788.0,
+        "Cases 2025 (projected)": 81219.0,
+        "Change 2015-2020": 0.13792064926213,
+        "Change 2020-2025": 0.131372931409149,
+        "Change 2015-2025": 0.287412620666698,
+        "CAGR 2015-2025": 0.0255852737170235,
+        "Share of sex all-site cases 2025": 0.106366761614773
+      },
+      {
+        "Sex": "Male",
+        "Site (ICD-10)": "Mouth (C03-C06)",
+        "Cases 2015": 50779.0,
+        "Cases 2020": 57380.0,
+        "Cases 2025 (projected)": 64519.0,
+        "Change 2015-2020": 0.129994682841332,
+        "Change 2020-2025": 0.124416172882537,
+        "Change 2015-2025": 0.270584296658067,
+        "CAGR 2015-2025": 0.0242367356723068,
+        "Share of sex all-site cases 2025": 0.0844959565203156
+      }
+    ]
+  },
+  "India Age Structure": {
+    "rows": 21,
+    "cols": 7,
+    "columns": [
+      "Age group (years)",
+      "Census 2011 - Male (%)",
+      "Census 2011 - Female (%)",
+      "Estimated 2022 - Male (%)",
+      "Estimated 2022 - Female (%)",
+      "Change in male share (pct-pts)",
+      "Change in female share (pct-pts)"
+    ],
+    "nulls": {
+      "Census 2011 - Male (%)": 1,
+      "Census 2011 - Female (%)": 2,
+      "Estimated 2022 - Male (%)": 1,
+      "Estimated 2022 - Female (%)": 2,
+      "Change in male share (pct-pts)": 5,
+      "Change in female share (pct-pts)": 5
+    },
+    "sample": [
+      {
+        "Age group (years)": "0-4",
+        "Census 2011 - Male (%)": 9.4,
+        "Census 2011 - Female (%)": 9.3,
+        "Estimated 2022 - Male (%)": 8.2,
+        "Estimated 2022 - Female (%)": 7.8,
+        "Change in male share (pct-pts)": -1.2,
+        "Change in female share (pct-pts)": -1.5
+      },
+      {
+        "Age group (years)": "5-9",
+        "Census 2011 - Male (%)": 10.7,
+        "Census 2011 - Female (%)": 10.4,
+        "Estimated 2022 - Male (%)": 8.9,
+        "Estimated 2022 - Female (%)": 8.4,
+        "Change in male share (pct-pts)": -1.8,
+        "Change in female share (pct-pts)": -2.0
+      }
+    ]
+  },
+  "PBCR Incidence Table": {
+    "rows": 33,
+    "cols": 19,
+    "columns": [
+      "Registry",
+      "Level",
+      "Region",
+      "Maharashtra registry",
+      "Reference period",
+      "Male - annual avg cases",
+      "Male - crude rate /100,000",
+      "Male - age-adj. rate /100,000",
+      "Male - cum. risk 0-74 (1 in N)",
+      "Male - age-adj. mortality rate /100,000",
+      "Female - annual avg cases",
+      "Female - crude rate /100,000",
+      "Female - age-adj. rate /100,000",
+      "Female - cum. risk 0-74 (1 in N)",
+      "Female - age-adj. mortality rate /100,000",
+      "Total annual avg cases (M+F)",
+      "Female : male case ratio",
+      "Male AAMR / AAR (%)",
+      "Female AAMR / AAR (%)"
+    ],
+    "nulls": {
+      "Level": 1,
+      "Region": 1,
+      "Maharashtra registry": 26,
+      "Reference period": 1,
+      "Male - annual avg cases": 1,
+      "Male - crude rate /100,000": 1,
+      "Male - age-adj. rate /100,000": 1,
+      "Male - cum. risk 0-74 (1 in N)": 1,
+      "Male - age-adj. mortality rate /100,000": 1,
+      "Female - annual avg cases": 1,
+      "Female - crude rate /100,000": 1,
+      "Female - age-adj. rate /100,000": 1,
+      "Female - cum. risk 0-74 (1 in N)": 1,
+      "Female - age-adj. mortality rate /100,000": 1,
+      "Total annual avg cases (M+F)": 1,
+      "Female : male case ratio": 1,
+      "Male AAMR / AAR (%)": 1,
+      "Female AAMR / AAR (%)": 1
+    },
+    "sample": [
+      {
+        "Registry": "Delhi",
+        "Level": "PBCR",
+        "Region": "North",
+        "Maharashtra registry": NaN,
+        "Reference period": "2012-14",
+        "Male - annual avg cases": 10344.0,
+        "Male - crude rate /100,000": 112.3,
+        "Male - age-adj. rate /100,000": 147.0,
+        "Male - cum. risk 0-74 (1 in N)": 6.0,
+        "Male - age-adj. mortality rate /100,000": 22.2,
+        "Female - annual avg cases": 9688.0,
+        "Female - crude rate /100,000": 119.6,
+        "Female - age-adj. rate /100,000": 141.0,
+        "Female - cum. risk 0-74 (1 in N)": 7.0,
+        "Female - age-adj. mortality rate /100,000": 17.8,
+        "Total annual avg cases (M+F)": 20032.0,
+        "Female : male case ratio": 0.936581593194122,
+        "Male AAMR / AAR (%)": 0.151020408163265,
+        "Female AAMR / AAR (%)": 0.126241134751773
+      },
+      {
+        "Registry": "Patiala district",
+        "Level": "PBCR",
+        "Region": "North",
+        "Maharashtra registry": NaN,
+        "Reference period": "2012-16",
+        "Male - annual avg cases": 1079.0,
+        "Male - crude rate /100,000": 101.6,
+        "Male - age-adj. rate /100,000": 108.2,
+        "Male - cum. risk 0-74 (1 in N)": 9.0,
+        "Male - age-adj. mortality rate /100,000": 32.7,
+        "Female - annual avg cases": 1215.0,
+        "Female - crude rate /100,000": 127.7,
+        "Female - age-adj. rate /100,000": 124.6,
+        "Female - cum. risk 0-74 (1 in N)": 8.0,
+        "Female - age-adj. mortality rate /100,000": 30.1,
+        "Total annual avg cases (M+F)": 2294.0,
+        "Female : male case ratio": 1.12604263206673,
+        "Male AAMR / AAR (%)": 0.302218114602588,
+        "Female AAMR / AAR (%)": 0.241573033707865
+      }
+    ]
+  },
+  "Tobacco-related Cancers": {
+    "rows": 33,
+    "cols": 10,
+    "columns": [
+      "Registry",
+      "Region",
+      "Male - share of cancers tobacco-associated (%)",
+      "Male - tobacco-assoc. crude rate /100,000",
+      "Male - tobacco-assoc. age-adj. rate /100,000",
+      "Female - share of cancers tobacco-associated (%)",
+      "Female - tobacco-assoc. crude rate /100,000",
+      "Female - tobacco-assoc. age-adj. rate /100,000",
+      "Male share recomputed (tobacco CR / all-site CR, %)",
+      "Female share recomputed (%)"
+    ],
+    "nulls": {
+      "Region": 1,
+      "Male - share of cancers tobacco-associated (%)": 1,
+      "Male - tobacco-assoc. crude rate /100,000": 1,
+      "Male - tobacco-assoc. age-adj. rate /100,000": 1,
+      "Female - share of cancers tobacco-associated (%)": 1,
+      "Female - tobacco-assoc. crude rate /100,000": 1,
+      "Female - tobacco-assoc. age-adj. rate /100,000": 1,
+      "Male share recomputed (tobacco CR / all-site CR, %)": 1,
+      "Female share recomputed (%)": 1
+    },
+    "sample": [
+      {
+        "Registry": "Delhi",
+        "Region": "North",
+        "Male - share of cancers tobacco-associated (%)": 41.2,
+        "Male - tobacco-assoc. crude rate /100,000": 46.3,
+        "Male - tobacco-assoc. age-adj. rate /100,000": 62.1,
+        "Female - share of cancers tobacco-associated (%)": 12.4,
+        "Female - tobacco-assoc. crude rate /100,000": 14.8,
+        "Female - tobacco-assoc. age-adj. rate /100,000": 18.5,
+        "Male share recomputed (tobacco CR / all-site CR, %)": 41.2288512911843,
+        "Female share recomputed (%)": 12.3745819397993
+      },
+      {
+        "Registry": "Patiala district",
+        "Region": "North",
+        "Male - share of cancers tobacco-associated (%)": 36.4,
+        "Male - tobacco-assoc. crude rate /100,000": 36.9,
+        "Male - tobacco-assoc. age-adj. rate /100,000": 39.9,
+        "Female - share of cancers tobacco-associated (%)": 13.1,
+        "Female - tobacco-assoc. crude rate /100,000": 16.8,
+        "Female - tobacco-assoc. age-adj. rate /100,000": 16.6,
+        "Male share recomputed (tobacco CR / all-site CR, %)": 36.3188976377953,
+        "Female share recomputed (%)": 13.1558339859045
+      }
+    ]
+  },
+  "Cancer Trends (APC)": {
+    "rows": 153,
+    "cols": 8,
+    "columns": [
+      "Cancer site",
+      "Sex",
+      "Registry",
+      "Region",
+      "Annual percentage change in age-adj. rate (APC, %)",
+      "Statistically significant (P < .05)",
+      "Direction",
+      "Significant increase / decrease"
+    ],
+    "nulls": {
+      "Sex": 1,
+      "Registry": 1,
+      "Region": 1,
+      "Annual percentage change in age-adj. rate (APC, %)": 1,
+      "Statistically significant (P < .05)": 1,
+      "Direction": 1,
+      "Significant increase / decrease": 1
+    },
+    "sample": [
+      {
+        "Cancer site": "All sites",
+        "Sex": "Male",
+        "Registry": "Kamrup urban",
+        "Region": "North East",
+        "Annual percentage change in age-adj. rate (APC, %)": 3.8,
+        "Statistically significant (P < .05)": "Yes",
+        "Direction": "Increase",
+        "Significant increase / decrease": "Increase (significant)"
+      },
+      {
+        "Cancer site": "All sites",
+        "Sex": "Male",
+        "Registry": "Thiruvananthapuram taluk",
+        "Region": "South",
+        "Annual percentage change in age-adj. rate (APC, %)": 3.2,
+        "Statistically significant (P < .05)": "Yes",
+        "Direction": "Increase",
+        "Significant increase / decrease": "Increase (significant)"
+      }
+    ]
+  },
+  "Clinical Stage": {
+    "rows": 15,
+    "cols": 11,
+    "columns": [
+      "Data source",
+      "Population / note",
+      "Cancer site",
+      "Sex",
+      "Localised only (%)",
+      "Loco-regional (%)",
+      "Distant metastasis (%)",
+      "Unknown extent (%)",
+      "Total (%)",
+      "Advanced at diagnosis: loco-regional + distant (%)",
+      "Basis / reading note"
+    ],
+    "nulls": {
+      "Population / note": 1,
+      "Cancer site": 1,
+      "Sex": 1,
+      "Localised only (%)": 1,
+      "Loco-regional (%)": 1,
+      "Distant metastasis (%)": 1,
+      "Unknown extent (%)": 1,
+      "Total (%)": 1,
+      "Advanced at diagnosis: loco-regional + distant (%)": 1,
+      "Basis / reading note": 1
+    },
+    "sample": [
+      {
+        "Data source": "India - 58 HBCRs (JCO Fig 3)",
+        "Population / note": "N = 667,666 patients, 2012-2016",
+        "Cancer site": "Breast",
+        "Sex": "Female",
+        "Localised only (%)": 29.0,
+        "Loco-regional (%)": 57.0,
+        "Distant metastasis (%)": 10.3,
+        "Unknown extent (%)": 3.7,
+        "Total (%)": 100.0,
+        "Advanced at diagnosis: loco-regional + distant (%)": 67.3,
+        "Basis / reading note": "Series assignment inferred (text confirms loco-regional 57.0%)"
+      },
+      {
+        "Data source": "India - 58 HBCRs (JCO Fig 3)",
+        "Population / note": "N = 667,666 patients, 2012-2016",
+        "Cancer site": "Cervix uteri",
+        "Sex": "Female",
+        "Localised only (%)": 32.8,
+        "Loco-regional (%)": 60.0,
+        "Distant metastasis (%)": 5.1,
+        "Unknown extent (%)": 2.2,
+        "Total (%)": 100.1,
+        "Advanced at diagnosis: loco-regional + distant (%)": 65.1,
+        "Basis / reading note": "Series assignment inferred (text confirms loco-regional 60.0%)"
+      }
+    ]
+  },
+  "Method Comparison": {
+    "rows": 7,
+    "cols": 4,
+    "columns": [
+      "Characteristic",
+      "GLOBOCAN (refs 1,2)",
+      "GBD (India State-Level Disease Burden Initiative)",
+      "NCRP (IJMR 2022 estimates)"
+    ],
+    "nulls": {
+      "GLOBOCAN (refs 1,2)": 1,
+      "GBD (India State-Level Disease Burden Initiative)": 1,
+      "NCRP (IJMR 2022 estimates)": 1
+    },
+    "sample": [
+      {
+        "Characteristic": "Data sources",
+        "GLOBOCAN (refs 1,2)": "PBCRs (27) from the NCRP 2012-2014 and Dindigul, Mansa, Sangrur PBCRs incidence data",
+        "GBD (India State-Level Disease Burden Initiative)": "PBCRs (42) and Sample Registration System, cause of death data from India. Cancer registry data were used as the gold standard",
+        "NCRP (IJMR 2022 estimates)": "PBCRs (28) from the NCRP, 2020 report of 2012-2016 and Dindigul PBCR incidence data"
+      },
+      {
+        "Characteristic": "Population estimates",
+        "GLOBOCAN (refs 1,2)": "North East States, India's rural and urban population derived from United Nation and Census of India, 2011",
+        "GBD (India State-Level Disease Burden Initiative)": "Not mentioned",
+        "NCRP (IJMR 2022 estimates)": "State wise population estimation based on Census of India, 2011"
+      }
+    ]
+  },
+  "MH PBCR Profile": {
+    "rows": 11,
+    "cols": 17,
+    "columns": [
+      "PBCR (Maharashtra)",
+      "Establishment year",
+      "Implementing centre / location",
+      "Coverage area",
+      "Area (sq km)",
+      "Urban (%)",
+      "Rural (%)",
+      "Male - annual avg cases",
+      "Female - annual avg cases",
+      "Total annual avg cases",
+      "Male share of cases",
+      "Male crude rate /100,000",
+      "Female crude rate /100,000",
+      "Male age-adj. rate /100,000",
+      "Female age-adj. rate /100,000",
+      "Male cum. risk 0-74 (1 in N)",
+      "Female cum. risk 0-74 (1 in N)"
+    ],
+    "nulls": {
+      "Establishment year": 3,
+      "Implementing centre / location": 2,
+      "Coverage area": 3,
+      "Area (sq km)": 3,
+      "Urban (%)": 3,
+      "Rural (%)": 3,
+      "Male - annual avg cases": 2,
+      "Female - annual avg cases": 2,
+      "Total annual avg cases": 2,
+      "Male share of cases": 2,
+      "Male crude rate /100,000": 3,
+      "Female crude rate /100,000": 3,
+      "Male age-adj. rate /100,000": 3,
+      "Female age-adj. rate /100,000": 3,
+      "Male cum. risk 0-74 (1 in N)": 3,
+      "Female cum. risk 0-74 (1 in N)": 3
+    },
+    "sample": [
+      {
+        "PBCR (Maharashtra)": "Aurangabad",
+        "Establishment year": 1978.0,
+        "Implementing centre / location": "Indian Cancer Society, Mumbai",
+        "Coverage area": "Aurangabad City Agglomeration",
+        "Area (sq km)": 148.0,
+        "Urban (%)": 100.0,
+        "Rural (%)": 0.0,
+        "Male - annual avg cases": 385,
+        "Female - annual avg cases": 400,
+        "Total annual avg cases": 785,
+        "Male share of cases": 0.490445859872611,
+        "Male crude rate /100,000": 56.6,
+        "Female crude rate /100,000": 62.9,
+        "Male age-adj. rate /100,000": 70.9,
+        "Female age-adj. rate /100,000": 75.1,
+        "Male cum. risk 0-74 (1 in N)": 13,
+        "Female cum. risk 0-74 (1 in N)": 12
+      },
+      {
+        "PBCR (Maharashtra)": "Osmanabad and Beed",
+        "Establishment year": 1987.0,
+        "Implementing centre / location": "Nargis Dutt Memorial Cancer Hospital, Barshi",
+        "Coverage area": "2 Districts - Osmanabad & Beed",
+        "Area (sq km)": 18262.0,
+        "Urban (%)": 18.7,
+        "Rural (%)": 81.3,
+        "Male - annual avg cases": 909,
+        "Female - annual avg cases": 1117,
+        "Total annual avg cases": 2026,
+        "Male share of cases": 0.448667324777887,
+        "Male crude rate /100,000": 39.3,
+        "Female crude rate /100,000": 52.8,
+        "Male age-adj. rate /100,000": 39.5,
+        "Female age-adj. rate /100,000": 49.4,
+        "Male cum. risk 0-74 (1 in N)": 23,
+        "Female cum. risk 0-74 (1 in N)": 19
+      }
+    ]
+  },
+  "MH Childhood Cancer": {
+    "rows": 9,
+    "cols": 13,
+    "columns": [
+      "PBCR (Maharashtra)",
+      "Boys 0-14 - annual avg cases",
+      "Girls 0-14 - annual avg cases",
+      "Boys 0-14 - AAR per million",
+      "Girls 0-14 - AAR per million",
+      "Boys 0-19 - annual avg cases",
+      "Girls 0-19 - annual avg cases",
+      "Boys 0-19 - AAR per million",
+      "Girls 0-19 - AAR per million",
+      "Total 0-14 cases",
+      "Boys : girls ratio (0-14 cases)",
+      "Total 0-19 cases",
+      "Adolescent (15-19) cases"
+    ],
+    "nulls": {
+      "Boys 0-14 - annual avg cases": 1,
+      "Girls 0-14 - annual avg cases": 1,
+      "Boys 0-14 - AAR per million": 2,
+      "Girls 0-14 - AAR per million": 2,
+      "Boys 0-19 - annual avg cases": 1,
+      "Girls 0-19 - annual avg cases": 1,
+      "Boys 0-19 - AAR per million": 2,
+      "Girls 0-19 - AAR per million": 2,
+      "Total 0-14 cases": 1,
+      "Boys : girls ratio (0-14 cases)": 2,
+      "Total 0-19 cases": 1,
+      "Adolescent (15-19) cases": 1
+    },
+    "sample": [
+      {
+        "PBCR (Maharashtra)": "Mumbai",
+        "Boys 0-14 - annual avg cases": 148.0,
+        "Girls 0-14 - annual avg cases": 93.0,
+        "Boys 0-14 - AAR per million": 107.1,
+        "Girls 0-14 - AAR per million": 73.7,
+        "Boys 0-19 - annual avg cases": 216.0,
+        "Girls 0-19 - annual avg cases": 135.0,
+        "Boys 0-19 - AAR per million": 108.6,
+        "Girls 0-19 - AAR per million": 76.9,
+        "Total 0-14 cases": 241.0,
+        "Boys : girls ratio (0-14 cases)": 1.59139784946237,
+        "Total 0-19 cases": 351.0,
+        "Adolescent (15-19) cases": 110.0
+      },
+      {
+        "PBCR (Maharashtra)": "Aurangabad",
+        "Boys 0-14 - annual avg cases": 16.0,
+        "Girls 0-14 - annual avg cases": 9.0,
+        "Boys 0-14 - AAR per million": 83.0,
+        "Girls 0-14 - AAR per million": 51.1,
+        "Boys 0-19 - annual avg cases": 22.0,
+        "Girls 0-19 - annual avg cases": 13.0,
+        "Boys 0-19 - AAR per million": 84.1,
+        "Girls 0-19 - AAR per million": 54.4,
+        "Total 0-14 cases": 25.0,
+        "Boys : girls ratio (0-14 cases)": 1.77777777777778,
+        "Total 0-19 cases": 35.0,
+        "Adolescent (15-19) cases": 10.0
+      }
+    ]
+  },
+  "MH Sites & Tobacco": {
+    "rows": 29,
+    "cols": 6,
+    "columns": [
+      "Table",
+      "Sex",
+      "Rank / order",
+      "Cancer site",
+      "Value (%)",
+      "Note"
+    ],
+    "nulls": {
+      "Sex": 1,
+      "Rank / order": 5,
+      "Cancer site": 3,
+      "Value (%)": 1,
+      "Note": 13
+    },
+    "sample": [
+      {
+        "Table": "Five leading sites (share of all cancers)",
+        "Sex": "Male",
+        "Rank / order": 1.0,
+        "Cancer site": "Mouth",
+        "Value (%)": 11.1,
+        "Note": NaN
+      },
+      {
+        "Table": "Five leading sites (share of all cancers)",
+        "Sex": "Male",
+        "Rank / order": 2.0,
+        "Cancer site": "Lung",
+        "Value (%)": 8.4,
+        "Note": NaN
+      }
+    ]
+  },
+  "MH Projections": {
+    "rows": 5,
+    "cols": 7,
+    "columns": [
+      "Year",
+      "Males (projected cases)",
+      "Females (projected cases)",
+      "Total (M+F)",
+      "Female share",
+      "India total (NCRP projection)",
+      "Maharashtra share of India"
+    ],
+    "nulls": {
+      "Males (projected cases)": 1,
+      "Females (projected cases)": 1,
+      "Total (M+F)": 1,
+      "Female share": 3,
+      "India total (NCRP projection)": 1,
+      "Maharashtra share of India": 3
+    },
+    "sample": [
+      {
+        "Year": 2020,
+        "Males (projected cases)": 54961.0,
+        "Females (projected cases)": 61160.0,
+        "Total (M+F)": 116121.0,
+        "Female share": 0.526691985084524,
+        "India total (NCRP projection)": 1392179.0,
+        "Maharashtra share of India": 0.0834095328258794
+      },
+      {
+        "Year": 2025,
+        "Males (projected cases)": 61703.0,
+        "Females (projected cases)": 68762.0,
+        "Total (M+F)": 130465.0,
+        "Female share": 0.527053232667765,
+        "India total (NCRP projection)": 1569793.0,
+        "Maharashtra share of India": 0.0831096838882579
+      }
+    ]
+  },
+  "MH Socio-Health Profile": {
+    "rows": 17,
+    "cols": 7,
+    "columns": [
+      "Section",
+      "Indicator",
+      "Male",
+      "Female",
+      "Total / overall",
+      "Unit",
+      "Source in fact sheet"
+    ],
+    "nulls": {
+      "Indicator": 1,
+      "Male": 7,
+      "Female": 7,
+      "Total / overall": 8,
+      "Unit": 2,
+      "Source in fact sheet": 2
+    },
+    "sample": [
+      {
+        "Section": "A. Socio-demographic",
+        "Indicator": "Population (Census 2011)",
+        "Male": 58243056.0,
+        "Female": 54131277.0,
+        "Total / overall": 112374333.0,
+        "Unit": "persons",
+        "Source in fact sheet": "Census 2011 [4]"
+      },
+      {
+        "Section": "A. Socio-demographic",
+        "Indicator": "Gender ratio",
+        "Male": NaN,
+        "Female": NaN,
+        "Total / overall": 929.0,
+        "Unit": "females per 1,000 males",
+        "Source in fact sheet": "Census 2011 [4]"
+      }
+    ]
+  },
+  "MH Health Infrastructure": {
+    "rows": 15,
+    "cols": 5,
+    "columns": [
+      "Category",
+      "Item",
+      "Count / detail",
+      "Classification / note",
+      "Source in fact sheet"
+    ],
+    "nulls": {
+      "Classification / note": 10
+    },
+    "sample": [
+      {
+        "Category": "Government health facilities",
+        "Item": "Sub-centres + Health and Wellness Centres - Sub Centres (HWC-SCs)",
+        "Count / detail": 10668,
+        "Classification / note": NaN,
+        "Source in fact sheet": "NFHS-4 / Rural Health Statistics [9]"
+      },
+      {
+        "Category": "Government health facilities",
+        "Item": "Primary Health Centres + Health and Wellness Centres - Primary Health Centres (HWC-PHCs)",
+        "Count / detail": 2366,
+        "Classification / note": NaN,
+        "Source in fact sheet": "[9]"
+      }
+    ]
+  },
+  "Data Notes": {
+    "rows": 15,
+    "cols": 3,
+    "columns": [
+      "#",
+      "Topic",
+      "Note"
+    ],
+    "nulls": {},
+    "sample": [
+      {
+        "#": 1,
+        "Topic": "Existing state data are NCRP estimates",
+        "Note": "Sums of the state columns for 2020 and 2022 equal the national NCRP estimates (1,392,179 and 1,461,427), and Maharashtra 2020 equals the NCRP Maharashtra projection. The \"Observed\" labels in the existing State-wise Incidence sheet are therefore best read as \"NCRP-estimated\". The 2026/2030/2045 columns come from the Kumar et al. 2026 model."
+      },
+      {
+        "#": 2,
+        "Topic": "Estimates assume constant incidence rates",
+        "Note": "Both NCRP papers apply 2012-2016 age-specific rates unchanged to later populations, so projected growth reflects population growth and ageing only. The Kumar model instead extrapolates a 2019-2022 trend with healthcare moderators, hence different growth paths (e.g. 2026 sum of states 1.60 million vs IJMR 2025 projection 1.57 million)."
+      }
+    ]
+  },
+  "Article Details": {
+    "rows": 20,
+    "cols": 2,
+    "columns": [
+      "Field",
+      "Extracted data"
+    ],
+    "nulls": {},
+    "sample": [
+      {
+        "Field": "Article title",
+        "Extracted data": "State-wise forecasting of cancer incidence in India using a moderated exponential regression model incorporating healthcare system determinants"
+      },
+      {
+        "Field": "Authors",
+        "Extracted data": "Dileep Kumar; Navin Upadhyay; Himanshu Pandey"
+      }
+    ]
+  },
+  "Summary & Findings": {
+    "rows": 21,
+    "cols": 2,
+    "columns": [
+      "Section",
+      "Extracted content"
+    ],
+    "nulls": {},
+    "sample": [
+      {
+        "Section": "Background",
+        "Extracted content": "Cancer incidence varies substantially across Indian states and union territories. Accurate projections support health planning, resource allocation, and stronger health systems. Conventional forecasts often rely on historical trends and may ignore regional differences in healthcare capacity that affect detection and reporting."
+      },
+      {
+        "Section": "Aim / objective",
+        "Extracted content": "Forecast state-wise cancer incidence in India using a moderated exponential regression model that combines historical incidence trends with healthcare-system indicators."
+      }
+    ]
+  },
+  "Healthcare Moderators": {
+    "rows": 7,
+    "cols": 3,
+    "columns": [
+      "Code",
+      "Healthcare moderator",
+      "Description / wording in article"
+    ],
+    "nulls": {},
+    "sample": [
+      {
+        "Code": "A",
+        "Healthcare moderator": "Cancer hospitals",
+        "Description / wording in article": "Number of cancer hospitals / hospital infrastructure"
+      },
+      {
+        "Code": "B",
+        "Healthcare moderator": "Oncologists",
+        "Description / wording in article": "Availability or number of oncologists / oncology workforce"
+      }
+    ]
+  },
+  "Model & Forecasts": {
+    "rows": 9,
+    "cols": 2,
+    "columns": [
+      "Item",
+      "Formula / explanation"
+    ],
+    "nulls": {},
+    "sample": [
+      {
+        "Item": "Moderated exponential regression",
+        "Formula / explanation": "ln(y_it) = \u03b1 + \u03b21 t + \u03a3_k [\u03b22k X_ik + \u03b23k (t X_ik)] + \u03b5_it. The equation is transcribed in normalized text form from the PDF; the printed equation formatting is imperfect."
+      },
+      {
+        "Item": "Short-term 2026",
+        "Formula / explanation": "ln(\u0177) = \u03b1 + \u03b21 t + \u03b22 D + \u03b23 (tD); t=7; D = CHC/PHC density."
+      }
+    ]
+  },
+  "References": {
+    "rows": 12,
+    "cols": 2,
+    "columns": [
+      "No.",
+      "Reference (transcribed from article)"
+    ],
+    "nulls": {},
+    "sample": [
+      {
+        "No.": 1,
+        "Reference (transcribed from article)": "Carmer SG. Computational aspects of exponential regression. Commun Stat Theory Methods. 1974;3(3):229-45."
+      },
+      {
+        "No.": 2,
+        "Reference (transcribed from article)": "Breslow NE, Day NE, Heseltine E. Statistical methods in cancer research: Volume I\u2014the analysis of case-control studies. IARC Scientific Publications No. 32. International Agency for Research on Cancer. 1980."
+      }
+    ]
+  },
+  "Source References": {
+    "rows": 93,
+    "cols": 3,
+    "columns": [
+      "Source paper",
+      "Ref no.",
+      "Reference (as printed in the source)"
+    ],
+    "nulls": {
+      "Ref no.": 1,
+      "Reference (as printed in the source)": 1
+    },
+    "sample": [
+      {
+        "Source paper": "IJMR 2022 (Sathishkumar)",
+        "Ref no.": 1.0,
+        "Reference (as printed in the source)": "Sung H, Ferlay J, Siegel RL, Laversanne M, Soerjomataram I, Jemal A, et al. Global cancer statistics 2020: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries. CA Cancer J Clin 2021; 71 : 209-49."
+      },
+      {
+        "Source paper": "IJMR 2022 (Sathishkumar)",
+        "Ref no.": 2.0,
+        "Reference (as printed in the source)": "Ferlay J, Ervik M, Lam F, Colombet M, Mery L, Pi\u00f1eros M, et al. Global cancer observatory: Cancer today. Lyon, France: International Agency for Research on Cancer; 2020. Available from: https://gco.iarc.fr/today, accessed on August 5, 2022."
+      }
+    ]
+  },
+  "Full PDF Text": {
+    "rows": 43,
+    "cols": 3,
+    "columns": [
+      "Source document",
+      "PDF page",
+      "Extracted text"
+    ],
+    "nulls": {},
+    "sample": [
+      {
+        "Source document": "S4 - Kumar et al. 2026, IJCMPH (existing)",
+        "PDF page": 1,
+        "Extracted text": "International Journal of Community Medicine and Public Health\nKumar D et al. Int J Community Med Public Health. 2026 Apr;13(4):1867-1873\nhttp://www.ijcmph.com pISSN 2394-6032 | eISSN 2394-6040\nDOI: https://dx.doi.org/10.18203/2394-6040.ijcmph20261025\nOriginal Research Article\nState-wise forecasting of cancer incidence in India using a moderated\nexponential regression model incorporating\nhealthcare system determinants\nDileep Kumar1, Navin Upadhyay2*, Himanshu Pandey2\n1Department of Obstetrics and Gynecology BRD Medical College Gorakhpur, Uttar Pradesh, India\n2Department of Mathematics and Statistics, Deen Dayal Upadhyaya Gorakhpur University, Gorakhpur, Uttar Pradesh,\nIndia\nReceived: 11 December 2025\nRevised: 17 March 2026\nAccepted: 20 March 2026\n*Correspondence:\nNavin Upadhyay,\nE-mail: navinupadhyayrs@gmail.com\nCopyright: \u00a9 the author(s), publisher and licensee Medip Academy. This is an open-access article distributed under\nthe terms of the Creative Commons Attribution Non-Commercial License, which permits unrestricted non-commercial\nuse, distribution, and reproduction in any medium, provided the original work is properly cited.\nABSTRACT\nBackground: Cancer incidence in India varies substantially across states and union territories, posing a significant\nand growing public health challenge. Accurate projections of future cancer burden are essential for effective health\nplanning, resource allocation, and strengthening health systems. However, conventional forecasting approaches\nlargely rely on historical incidence trends and often ignore regional differences in health-care capacity, which\ninfluence disease detection and reporting. Variations in infrastructure, oncology services, screening coverage, and\nhealth expenditure can significantly affect observed cancer incidence. This study proposed a moderated forecasting\nframework that integrates key state-level health-care indicators to generate more realistic and policy-relevant\nprojections.\nMethods: A moderated exponential regression model was developed using state-wise cancer incidence data from the\nNational Cancer Registry Programme (ICMR-NCRP) for 2019-2022. The model incorporated multiple health system\nmoderators, including cancer hospitals, oncologist availability, screening coverage, CHC/PHC density, health\ninfrastructure index, per-capita health expenditure, and hospital-bed availability. Three projection scenarios were\nconstructed: short-term (2026) using health-care facility density, medium-term (2030) incorporating infrastructure and\nworkforce variables, and long-term (2045) including all seven moderators.\nResults: The moderated models revealed substantial inter-state variation in projected cancer incidence. States with\nstronger health systems exhibited slower increases, whereas those with weaker infrastructure showed more rapid\ngrowth. Model fit and predictive accuracy improved significantly compared to conventional exponential models.\nConclusions: Incorporating health-care system factors enhances the reliability of cancer incidence projections. The\nproposed framework offers a robust, evidence-based tool for policy planning and targeted health system strengthening\nin India.\nKeywords: Cancer, Moderated exponential, Regression\nINTRODUCTION Programme (NCRP) of the Indian Council of Medical\nResearch (ICMR), the country has witnessed a steady rise\nCancer has emerged as one of the leading public health in cancer incidence over the past decade, with increasing\nchallenges in India, contributing significantly to variation across states and union territories. These\nmorbidity, mortality, and long-term health-system geographical disparities reflect not only differences in\nburden. According to the National Cancer Registry demographic and lifestyle factors but also the unequal\nInternational Journal of Community Medicine and Public Health | April 2026 | Vol 13 | Issue 4 Page 1867"
+      },
+      {
+        "Source document": "S4 - Kumar et al. 2026, IJCMPH (existing)",
+        "PDF page": 2,
+        "Extracted text": "Kumar D et al. Int J Community Med Public Health. 2026 Apr;13(4):1867-1873\ndistribution of health-care resources such as cancer a strategic foundation for long-term cancer control\nhospitals, oncology specialists, diagnostic services, and planning in India.\nscreening programmes. As India moves toward achieving\nuniversal health coverage, the ability to accurately Existing literature provides a strong methodological\nforecast the future trajectory of cancer burden- while foundation for developing advanced regression-based\naccounting for health-system heterogeneity- has become forecasting models for cancer incidence. Early studies\nessential for guiding evidence-based planning and examined computational techniques for exponential\ninvestment decisions. regression and emphasized numerical stability and\naccuracy- issues that are particularly important when\nTraditional forecasting approaches often rely solely on working with short time series such as India\u2019s 2019-2022\nhistorical incidence trends, assuming uniform growth state-wise cancer incidence data.1\nacross regions. However, cancer progression and\ndetection are strongly influenced by health-care system In cancer epidemiology, classical statistical work\ncapacity, including screening coverage, primary care established core principles for analyzing cancer rates and\naccess, diagnostic infrastructure, and the availability of highlighted the need for appropriate adjustments for\nspecialized oncology services. States with stronger health population structure and registry completeness.2\ninfrastructure may detect cancer earlier or manage risk Extensions of exponential modeling, such as exponential\nfactors better, resulting in slower observed growth rates. possibility regression, further expanded regression\nConversely, states with weak health-care systems frameworks to accommodate uncertainty and imprecise\nfrequently exhibit delayed diagnosis and under-reporting, data, which is particularly relevant when dealing with\nfollowed by rapid increases in incidence as detection variability in Indian health-system indicators.3\nimproves. These differences necessitate a prediction\nmodel that incorporates health-care system moderators Applied research in survival analysis has emphasized the\nrather than depending on time trends alone. importance of selecting appropriate statistical models for\noncological data.3,4 Additionally, logistic regression and\nTo address this gap, the present study proposes a regularized regression methods have been widely used in\nmoderated exponential regression framework for cancer diagnostics, demonstrating that incorporating\nforecasting state-wise cancer incidence in India. Unlike interaction terms and health-related predictors can\nsimple exponential models that assume uniform growth, significantly improve predictive performance.5,6\nthis approach integrates multiple health-care moderators-\nsuch as the number of cancer hospitals, number of Further methodological developments, including\noncologists, screening coverage, CHC/PHC density, exponentiated exponential regression and power\nhealth infrastructure index, health expenditure, and exponential regression models, have extended the\nhospital-bed availability- to estimate how these factors applicability of exponential-type models in medical data\nshape the rate of cancer incidence growth over time. analysis.7-9 More recent approaches based on heavy-tailed\nInteraction terms between time and each moderator allow distributions and simulation-based modeling frameworks\nthe model to quantify how improvements in health-care highlight the need for flexible nonlinear structures\nsystems can dampen or accelerate cancer growth capable of capturing complex patterns in biomedical\ntrajectories. data.10-12\nUsing state-wise incidence data from NCRP (2019-2022), Together, these studies suggest that cancer incidence\nthe study develops three moderator-specific forecasting forecasting should incorporate both exponential growth\nmodels: a short-term model for 2026 using CHC/PHC dynamics and health-system determinants to better\ndensity; a medium-term model for 2030 using four capture real-world heterogeneity across populations.\nmoderators (A-D); and a long-term model for 2045 using However, previous research has rarely integrated multiple\nthe complete set of seven moderators (A-G). This health-care moderators within an exponential forecasting\nprogressive modelling structure reflects the increasing framework for state-level prediction. Therefore, the\nimportance of comprehensive health-care capacity over present study addressed this gap by developing a\nlonger time horizons. moderated exponential regression model that incorporates\nhealth infrastructure, workforce availability, screening\nThe introduction of moderated exponential regression coverage, and health expenditure indicators to generate\ninto cancer forecasting contributes to the literature in two short-, medium-, and long-term forecasts of cancer\nimportant ways. First, it captures structural disparities in incidence for Indian states and union territories.\nhealth-care delivery that drive state-wise differences in\ncancer incidence growth. Second, it provides policy- The present research focused on forecasting the future\nmakers with a dynamic tool capable of linking health-care burden of cancer across Indian states and union territories\ninvestments to future cancer trends. By quantifying how by developing a moderated exponential regression model\nimprovements in screening, infrastructure, and oncology that integrates both historical incidence trends and health-\nservices influence incidence projections, the model offers care system indicators. Using state-wise cancer incidence\ndata reported by the National Cancer Registry Programme\nInternational Journal of Community Medicine and Public Health | April 2026 | Vol 13 | Issue 4 Page 1868"
+      }
+    ]
+  }
+}

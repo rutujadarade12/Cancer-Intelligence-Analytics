@@ -1,0 +1,426 @@
+{
+  "xlsx": {
+    "Cancer_Data_India_2019_2026_Concise.xlsx": {
+      "sheets": {
+        "National Cancer Overview": {
+          "max_row": 10,
+          "max_column": 9
+        },
+        "Top Cancers by Organ Site": {
+          "max_row": 18,
+          "max_column": 10
+        },
+        "State-wise Incidence": {
+          "max_row": 22,
+          "max_column": 8
+        }
+      }
+    },
+    "Dataset 9.xlsx": {
+      "sheets": {
+        "State-wise Incidence": {
+          "max_row": 40,
+          "max_column": 8
+        },
+        "India Sites 2022": {
+          "max_row": 58,
+          "max_column": 13
+        },
+        "India Sites 2020": {
+          "max_row": 58,
+          "max_column": 10
+        },
+        "India Age-Sex Sites": {
+          "max_row": 59,
+          "max_column": 7
+        },
+        "India Top10 Sites 2022": {
+          "max_row": 23,
+          "max_column": 4
+        },
+        "India Trend 2015-2025": {
+          "max_row": 17,
+          "max_column": 5
+        },
+        "India Age Structure": {
+          "max_row": 19,
+          "max_column": 5
+        },
+        "GLOBOCAN 2024 Summary": {
+          "max_row": 11,
+          "max_column": 4
+        },
+        "GLOBOCAN 2024 Top5 Sites": {
+          "max_row": 21,
+          "max_column": 5
+        },
+        "GLOBOCAN 2024 by Site": {
+          "max_row": 37,
+          "max_column": 11
+        },
+        "GLOBOCAN 2024 ASR": {
+          "max_row": 58,
+          "max_column": 4
+        },
+        "NCRP State Est 2021-2025": {
+          "max_row": 41,
+          "max_column": 6
+        },
+        "PBCR 2015-2019 (JAMA 2025)": {
+          "max_row": 59,
+          "max_column": 17
+        },
+        "India Sites 2024 Est (JAMA)": {
+          "max_row": 58,
+          "max_column": 18
+        },
+        "Key Indicators 2019-2026": {
+          "max_row": 79,
+          "max_column": 6
+        },
+        "PBCR Incidence": {
+          "max_row": 35,
+          "max_column": 13
+        },
+        "Tobacco-related Cancers": {
+          "max_row": 35,
+          "max_column": 8
+        },
+        "Cancer Trends (APC)": {
+          "max_row": 155,
+          "max_column": 5
+        },
+        "Clinical Stage": {
+          "max_row": 17,
+          "max_column": 7
+        },
+        "MH PBCR Incidence": {
+          "max_row": 11,
+          "max_column": 13
+        },
+        "MH Childhood Cancer": {
+          "max_row": 10,
+          "max_column": 9
+        },
+        "MH Sites & Tobacco": {
+          "max_row": 29,
+          "max_column": 5
+        },
+        "MH Projections": {
+          "max_row": 5,
+          "max_column": 3
+        },
+        "MH Socio-Health Profile": {
+          "max_row": 23,
+          "max_column": 5
+        },
+        "Article Details": {
+          "max_row": 21,
+          "max_column": 2
+        },
+        "Summary & Findings": {
+          "max_row": 22,
+          "max_column": 2
+        },
+        "Healthcare Moderators": {
+          "max_row": 8,
+          "max_column": 3
+        },
+        "Model & Forecasts": {
+          "max_row": 10,
+          "max_column": 2
+        },
+        "References": {
+          "max_row": 13,
+          "max_column": 2
+        },
+        "Full PDF Text": {
+          "max_row": 8,
+          "max_column": 2
+        }
+      }
+    },
+    "final excel.xlsx": {
+      "sheets": {
+        "State-wise Incidence": {
+          "max_row": 40,
+          "max_column": 8
+        },
+        "Article Details": {
+          "max_row": 21,
+          "max_column": 2
+        },
+        "Summary & Findings": {
+          "max_row": 22,
+          "max_column": 2
+        },
+        "Healthcare Moderators": {
+          "max_row": 8,
+          "max_column": 3
+        },
+        "Model & Forecasts": {
+          "max_row": 10,
+          "max_column": 2
+        },
+        "References": {
+          "max_row": 13,
+          "max_column": 2
+        },
+        "Full PDF Text": {
+          "max_row": 8,
+          "max_column": 2
+        }
+      }
+    },
+    "final_excel_updated.xlsx": {
+      "sheets": {
+        "README": {
+          "max_row": 33,
+          "max_column": 5
+        },
+        "Source Documents": {
+          "max_row": 5,
+          "max_column": 11
+        },
+        "Key Findings (3 PDFs)": {
+          "max_row": 47,
+          "max_column": 7
+        },
+        "Cross-Validation": {
+          "max_row": 27,
+          "max_column": 10
+        },
+        "State-wise Incidence": {
+          "max_row": 42,
+          "max_column": 15
+        },
+        "India Sites 2022": {
+          "max_row": 58,
+          "max_column": 19
+        },
+        "India Sites 2020": {
+          "max_row": 58,
+          "max_column": 14
+        },
+        "India Age-Sex Sites": {
+          "max_row": 59,
+          "max_column": 10
+        },
+        "India Top10 Sites 2022": {
+          "max_row": 23,
+          "max_column": 8
+        },
+        "India Trend 2015-2025": {
+          "max_row": 20,
+          "max_column": 10
+        },
+        "India Age Structure": {
+          "max_row": 23,
+          "max_column": 7
+        },
+        "PBCR Incidence Table": {
+          "max_row": 35,
+          "max_column": 19
+        },
+        "Tobacco-related Cancers": {
+          "max_row": 35,
+          "max_column": 10
+        },
+        "Cancer Trends (APC)": {
+          "max_row": 155,
+          "max_column": 8
+        },
+        "Clinical Stage": {
+          "max_row": 17,
+          "max_column": 11
+        },
+        "Method Comparison": {
+          "max_row": 9,
+          "max_column": 4
+        },
+        "MH PBCR Profile": {
+          "max_row": 13,
+          "max_column": 17
+        },
+        "MH Childhood Cancer": {
+          "max_row": 11,
+          "max_column": 13
+        },
+        "MH Sites & Tobacco": {
+          "max_row": 31,
+          "max_column": 6
+        },
+        "MH Projections": {
+          "max_row": 7,
+          "max_column": 7
+        },
+        "MH Socio-Health Profile": {
+          "max_row": 19,
+          "max_column": 7
+        },
+        "MH Health Infrastructure": {
+          "max_row": 16,
+          "max_column": 5
+        },
+        "Data Notes": {
+          "max_row": 16,
+          "max_column": 3
+        },
+        "Article Details": {
+          "max_row": 21,
+          "max_column": 2
+        },
+        "Summary & Findings": {
+          "max_row": 22,
+          "max_column": 2
+        },
+        "Healthcare Moderators": {
+          "max_row": 8,
+          "max_column": 3
+        },
+        "Model & Forecasts": {
+          "max_row": 10,
+          "max_column": 2
+        },
+        "References": {
+          "max_row": 13,
+          "max_column": 2
+        },
+        "Source References": {
+          "max_row": 95,
+          "max_column": 3
+        },
+        "Full PDF Text": {
+          "max_row": 44,
+          "max_column": 3
+        }
+      }
+    },
+    "final_excel_with_pdf_data (1).xlsx": {
+      "sheets": {
+        "State-wise Incidence": {
+          "max_row": 40,
+          "max_column": 8
+        },
+        "India Sites 2022": {
+          "max_row": 58,
+          "max_column": 13
+        },
+        "India Sites 2020": {
+          "max_row": 58,
+          "max_column": 10
+        },
+        "India Age-Sex Sites": {
+          "max_row": 59,
+          "max_column": 7
+        },
+        "India Top10 Sites 2022": {
+          "max_row": 23,
+          "max_column": 4
+        },
+        "India Trend 2015-2025": {
+          "max_row": 17,
+          "max_column": 5
+        },
+        "India Age Structure": {
+          "max_row": 19,
+          "max_column": 5
+        },
+        "GLOBOCAN 2024 Summary": {
+          "max_row": 11,
+          "max_column": 4
+        },
+        "GLOBOCAN 2024 Top5 Sites": {
+          "max_row": 21,
+          "max_column": 5
+        },
+        "GLOBOCAN 2024 by Site": {
+          "max_row": 37,
+          "max_column": 11
+        },
+        "GLOBOCAN 2024 ASR": {
+          "max_row": 58,
+          "max_column": 4
+        },
+        "PBCR Incidence": {
+          "max_row": 35,
+          "max_column": 13
+        },
+        "Tobacco-related Cancers": {
+          "max_row": 35,
+          "max_column": 8
+        },
+        "Cancer Trends (APC)": {
+          "max_row": 155,
+          "max_column": 5
+        },
+        "Clinical Stage": {
+          "max_row": 17,
+          "max_column": 7
+        },
+        "MH PBCR Incidence": {
+          "max_row": 11,
+          "max_column": 13
+        },
+        "MH Childhood Cancer": {
+          "max_row": 10,
+          "max_column": 9
+        },
+        "MH Sites & Tobacco": {
+          "max_row": 29,
+          "max_column": 5
+        },
+        "MH Projections": {
+          "max_row": 5,
+          "max_column": 3
+        },
+        "MH Socio-Health Profile": {
+          "max_row": 23,
+          "max_column": 5
+        },
+        "Article Details": {
+          "max_row": 21,
+          "max_column": 2
+        },
+        "Summary & Findings": {
+          "max_row": 22,
+          "max_column": 2
+        },
+        "Healthcare Moderators": {
+          "max_row": 8,
+          "max_column": 3
+        },
+        "Model & Forecasts": {
+          "max_row": 10,
+          "max_column": 2
+        },
+        "References": {
+          "max_row": 13,
+          "max_column": 2
+        },
+        "Full PDF Text": {
+          "max_row": 8,
+          "max_column": 2
+        }
+      }
+    }
+  },
+  "docx": {
+    "Dataset 5.docx": {
+      "paragraphs": 1,
+      "tables": 1
+    },
+    "Dataset 6.docx": {
+      "paragraphs": 9,
+      "tables": 7
+    }
+  },
+  "pdf": {
+    "cancer dataset 4.pdf": {
+      "pages": 2
+    },
+    "dataset 3.pdf": {
+      "pages": 7
+    }
+  }
+}

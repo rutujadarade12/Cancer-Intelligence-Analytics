@@ -1,0 +1,58 @@
+from fastapi import APIRouter, HTTPException
+import json
+import os
+from backend.config import DATA_MINING_JSON_PATH
+
+router = APIRouter(prefix="/models", tags=["Data Mining Models"])
+
+def load_models_data():
+    if not os.path.exists(DATA_MINING_JSON_PATH):
+        raise HTTPException(status_code=500, detail="Data mining results file not found.")
+    with open(DATA_MINING_JSON_PATH, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+@router.get("/all")
+def get_all_models_summary():
+    data = load_models_data()
+    return {
+        "timestamp": data.get("timestamp"),
+        "syllabus_coverage": data.get("syllabus_coverage"),
+        "available_algorithms": [
+            "regression_analysis",
+            "decision_tree_classification",
+            "naive_bayes_classification",
+            "kmeans_clustering",
+            "hierarchical_clustering",
+            "apriori_association_mining"
+        ]
+    }
+
+@router.get("/regression")
+def get_regression_model():
+    data = load_models_data()
+    return data.get("regression_analysis", {})
+
+@router.get("/decision-tree")
+def get_decision_tree_model():
+    data = load_models_data()
+    return data.get("decision_tree_classification", {})
+
+@router.get("/naive-bayes")
+def get_naive_bayes_model():
+    data = load_models_data()
+    return data.get("naive_bayes_classification", {})
+
+@router.get("/kmeans")
+def get_kmeans_model():
+    data = load_models_data()
+    return data.get("kmeans_clustering", {})
+
+@router.get("/hierarchical")
+def get_hierarchical_model():
+    data = load_models_data()
+    return data.get("hierarchical_clustering", {})
+
+@router.get("/apriori")
+def get_apriori_model():
+    data = load_models_data()
+    return data.get("apriori_association_mining", {})

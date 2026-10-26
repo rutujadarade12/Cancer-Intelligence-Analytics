@@ -1,0 +1,360 @@
+import React, { useState, useEffect } from "react";
+import { api } from "../services/api";
+import { Dna, Search, Filter, Cigarette, AlertCircle, BarChart3, Activity, Layers } from "lucide-react";
+
+export default function CancerSitesTab() {
+  const [activeView, setActiveView] = useState("burden"); // "burden", "stages", "directory"
+  const [sites, setSites] = useState([]);
+  const [organSystems, setOrganSystems] = useState([]);
+  const [burdenData, setBurdenData] = useState([]);
+  const [clinicalStages, setClinicalStages] = useState([]);
+  const [selectedOrgan, setSelectedOrgan] = useState("");
+  const [tobaccoOnly, setTobaccoOnly] = useState(false);
+  const [searchTerm, setSearchTerm] = useState("");
+  const [genderFilter, setGenderFilter] = useState("all");
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    Promise.all([
+      api.getCancerSites(selectedOrgan, tobaccoOnly),
+      api.getOrganSystems(),
+      api.getSiteBurden(2022),
+      api.getClinicalStages()
+    ])
+      .then(([sitesRes, organsRes, burdenRes, stageRes]) => {
+        setSites(sitesRes || []);
+        setOrganSystems(organsRes || []);
+        setBurdenData(burdenRes || []);
+        setClinicalStages(stageRes || []);
+        setLoading(false);
+      })
+      .catch((err) => {
+        console.error("Error loading cancer sites:", err);
+        setLoading(false);
+      });
+  }, [selectedOrgan, tobaccoOnly]);
+
+  const filteredSites = sites.filter((s) =>
+    s.site_name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+    (s.icd10_code && s.icd10_code.toLowerCase().includes(searchTerm.toLowerCase()))
+  );
+
+  // Group burdenData by Male & Female for top sites
+  const maleBurden = burdenData.filter((b) => b.gender === "Male");
+  const femaleBurden = burdenData.filter((b) => b.gender === "Female");
+
+  return (
+    <div>
+      <div className="card-header" style={{ marginBottom: "20px" }}>
+        <div>
+          <h2 style={{ fontSize: "1.25rem", fontWeight: "700", color: "var(--text-primary)", display: "flex", alignItems: "center", gap: "8px" }}>
+            <Dna size={22} color="var(--accent-secondary)" />
+            Cancer Sites & Anatomical Systems Intelligence
+          </h2>
+          <p style={{ fontSize: "0.825rem", color: "var(--text-secondary)" }}>
+            Normalized snowflake hierarchy mapping 75 anatomical sites across 11 conformed organ systems with sex-stratified incidence & clinical staging.
+          </p>
+        </div>
+
+        {/* View Switcher Segmented Buttons */}
+        <div style={{ display: "flex", background: "var(--bg-card)", border: "1px solid var(--border-color)", borderRadius: "var(--radius-md)", padding: "4px" }}>
+          <button
+            onClick={() => setActiveView("burden")}
+            className="btn"
+            style={{
+              padding: "6px 12px",
+              fontSize: "0.8rem",
+              background: activeView === "burden" ? "var(--accent-primary)" : "transparent",
+              color: activeView === "burden" ? "#FFFFFF" : "var(--text-secondary)",
+              borderRadius: "var(--radius-sm)"
+            }}
+          >
+            <BarChart3 size={14} /> Site Burden (2022)
+          </button>
+          <button
+            onClick={() => setActiveView("stages")}
+            className="btn"
+            style={{
+              padding: "6px 12px",
+              fontSize: "0.8rem",
+              background: activeView === "stages" ? "var(--accent-primary)" : "transparent",
+              color: activeView === "stages" ? "#FFFFFF" : "var(--text-secondary)",
+              borderRadius: "var(--radius-sm)"
+            }}
+          >
+            <Activity size={14} /> Clinical Staging (I–IV)
+          </button>
+          <button
+            onClick={() => setActiveView("directory")}
+            className="btn"
+            style={{
+              padding: "6px 12px",
+              fontSize: "0.8rem",
+              background: activeView === "directory" ? "var(--accent-primary)" : "transparent",
+              color: activeView === "directory" ? "#FFFFFF" : "var(--text-secondary)",
+              borderRadius: "var(--radius-sm)"
+            }}
+          >
+            <Layers size={14} /> 75 Sites Directory
+          </button>
+        </div>
+      </div>
+
+      {/* KPI Cards */}
+      <div className="kpi-grid">
+        <div className="kpi-card teal">
+          <div className="kpi-title">Anatomical Sites</div>
+          <div className="kpi-value">75 Sites</div>
+          <div className="kpi-subtitle">76 Dimension records incl. All-sites benchmark</div>
+        </div>
+        <div className="kpi-card blue">
+          <div className="kpi-title">Conformed Organ Systems</div>
+          <div className="kpi-value">11 Systems</div>
+          <div className="kpi-subtitle">Snowflake dimension hierarchy</div>
+        </div>
+        <div className="kpi-card orange">
+          <div className="kpi-title">Tobacco-Attributed Sites</div>
+          <div className="kpi-value">13 Sites</div>
+          <div className="kpi-subtitle">Oral, Lung, Larynx, Esophagus, etc.</div>
+        </div>
+        <div className="kpi-card green">
+          <div className="kpi-title">Leading Female Burden</div>
+          <div className="kpi-value">Breast</div>
+          <div className="kpi-subtitle">216,108 estimated cases (2022)</div>
+        </div>
+      </div>
+
+      {loading ? (
+        <div style={{ padding: "40px", textAlign: "center", color: "var(--text-secondary)" }}>
+          Loading cancer sites intelligence...
+        </div>
+      ) : (
+        <>
+          {/* VIEW 1: Burden & Sex-Stratified Comparison */}
+          {activeView === "burden" && (
+            <div>
+              <div className="alert-box info" style={{ marginBottom: "20px" }}>
+                <Dna size={20} style={{ flexShrink: 0 }} />
+                <div>
+                  <strong>Epidemiological Surveillance Attribution (IJMR Monograph 2022):</strong>
+                  <span style={{ marginLeft: "6px" }}>
+                    Incidence estimates, crude rates, and age-adjusted rates (AAR per 100,000) stratified across biological sex. In females, breast cancer represents 28.2% of all malignancies, followed by cervix uteri (11.6%). In males, oral cavity and lung predominate.
+                  </span>
+                </div>
+              </div>
+
+              <div className="grid-2">
+                {/* Male Leading Sites */}
+                <div className="card">
+                  <div className="card-header">
+                    <span className="card-title" style={{ fontSize: "1rem" }}>
+                      Leading Cancers in Males (2022)
+                    </span>
+                    <span className="badge badge-blue">Male Cohort</span>
+                  </div>
+                  <div className="table-responsive">
+                    <table className="data-table">
+                      <thead>
+                        <tr>
+                          <th>Cancer Site</th>
+                          <th>Organ System</th>
+                          <th>Cases</th>
+                          <th>Crude Rate</th>
+                          <th>AAR / 100k</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {maleBurden.slice(0, 8).map((m, idx) => (
+                          <tr key={idx}>
+                            <td style={{ fontWeight: "600" }}>{m.site_name}</td>
+                            <td><span className="badge badge-gray">{m.system_name || "Digestive"}</span></td>
+                            <td style={{ fontWeight: "700" }}>{m.incident_cases?.toLocaleString()}</td>
+                            <td>{m.crude_rate ?? "N/A"}</td>
+                            <td><span className="badge badge-orange">{m.age_adjusted_rate ?? "N/A"}</span></td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+
+                {/* Female Leading Sites */}
+                <div className="card">
+                  <div className="card-header">
+                    <span className="card-title" style={{ fontSize: "1rem" }}>
+                      Leading Cancers in Females (2022)
+                    </span>
+                    <span className="badge badge-teal">Female Cohort</span>
+                  </div>
+                  <div className="table-responsive">
+                    <table className="data-table">
+                      <thead>
+                        <tr>
+                          <th>Cancer Site</th>
+                          <th>Organ System</th>
+                          <th>Cases</th>
+                          <th>Crude Rate</th>
+                          <th>AAR / 100k</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {femaleBurden.slice(0, 8).map((f, idx) => (
+                          <tr key={idx}>
+                            <td style={{ fontWeight: "600" }}>{f.site_name}</td>
+                            <td><span className="badge badge-gray">{f.system_name || "Reproductive"}</span></td>
+                            <td style={{ fontWeight: "700" }}>{f.incident_cases?.toLocaleString()}</td>
+                            <td>{f.crude_rate ?? "N/A"}</td>
+                            <td><span className="badge badge-teal">{f.age_adjusted_rate ?? "N/A"}</span></td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* VIEW 2: Clinical Staging Distribution */}
+          {activeView === "stages" && (
+            <div className="card">
+              <div className="card-header">
+                <div>
+                  <h3 style={{ fontSize: "1rem", fontWeight: "600" }}>
+                    Clinical Stage Presentation Distribution (Dataset 3 / HBCR Surveillance)
+                  </h3>
+                  <p style={{ fontSize: "0.825rem", color: "var(--text-secondary)" }}>
+                    Proportion of cases presenting at Localized (Stage I), Locoregional (Stage II/III), and Distant Metastasis (Stage IV).
+                  </p>
+                </div>
+                <span className="badge badge-orange">Hospital Registry Fact</span>
+              </div>
+
+              <div className="table-responsive">
+                <table className="data-table">
+                  <thead>
+                    <tr>
+                      <th>Cancer Site</th>
+                      <th>Cohort Gender</th>
+                      <th>Localized (Stage I) %</th>
+                      <th>Locoregional (Stage II–III) %</th>
+                      <th>Distant Metastasis (Stage IV) %</th>
+                      <th>Advanced Stage Proportion</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {clinicalStages.map((cs, idx) => (
+                      <tr key={idx}>
+                        <td style={{ fontWeight: "600" }}>{cs.cancer_site}</td>
+                        <td><span className={`badge ${cs.gender === "Male" ? "badge-blue" : "badge-teal"}`}>{cs.gender}</span></td>
+                        <td>{cs.localized_pct}%</td>
+                        <td>{cs.locoregional_pct}%</td>
+                        <td style={{ color: "var(--accent-danger)", fontWeight: "600" }}>{cs.distant_metastasis_pct}%</td>
+                        <td>
+                          <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
+                            <div className="prog-container">
+                              <div
+                                className="prog-fill"
+                                style={{
+                                  width: `${cs.advanced_stage_pct}%`,
+                                  background: cs.advanced_stage_pct > 65 ? "var(--accent-danger)" : "var(--accent-warning)"
+                                }}
+                              />
+                            </div>
+                            <span style={{ fontSize: "0.75rem", minWidth: "40px", fontWeight: "600" }}>
+                              {cs.advanced_stage_pct}%
+                            </span>
+                          </div>
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          )}
+
+          {/* VIEW 3: 75 Sites Directory */}
+          {activeView === "directory" && (
+            <div>
+              {/* Filter Bar */}
+              <div style={{ display: "flex", gap: "10px", flexWrap: "wrap", alignItems: "center", marginBottom: "16px" }}>
+                <div style={{ position: "relative" }}>
+                  <Search size={16} color="var(--text-muted)" style={{ position: "absolute", left: "10px", top: "10px" }} />
+                  <input
+                    type="text"
+                    placeholder="Search cancer site or ICD-10..."
+                    className="form-control"
+                    style={{ paddingLeft: "32px", width: "220px" }}
+                    value={searchTerm}
+                    onChange={(e) => setSearchTerm(e.target.value)}
+                  />
+                </div>
+
+                <select
+                  className="form-control"
+                  value={selectedOrgan}
+                  onChange={(e) => setSelectedOrgan(e.target.value)}
+                >
+                  <option value="">All Organ Systems ({organSystems.length})</option>
+                  {organSystems.map((o) => (
+                    <option key={o.organ_system_id} value={o.system_name}>
+                      {o.system_name} ({o.site_count} sites)
+                    </option>
+                  ))}
+                </select>
+
+                <label style={{ display: "flex", alignItems: "center", gap: "6px", fontSize: "0.825rem", color: "var(--text-primary)", cursor: "pointer" }}>
+                  <input
+                    type="checkbox"
+                    checked={tobaccoOnly}
+                    onChange={(e) => setTobaccoOnly(e.target.checked)}
+                  />
+                  <Cigarette size={16} color="var(--accent-primary)" />
+                  Tobacco-Related Only (13 Sites)
+                </label>
+              </div>
+
+              <div className="card">
+                <div className="table-responsive">
+                  <table className="data-table">
+                    <thead>
+                      <tr>
+                        <th>Site ID</th>
+                        <th>Cancer Site Name</th>
+                        <th>ICD-10 Code</th>
+                        <th>Classification Level</th>
+                        <th>Organ System</th>
+                        <th>Tobacco Carcinogen Attribution</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {filteredSites.map((site) => (
+                        <tr key={site.site_id}>
+                          <td><code>{site.site_id}</code></td>
+                          <td style={{ fontWeight: "600" }}>{site.site_name}</td>
+                          <td>{site.icd10_code ? <span className="badge badge-gray">{site.icd10_code}</span> : "—"}</td>
+                          <td><span className="badge badge-teal">{site.level_type || "Site"}</span></td>
+                          <td>{site.organ_system_name || "Unassigned"}</td>
+                          <td>
+                            {site.is_tobacco_associated === 1 ? (
+                              <span className="badge badge-orange" style={{ display: "inline-flex", gap: "4px" }}>
+                                <Cigarette size={12} /> Tobacco-Associated
+                              </span>
+                            ) : (
+                              <span className="badge badge-gray">Non-Tobacco</span>
+                            )}
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          )}
+        </>
+      )}
+    </div>
+  );
+}

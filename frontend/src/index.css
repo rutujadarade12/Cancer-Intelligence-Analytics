@@ -1,0 +1,8 @@
+/* Minimal root reset delegating to theme.css */
+@import "./styles/theme.css";
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

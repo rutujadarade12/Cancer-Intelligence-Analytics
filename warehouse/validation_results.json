@@ -1,0 +1,54 @@
+{
+  "validation_timestamp": "2026-10-20",
+  "total_checks_executed": 55,
+  "total_checks_passed": 55,
+  "total_checks_failed": 0,
+  "overall_status": "PASS",
+  "national_total_validation_2022": {
+    "calculated_sum": 1461427.0,
+    "expected_sum": 1461427,
+    "tolerance_cases": 1.0,
+    "absolute_difference": 0.0,
+    "percentage_error": 0.0,
+    "state_rows_evaluated": 37,
+    "status": "PASS"
+  },
+  "duplicate_grain_validation": {
+    "target_table": "Fact_Cancer_Incidence",
+    "grain": [
+      "site_id",
+      "time_id",
+      "measure_type_id",
+      "gender"
+    ],
+    "duplicate_groups_found": 0,
+    "status": "PASS"
+  },
+  "referential_integrity": {
+    "orphan_state_surveillance_geos": 0,
+    "orphan_cancer_incidence_sites": 0,
+    "orphan_state_mortality_geos": 0,
+    "orphan_state_surveillance_times": 0,
+    "orphan_state_surveillance_measures": 0,
+    "status": "PASS"
+  },
+  "negative_values": {
+    "negative_state_cases": 0,
+    "negative_mortality": 0,
+    "status": "PASS"
+  },
+  "null_required_fields": {
+    "null_state_cases": 0,
+    "null_mortality_fields": 0,
+    "status": "PASS"
+  },
+  "domain_boundaries": {
+    "invalid_mirs": 0,
+    "invalid_stages": 0,
+    "status": "PASS"
+  },
+  "stray_footnote_rows": {
+    "stray_count": 0,
+    "status": "PASS"
+  }
+}

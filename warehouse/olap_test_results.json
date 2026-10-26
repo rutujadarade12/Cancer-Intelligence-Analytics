@@ -1,0 +1,112 @@
+{
+  "rollup_reconciliation_2022": {
+    "calculated_sum": 1461427.0,
+    "expected": 1461427.0,
+    "status": "PASS",
+    "regional_breakdown": [
+      {
+        "region_zone": "Central",
+        "total_regional_cases": 396837.0,
+        "regional_share_pct": 27.15
+      },
+      {
+        "region_zone": "South",
+        "total_regional_cases": 368647.0,
+        "regional_share_pct": 25.23
+      },
+      {
+        "region_zone": "East",
+        "total_regional_cases": 311675.0,
+        "regional_share_pct": 21.33
+      },
+      {
+        "region_zone": "West",
+        "total_regional_cases": 197187.0,
+        "regional_share_pct": 13.49
+      },
+      {
+        "region_zone": "North",
+        "total_regional_cases": 134035.0,
+        "regional_share_pct": 9.17
+      },
+      {
+        "region_zone": "North East",
+        "total_regional_cases": 53046.0,
+        "regional_share_pct": 3.63
+      }
+    ]
+  },
+  "drilldown_west_zone_2022": {
+    "record_count": 5,
+    "states": [
+      {
+        "state_name": "Maharashtra",
+        "incident_cases": 121717.0,
+        "national_share_pct": 0.0832864043157818
+      },
+      {
+        "state_name": "Gujarat",
+        "incident_cases": 73382.0,
+        "national_share_pct": 0.0502125662109705
+      },
+      {
+        "state_name": "Goa",
+        "incident_cases": 1700.0,
+        "national_share_pct": 0.00116324660759655
+      },
+      {
+        "state_name": "Dadra and Nagar Haveli",
+        "incident_cases": 238.0,
+        "national_share_pct": 0.000162854525063517
+      },
+      {
+        "state_name": "Daman",
+        "incident_cases": 150.0,
+        "national_share_pct": 0.000102639406552637
+      }
+    ],
+    "status": "PASS"
+  },
+  "slice_female_2022": {
+    "record_count": 52,
+    "total_female_all_sites": 749251.0,
+    "top_anatomical_site": "Breast",
+    "top_anatomical_cases": 216108.0,
+    "status": "PASS"
+  },
+  "dice_north_east_2020_2022": {
+    "groups": 4,
+    "data": [
+      {
+        "region_zone": "East",
+        "year": 2020,
+        "dice_cases": 296758.0,
+        "state_count": 4
+      },
+      {
+        "region_zone": "East",
+        "year": 2022,
+        "dice_cases": 311675.0,
+        "state_count": 4
+      },
+      {
+        "region_zone": "North",
+        "year": 2020,
+        "dice_cases": 127350.0,
+        "state_count": 8
+      },
+      {
+        "region_zone": "North",
+        "year": 2022,
+        "dice_cases": 134035.0,
+        "state_count": 8
+      }
+    ],
+    "status": "PASS"
+  },
+  "pivot_37_states": {
+    "row_count": 37,
+    "null_2022_count": 0,
+    "status": "PASS"
+  }
+}

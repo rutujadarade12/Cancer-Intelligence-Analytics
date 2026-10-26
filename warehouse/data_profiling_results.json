@@ -1,0 +1,1872 @@
+{
+  "structural_profiling": {
+    "Dim_Cancer_Site": {
+      "record_count": 76,
+      "column_count": 7,
+      "columns": {
+        "site_id": {
+          "declared_type": "INTEGER",
+          "is_primary_key": true,
+          "is_not_null": false,
+          "default_value": null,
+          "total_count": 76,
+          "null_count": 0,
+          "distinct_count": 76
+        },
+        "site_name": {
+          "declared_type": "TEXT",
+          "is_primary_key": false,
+          "is_not_null": true,
+          "default_value": null,
+          "total_count": 76,
+          "null_count": 0,
+          "distinct_count": 76
+        },
+        "icd10_code": {
+          "declared_type": "TEXT",
+          "is_primary_key": false,
+          "is_not_null": false,
+          "default_value": null,
+          "total_count": 76,
+          "null_count": 76,
+          "distinct_count": 0
+        },
+        "level_type": {
+          "declared_type": "TEXT",
+          "is_primary_key": false,
+          "is_not_null": false,
+          "default_value": null,
+          "total_count": 76,
+          "null_count": 0,
+          "distinct_count": 3
+        },
+        "parent_group": {
+          "declared_type": "TEXT",
+          "is_primary_key": false,
+          "is_not_null": false,
+          "default_value": null,
+          "total_count": 76,
+          "null_count": 34,
+          "distinct_count": 9
+        },
+        "is_tobacco_associated": {
+          "declared_type": "INTEGER",
+          "is_primary_key": false,
+          "is_not_null": false,
+          "default_value": "0",
+          "total_count": 76,
+          "null_count": 0,
+          "distinct_count": 2
+        },
+        "organ_system_id": {
+          "declared_type": "INTEGER",
+          "is_primary_key": false,
+          "is_not_null": false,
+          "default_value": null,
+          "total_count": 76,
+          "null_count": 0,
+          "distinct_count": 10
+        }
+      }
+    },
+    "Dim_Geography": {
+      "record_count": 37,
+      "column_count": 5,
+      "columns": {
+        "geo_id": {
+          "declared_type": "INTEGER",
+          "is_primary_key": true,
+          "is_not_null": false,
+          "default_value": null,
+          "total_count": 37,
+          "null_count": 0,
+          "distinct_count": 37
+        },
+        "state_name": {
+          "declared_type": "TEXT",
+          "is_primary_key": false,
+          "is_not_null": true,
+          "default_value": null,
+          "total_count": 37,
+          "null_count": 0,
+          "distinct_count": 37
+        },
+        "state_code": {
+          "declared_type": "TEXT",
+          "is_primary_key": false,
+          "is_not_null": true,
+          "default_value": null,
+          "total_count": 37,
+          "null_count": 0,
+          "distinct_count": 37
+        },
+        "region_zone": {
+          "declared_type": "TEXT",
+          "is_primary_key": false,
+          "is_not_null": true,
+          "default_value": null,
+          "total_count": 37,
+          "null_count": 0,
+          "distinct_count": 6
+        },
+        "country": {
+          "declared_type": "TEXT",
+          "is_primary_key": false,
+          "is_not_null": false,
+          "default_value": "'India'",
+          "total_count": 37,
+          "null_count": 0,
+          "distinct_count": 1
+        }
+      }
+    },
+    "Dim_Measure_Type": {
+      "record_count": 5,
+      "column_count": 5,
+      "columns": {
+        "measure_type_id": {
+          "declared_type": "INTEGER",
+          "is_primary_key": true,
+          "is_not_null": false,
+          "default_value": null,
+          "total_count": 5,
+          "null_count": 0,
+          "distinct_count": 5
+        },
+        "measure_code": {
+          "declared_type": "TEXT",
+          "is_primary_key": false,
+          "is_not_null": true,
+          "default_value": null,
+          "total_count": 5,
+          "null_count": 0,
+          "distinct_count": 5
+        },
+        "measure_name": {
+          "declared_type": "TEXT",
+          "is_primary_key": false,
+          "is_not_null": true,
+          "default_value": null,
+          "total_count": 5,
+          "null_count": 0,
+          "distinct_count": 5
+        },
+        "methodology_source": {
+          "declared_type": "TEXT",
+          "is_primary_key": false,
+          "is_not_null": true,
+          "default_value": null,
+          "total_count": 5,
+          "null_count": 0,
+          "distinct_count": 5
+        },
+        "is_modeled": {
+          "declared_type": "INTEGER",
+          "is_primary_key": false,
+          "is_not_null": true,
+          "default_value": null,
+          "total_count": 5,
+          "null_count": 0,
+          "distinct_count": 2
+        }
+      }
+    },
+    "Dim_Organ_System": {
+      "record_count": 11,
+      "column_count": 2,
+      "columns": {
+        "organ_system_id": {
+          "declared_type": "INTEGER",
+          "is_primary_key": true,
+          "is_not_null": false,
+          "default_value": null,
+          "total_count": 11,
+          "null_count": 0,
+          "distinct_count": 11
+        },
+        "system_name": {
+          "declared_type": "TEXT",
+          "is_primary_key": false,
+          "is_not_null": true,
+          "default_value": null,
+          "total_count": 11,
+          "null_count": 0,
+          "distinct_count": 11
+        }
+      }
+    },
+    "Dim_Registry": {
+      "record_count": 32,
+      "column_count": 7,
+      "columns": {
+        "registry_id": {
+          "declared_type": "INTEGER",
+          "is_primary_key": true,
+          "is_not_null": false,
+          "default_value": null,
+          "total_count": 32,
+          "null_count": 0,
+          "distinct_count": 32
+        },
+        "registry_name": {
+          "declared_type": "TEXT",
+          "is_primary_key": false,
+          "is_not_null": true,
+          "default_value": null,
+          "total_count": 32,
+          "null_count": 0,
+          "distinct_count": 32
+        },
+        "state_id": {
+          "declared_type": "INTEGER",
+          "is_primary_key": false,
+          "is_not_null": false,
+          "default_value": null,
+          "total_count": 32,
+          "null_count": 32,
+          "distinct_count": 0
+        },
+        "region": {
+          "declared_type": "TEXT",
+          "is_primary_key": false,
+          "is_not_null": false,
+          "default_value": null,
+          "total_count": 32,
+          "null_count": 0,
+          "distinct_count": 5
+        },
+        "urban_percent": {
+          "declared_type": "REAL",
+          "is_primary_key": false,
+          "is_not_null": false,
+          "default_value": null,
+          "total_count": 32,
+          "null_count": 32,
+          "distinct_count": 0
+        },
+        "rural_percent": {
+          "declared_type": "REAL",
+          "is_primary_key": false,
+          "is_not_null": false,
+          "default_value": null,
+          "total_count": 32,
+          "null_count": 32,
+          "distinct_count": 0
+        },
+        "established_year": {
+          "declared_type": "INTEGER",
+          "is_primary_key": false,
+          "is_not_null": false,
+          "default_value": null,
+          "total_count": 32,
+          "null_count": 32,
+          "distinct_count": 0
+        }
+      }
+    },
+    "Dim_Time": {
+      "record_count": 11,
+      "column_count": 4,
+      "columns": {
+        "time_id": {
+          "declared_type": "INTEGER",
+          "is_primary_key": true,
+          "is_not_null": false,
+          "default_value": null,
+          "total_count": 11,
+          "null_count": 0,
+          "distinct_count": 11
+        },
+        "year": {
+          "declared_type": "INTEGER",
+          "is_primary_key": false,
+          "is_not_null": true,
+          "default_value": null,
+          "total_count": 11,
+          "null_count": 0,
+          "distinct_count": 11
+        },
+        "period_label": {
+          "declared_type": "TEXT",
+          "is_primary_key": false,
+          "is_not_null": true,
+          "default_value": null,
+          "total_count": 11,
+          "null_count": 0,
+          "distinct_count": 11
+        },
+        "epoch_category": {
+          "declared_type": "TEXT",
+          "is_primary_key": false,
+          "is_not_null": true,
+          "default_value": null,
+          "total_count": 11,
+          "null_count": 0,
+          "distinct_count": 4
+        }
+      }
+    },
+    "Fact_Cancer_Incidence": {
+      "record_count": 190,
+      "column_count": 11,
+      "columns": {
+        "fact_id": {
+          "declared_type": "INTEGER",
+          "is_primary_key": true,
+          "is_not_null": false,
+          "default_value": null,
+          "total_count": 190,
+          "null_count": 0,
+          "distinct_count": 190
+        },
+        "site_id": {
+          "declared_type": "INTEGER",
+          "is_primary_key": false,
+          "is_not_null": true,
+          "default_value": null,
+          "total_count": 190,
+          "null_count": 0,
+          "distinct_count": 76
+        },
+        "time_id": {
+          "declared_type": "INTEGER",
+          "is_primary_key": false,
+          "is_not_null": true,
+          "default_value": null,
+          "total_count": 190,
+          "null_count": 0,
+          "distinct_count": 2
+        },
+        "measure_type_id": {
+          "declared_type": "INTEGER",
+          "is_primary_key": false,
+          "is_not_null": true,
+          "default_value": null,
+          "total_count": 190,
+          "null_count": 0,
+          "distinct_count": 2
+        },
+        "gender": {
+          "declared_type": "TEXT",
+          "is_primary_key": false,
+          "is_not_null": true,
+          "default_value": null,
+          "total_count": 190,
+          "null_count": 0,
+          "distinct_count": 3
+        },
+        "incident_cases": {
+          "declared_type": "REAL",
+          "is_primary_key": false,
+          "is_not_null": false,
+          "default_value": null,
+          "total_count": 190,
+          "null_count": 0,
+          "distinct_count": 181
+        },
+        "crude_rate": {
+          "declared_type": "REAL",
+          "is_primary_key": false,
+          "is_not_null": false,
+          "default_value": null,
+          "total_count": 190,
+          "null_count": 34,
+          "distinct_count": 68
+        },
+        "age_adjusted_rate": {
+          "declared_type": "REAL",
+          "is_primary_key": false,
+          "is_not_null": false,
+          "default_value": null,
+          "total_count": 190,
+          "null_count": 89,
+          "distinct_count": 58
+        },
+        "cumulative_risk_1_in_n": {
+          "declared_type": "INTEGER",
+          "is_primary_key": false,
+          "is_not_null": false,
+          "default_value": null,
+          "total_count": 190,
+          "null_count": 89,
+          "distinct_count": 98
+        },
+        "deaths": {
+          "declared_type": "REAL",
+          "is_primary_key": false,
+          "is_not_null": false,
+          "default_value": null,
+          "total_count": 190,
+          "null_count": 156,
+          "distinct_count": 34
+        },
+        "mortality_crude_rate": {
+          "declared_type": "REAL",
+          "is_primary_key": false,
+          "is_not_null": false,
+          "default_value": null,
+          "total_count": 190,
+          "null_count": 190,
+          "distinct_count": 0
+        }
+      }
+    },
+    "Fact_Cancer_Trends_APC": {
+      "record_count": 152,
+      "column_count": 9,
+      "columns": {
+        "fact_trend_id": {
+          "declared_type": "INTEGER",
+          "is_primary_key": true,
+          "is_not_null": false,
+          "default_value": null,
+          "total_count": 152,
+          "null_count": 0,
+          "distinct_count": 152
+        },
+        "cancer_site": {
+          "declared_type": "TEXT",
+          "is_primary_key": false,
+          "is_not_null": true,
+          "default_value": null,
+          "total_count": 152,
+          "null_count": 0,
+          "distinct_count": 6
+        },
+        "gender": {
+          "declared_type": "TEXT",
+          "is_primary_key": false,
+          "is_not_null": true,
+          "default_value": null,
+          "total_count": 152,
+          "null_count": 0,
+          "distinct_count": 2
+        },
+        "registry_name": {
+          "declared_type": "TEXT",
+          "is_primary_key": false,
+          "is_not_null": true,
+          "default_value": null,
+          "total_count": 152,
+          "null_count": 0,
+          "distinct_count": 16
+        },
+        "region": {
+          "declared_type": "TEXT",
+          "is_primary_key": false,
+          "is_not_null": true,
+          "default_value": null,
+          "total_count": 152,
+          "null_count": 0,
+          "distinct_count": 5
+        },
+        "apc_percent": {
+          "declared_type": "REAL",
+          "is_primary_key": false,
+          "is_not_null": false,
+          "default_value": null,
+          "total_count": 152,
+          "null_count": 0,
+          "distinct_count": 74
+        },
+        "is_statistically_significant": {
+          "declared_type": "INTEGER",
+          "is_primary_key": false,
+          "is_not_null": false,
+          "default_value": null,
+          "total_count": 152,
+          "null_count": 0,
+          "distinct_count": 2
+        },
+        "direction": {
+          "declared_type": "TEXT",
+          "is_primary_key": false,
+          "is_not_null": false,
+          "default_value": null,
+          "total_count": 152,
+          "null_count": 0,
+          "distinct_count": 3
+        },
+        "source_measure_code": {
+          "declared_type": "TEXT",
+          "is_primary_key": false,
+          "is_not_null": false,
+          "default_value": "'JCO_2020_APC'",
+          "total_count": 152,
+          "null_count": 0,
+          "distinct_count": 1
+        }
+      }
+    },
+    "Fact_Clinical_Stage": {
+      "record_count": 14,
+      "column_count": 10,
+      "columns": {
+        "fact_stage_id": {
+          "declared_type": "INTEGER",
+          "is_primary_key": true,
+          "is_not_null": false,
+          "default_value": null,
+          "total_count": 14,
+          "null_count": 0,
+          "distinct_count": 14
+        },
+        "source_name": {
+          "declared_type": "TEXT",
+          "is_primary_key": false,
+          "is_not_null": true,
+          "default_value": null,
+          "total_count": 14,
+          "null_count": 0,
+          "distinct_count": 2
+        },
+        "source_measure_code": {
+          "declared_type": "TEXT",
+          "is_primary_key": false,
+          "is_not_null": false,
+          "default_value": "'JCO_2020_HBCR'",
+          "total_count": 14,
+          "null_count": 0,
+          "distinct_count": 1
+        },
+        "cancer_site": {
+          "declared_type": "TEXT",
+          "is_primary_key": false,
+          "is_not_null": true,
+          "default_value": null,
+          "total_count": 14,
+          "null_count": 0,
+          "distinct_count": 5
+        },
+        "gender": {
+          "declared_type": "TEXT",
+          "is_primary_key": false,
+          "is_not_null": true,
+          "default_value": null,
+          "total_count": 14,
+          "null_count": 0,
+          "distinct_count": 3
+        },
+        "localized_pct": {
+          "declared_type": "REAL",
+          "is_primary_key": false,
+          "is_not_null": false,
+          "default_value": null,
+          "total_count": 14,
+          "null_count": 0,
+          "distinct_count": 14
+        },
+        "locoregional_pct": {
+          "declared_type": "REAL",
+          "is_primary_key": false,
+          "is_not_null": false,
+          "default_value": null,
+          "total_count": 14,
+          "null_count": 0,
+          "distinct_count": 14
+        },
+        "distant_metastasis_pct": {
+          "declared_type": "REAL",
+          "is_primary_key": false,
+          "is_not_null": false,
+          "default_value": null,
+          "total_count": 14,
+          "null_count": 0,
+          "distinct_count": 13
+        },
+        "unknown_extent_pct": {
+          "declared_type": "REAL",
+          "is_primary_key": false,
+          "is_not_null": false,
+          "default_value": null,
+          "total_count": 14,
+          "null_count": 0,
+          "distinct_count": 12
+        },
+        "advanced_stage_pct": {
+          "declared_type": "REAL",
+          "is_primary_key": false,
+          "is_not_null": false,
+          "default_value": null,
+          "total_count": 14,
+          "null_count": 0,
+          "distinct_count": 14
+        }
+      }
+    },
+    "Fact_Healthcare_Infrastructure_National": {
+      "record_count": 7,
+      "column_count": 4,
+      "columns": {
+        "infra_id": {
+          "declared_type": "INTEGER",
+          "is_primary_key": true,
+          "is_not_null": false,
+          "default_value": null,
+          "total_count": 7,
+          "null_count": 0,
+          "distinct_count": 7
+        },
+        "indicator_name": {
+          "declared_type": "TEXT",
+          "is_primary_key": false,
+          "is_not_null": true,
+          "default_value": null,
+          "total_count": 7,
+          "null_count": 0,
+          "distinct_count": 7
+        },
+        "facility_count": {
+          "declared_type": "INTEGER",
+          "is_primary_key": false,
+          "is_not_null": true,
+          "default_value": null,
+          "total_count": 7,
+          "null_count": 0,
+          "distinct_count": 7
+        },
+        "reporting_source": {
+          "declared_type": "TEXT",
+          "is_primary_key": false,
+          "is_not_null": true,
+          "default_value": null,
+          "total_count": 7,
+          "null_count": 0,
+          "distinct_count": 1
+        }
+      }
+    },
+    "Fact_Maharashtra_Infrastructure": {
+      "record_count": 15,
+      "column_count": 5,
+      "columns": {
+        "mh_infra_id": {
+          "declared_type": "INTEGER",
+          "is_primary_key": true,
+          "is_not_null": false,
+          "default_value": null,
+          "total_count": 15,
+          "null_count": 0,
+          "distinct_count": 15
+        },
+        "category": {
+          "declared_type": "TEXT",
+          "is_primary_key": false,
+          "is_not_null": true,
+          "default_value": null,
+          "total_count": 15,
+          "null_count": 0,
+          "distinct_count": 5
+        },
+        "facility_name": {
+          "declared_type": "TEXT",
+          "is_primary_key": false,
+          "is_not_null": true,
+          "default_value": null,
+          "total_count": 15,
+          "null_count": 0,
+          "distinct_count": 14
+        },
+        "facility_count_or_type": {
+          "declared_type": "TEXT",
+          "is_primary_key": false,
+          "is_not_null": true,
+          "default_value": null,
+          "total_count": 15,
+          "null_count": 0,
+          "distinct_count": 11
+        },
+        "source_note": {
+          "declared_type": "TEXT",
+          "is_primary_key": false,
+          "is_not_null": false,
+          "default_value": null,
+          "total_count": 15,
+          "null_count": 0,
+          "distinct_count": 7
+        }
+      }
+    },
+    "Fact_PBCR_Surveillance": {
+      "record_count": 32,
+      "column_count": 10,
+      "columns": {
+        "fact_pbcr_id": {
+          "declared_type": "INTEGER",
+          "is_primary_key": true,
+          "is_not_null": false,
+          "default_value": null,
+          "total_count": 32,
+          "null_count": 0,
+          "distinct_count": 32
+        },
+        "registry_id": {
+          "declared_type": "INTEGER",
+          "is_primary_key": false,
+          "is_not_null": true,
+          "default_value": null,
+          "total_count": 32,
+          "null_count": 0,
+          "distinct_count": 32
+        },
+        "time_period": {
+          "declared_type": "TEXT",
+          "is_primary_key": false,
+          "is_not_null": true,
+          "default_value": null,
+          "total_count": 32,
+          "null_count": 0,
+          "distinct_count": 6
+        },
+        "time_period_note": {
+          "declared_type": "TEXT",
+          "is_primary_key": false,
+          "is_not_null": false,
+          "default_value": "'Multi-year avg period as TEXT; not FK to Dim_Time - see PBCR publication'",
+          "total_count": 32,
+          "null_count": 0,
+          "distinct_count": 1
+        },
+        "gender": {
+          "declared_type": "TEXT",
+          "is_primary_key": false,
+          "is_not_null": true,
+          "default_value": null,
+          "total_count": 32,
+          "null_count": 0,
+          "distinct_count": 1
+        },
+        "annual_cases": {
+          "declared_type": "REAL",
+          "is_primary_key": false,
+          "is_not_null": false,
+          "default_value": null,
+          "total_count": 32,
+          "null_count": 0,
+          "distinct_count": 12
+        },
+        "crude_rate": {
+          "declared_type": "REAL",
+          "is_primary_key": false,
+          "is_not_null": false,
+          "default_value": null,
+          "total_count": 32,
+          "null_count": 0,
+          "distinct_count": 32
+        },
+        "age_adjusted_rate": {
+          "declared_type": "REAL",
+          "is_primary_key": false,
+          "is_not_null": false,
+          "default_value": null,
+          "total_count": 32,
+          "null_count": 0,
+          "distinct_count": 32
+        },
+        "cum_risk_1_in_n": {
+          "declared_type": "INTEGER",
+          "is_primary_key": false,
+          "is_not_null": false,
+          "default_value": null,
+          "total_count": 32,
+          "null_count": 0,
+          "distinct_count": 31
+        },
+        "tobacco_share_pct": {
+          "declared_type": "REAL",
+          "is_primary_key": false,
+          "is_not_null": false,
+          "default_value": null,
+          "total_count": 32,
+          "null_count": 0,
+          "distinct_count": 30
+        }
+      }
+    },
+    "Fact_Screening_Programs": {
+      "record_count": 3,
+      "column_count": 7,
+      "columns": {
+        "screening_id": {
+          "declared_type": "INTEGER",
+          "is_primary_key": true,
+          "is_not_null": false,
+          "default_value": null,
+          "total_count": 3,
+          "null_count": 0,
+          "distinct_count": 3
+        },
+        "cancer_type": {
+          "declared_type": "TEXT",
+          "is_primary_key": false,
+          "is_not_null": true,
+          "default_value": null,
+          "total_count": 3,
+          "null_count": 0,
+          "distinct_count": 3
+        },
+        "persons_screened": {
+          "declared_type": "INTEGER",
+          "is_primary_key": false,
+          "is_not_null": true,
+          "default_value": null,
+          "total_count": 3,
+          "null_count": 0,
+          "distinct_count": 3
+        },
+        "cases_diagnosed": {
+          "declared_type": "INTEGER",
+          "is_primary_key": false,
+          "is_not_null": true,
+          "default_value": null,
+          "total_count": 3,
+          "null_count": 0,
+          "distinct_count": 3
+        },
+        "cases_on_treatment": {
+          "declared_type": "INTEGER",
+          "is_primary_key": false,
+          "is_not_null": true,
+          "default_value": null,
+          "total_count": 3,
+          "null_count": 0,
+          "distinct_count": 3
+        },
+        "detection_rate_per_100k": {
+          "declared_type": "REAL",
+          "is_primary_key": false,
+          "is_not_null": false,
+          "default_value": null,
+          "total_count": 3,
+          "null_count": 0,
+          "distinct_count": 3
+        },
+        "treatment_retention_rate_pct": {
+          "declared_type": "REAL",
+          "is_primary_key": false,
+          "is_not_null": false,
+          "default_value": null,
+          "total_count": 3,
+          "null_count": 0,
+          "distinct_count": 3
+        }
+      }
+    },
+    "Fact_State_Mortality_Surveillance": {
+      "record_count": 185,
+      "column_count": 8,
+      "columns": {
+        "fact_mort_id": {
+          "declared_type": "INTEGER",
+          "is_primary_key": true,
+          "is_not_null": false,
+          "default_value": null,
+          "total_count": 185,
+          "null_count": 0,
+          "distinct_count": 185
+        },
+        "geo_id": {
+          "declared_type": "INTEGER",
+          "is_primary_key": false,
+          "is_not_null": true,
+          "default_value": null,
+          "total_count": 185,
+          "null_count": 0,
+          "distinct_count": 37
+        },
+        "time_id": {
+          "declared_type": "INTEGER",
+          "is_primary_key": false,
+          "is_not_null": true,
+          "default_value": null,
+          "total_count": 185,
+          "null_count": 0,
+          "distinct_count": 5
+        },
+        "measure_type_id": {
+          "declared_type": "INTEGER",
+          "is_primary_key": false,
+          "is_not_null": true,
+          "default_value": null,
+          "total_count": 185,
+          "null_count": 0,
+          "distinct_count": 1
+        },
+        "reported_incidence": {
+          "declared_type": "REAL",
+          "is_primary_key": false,
+          "is_not_null": true,
+          "default_value": null,
+          "total_count": 185,
+          "null_count": 0,
+          "distinct_count": 155
+        },
+        "reported_deaths": {
+          "declared_type": "REAL",
+          "is_primary_key": false,
+          "is_not_null": true,
+          "default_value": null,
+          "total_count": 185,
+          "null_count": 0,
+          "distinct_count": 145
+        },
+        "mortality_incidence_ratio": {
+          "declared_type": "REAL",
+          "is_primary_key": false,
+          "is_not_null": false,
+          "default_value": null,
+          "total_count": 185,
+          "null_count": 0,
+          "distinct_count": 46
+        },
+        "cancer_type_note": {
+          "declared_type": "TEXT",
+          "is_primary_key": false,
+          "is_not_null": false,
+          "default_value": "'UNIDENTIFIED - Dataset 5.docx does not state cancer type; scale (~77K national) suggests single-site (possibly ovarian); NOT all-cancer total'",
+          "total_count": 185,
+          "null_count": 0,
+          "distinct_count": 1
+        }
+      }
+    },
+    "Fact_State_Surveillance": {
+      "record_count": 259,
+      "column_count": 8,
+      "columns": {
+        "fact_state_id": {
+          "declared_type": "INTEGER",
+          "is_primary_key": true,
+          "is_not_null": false,
+          "default_value": null,
+          "total_count": 259,
+          "null_count": 0,
+          "distinct_count": 259
+        },
+        "geo_id": {
+          "declared_type": "INTEGER",
+          "is_primary_key": false,
+          "is_not_null": true,
+          "default_value": null,
+          "total_count": 259,
+          "null_count": 0,
+          "distinct_count": 37
+        },
+        "time_id": {
+          "declared_type": "INTEGER",
+          "is_primary_key": false,
+          "is_not_null": true,
+          "default_value": null,
+          "total_count": 259,
+          "null_count": 0,
+          "distinct_count": 7
+        },
+        "measure_type_id": {
+          "declared_type": "INTEGER",
+          "is_primary_key": false,
+          "is_not_null": true,
+          "default_value": null,
+          "total_count": 259,
+          "null_count": 0,
+          "distinct_count": 2
+        },
+        "incident_cases": {
+          "declared_type": "REAL",
+          "is_primary_key": false,
+          "is_not_null": true,
+          "default_value": null,
+          "total_count": 259,
+          "null_count": 0,
+          "distinct_count": 256
+        },
+        "cagr_observed": {
+          "declared_type": "REAL",
+          "is_primary_key": false,
+          "is_not_null": false,
+          "default_value": null,
+          "total_count": 259,
+          "null_count": 111,
+          "distinct_count": 37
+        },
+        "cagr_projected": {
+          "declared_type": "REAL",
+          "is_primary_key": false,
+          "is_not_null": false,
+          "default_value": null,
+          "total_count": 259,
+          "null_count": 148,
+          "distinct_count": 37
+        },
+        "national_share_pct": {
+          "declared_type": "REAL",
+          "is_primary_key": false,
+          "is_not_null": false,
+          "default_value": null,
+          "total_count": 259,
+          "null_count": 222,
+          "distinct_count": 37
+        }
+      }
+    }
+  },
+  "statistical_profiling": {
+    "Fact_State_Surveillance": {
+      "incident_cases": {
+        "count": 259,
+        "mean": 44621.6178,
+        "std": 55829.5902,
+        "min": 27.0,
+        "q1_25pct": 1794.0,
+        "median_50pct": 26735.0,
+        "q3_75pct": 72397.5,
+        "max": 361432.0,
+        "iqr": 70603.5,
+        "skewness": 1.8595
+      },
+      "cagr_observed": {
+        "count": 148,
+        "mean": 0.0295,
+        "std": 0.0143,
+        "min": 0.0122,
+        "q1_25pct": 0.0239,
+        "median_50pct": 0.0256,
+        "q3_75pct": 0.0276,
+        "max": 0.0856,
+        "iqr": 0.0037,
+        "skewness": 3.1065
+      },
+      "cagr_projected": {
+        "count": 111,
+        "mean": 0.0292,
+        "std": 0.0151,
+        "min": 0.0148,
+        "q1_25pct": 0.0221,
+        "median_50pct": 0.0253,
+        "q3_75pct": 0.0273,
+        "max": 0.0835,
+        "iqr": 0.0052,
+        "skewness": 2.5711
+      },
+      "national_share_pct": {
+        "count": 37,
+        "mean": 0.027,
+        "std": 0.0328,
+        "min": 0.0,
+        "q1_25pct": 0.0012,
+        "median_50pct": 0.0183,
+        "q3_75pct": 0.0502,
+        "max": 0.1444,
+        "iqr": 0.049,
+        "skewness": 1.5816
+      }
+    },
+    "Fact_Cancer_Incidence": {
+      "incident_cases": {
+        "count": 190,
+        "mean": 65771.6421,
+        "std": 204345.0639,
+        "min": 50.0,
+        "q1_25pct": 6507.5,
+        "median_50pct": 20939.5,
+        "q3_75pct": 42021.0,
+        "max": 1562581.0,
+        "iqr": 35513.5,
+        "skewness": 6.2276
+      },
+      "crude_rate": {
+        "count": 156,
+        "mean": 5.3641,
+        "std": 14.2214,
+        "min": 0.0,
+        "q1_25pct": 0.8,
+        "median_50pct": 1.9,
+        "q3_75pct": 3.9,
+        "max": 105.4,
+        "iqr": 3.1,
+        "skewness": 5.961
+      },
+      "age_adjusted_rate": {
+        "count": 101,
+        "mean": 5.7941,
+        "std": 15.5118,
+        "min": 0.0,
+        "q1_25pct": 0.8,
+        "median_50pct": 1.9,
+        "q3_75pct": 4.3,
+        "max": 109.0,
+        "iqr": 3.5,
+        "skewness": 5.8122
+      },
+      "cumulative_risk_1_in_n": {
+        "count": 101,
+        "mean": 4368.703,
+        "std": 19395.1371,
+        "min": 9.0,
+        "q1_25pct": 190.0,
+        "median_50pct": 474.0,
+        "q3_75pct": 1274.0,
+        "max": 163299.0,
+        "iqr": 1084.0,
+        "skewness": 7.0113
+      },
+      "deaths": {
+        "count": 34,
+        "mean": 76208.9412,
+        "std": 210887.6983,
+        "min": 498.0,
+        "q1_25pct": 4787.25,
+        "median_50pct": 18029.0,
+        "q3_75pct": 37954.0,
+        "max": 901828.0,
+        "iqr": 33166.75,
+        "skewness": 3.8193
+      },
+      "mortality_crude_rate": {
+        "status": "EMPTY_OR_NON_NUMERIC"
+      }
+    },
+    "Fact_State_Mortality_Surveillance": {
+      "reported_incidence": {
+        "count": 185,
+        "mean": 2108.2216,
+        "std": 2783.8689,
+        "min": 1.0,
+        "q1_25pct": 71.0,
+        "median_50pct": 741.0,
+        "q3_75pct": 3217.0,
+        "max": 11530.0,
+        "iqr": 3146.0,
+        "skewness": 1.5554
+      },
+      "reported_deaths": {
+        "count": 185,
+        "mean": 1138.4216,
+        "std": 1503.2975,
+        "min": 1.0,
+        "q1_25pct": 38.0,
+        "median_50pct": 400.0,
+        "q3_75pct": 1737.0,
+        "max": 6226.0,
+        "iqr": 1699.0,
+        "skewness": 1.5554
+      },
+      "mortality_incidence_ratio": {
+        "count": 185,
+        "mean": 0.5503,
+        "std": 0.0756,
+        "min": 0.5,
+        "q1_25pct": 0.5397,
+        "median_50pct": 0.54,
+        "q3_75pct": 0.5402,
+        "max": 1.0,
+        "iqr": 0.0005,
+        "skewness": 5.7672
+      }
+    },
+    "Fact_PBCR_Surveillance": {
+      "annual_cases": {
+        "count": 32,
+        "mean": 8.9375,
+        "std": 4.0316,
+        "min": 4.0,
+        "q1_25pct": 7.0,
+        "median_50pct": 9.0,
+        "q3_75pct": 10.0,
+        "max": 23.0,
+        "iqr": 3.0,
+        "skewness": 1.5639
+      },
+      "crude_rate": {
+        "count": 32,
+        "mean": 45.0469,
+        "std": 31.0101,
+        "min": 10.3,
+        "q1_25pct": 26.55,
+        "median_50pct": 35.5,
+        "q3_75pct": 56.8,
+        "max": 152.7,
+        "iqr": 30.25,
+        "skewness": 1.9434
+      },
+      "age_adjusted_rate": {
+        "count": 32,
+        "mean": 1611.5312,
+        "std": 2115.9716,
+        "min": 61.0,
+        "q1_25pct": 371.5,
+        "median_50pct": 898.5,
+        "q3_75pct": 2154.25,
+        "max": 9688.0,
+        "iqr": 1782.75,
+        "skewness": 2.5287
+      },
+      "cum_risk_1_in_n": {
+        "count": 32,
+        "mean": 96.6062,
+        "std": 34.5269,
+        "min": 52.0,
+        "q1_25pct": 66.9,
+        "median_50pct": 89.25,
+        "q3_75pct": 120.975,
+        "max": 174.6,
+        "iqr": 54.075,
+        "skewness": 0.5566
+      },
+      "tobacco_share_pct": {
+        "count": 32,
+        "mean": 18.1938,
+        "std": 8.0411,
+        "min": 10.1,
+        "q1_25pct": 13.4,
+        "median_50pct": 15.95,
+        "q3_75pct": 19.9,
+        "max": 46.5,
+        "iqr": 6.5,
+        "skewness": 2.3893
+      }
+    },
+    "Fact_Clinical_Stage": {
+      "localized_pct": {
+        "count": 14,
+        "mean": 20.2571,
+        "std": 8.5927,
+        "min": 8.0,
+        "q1_25pct": 13.925,
+        "median_50pct": 18.85,
+        "q3_75pct": 27.3,
+        "max": 33.0,
+        "iqr": 13.375,
+        "skewness": 0.113
+      },
+      "locoregional_pct": {
+        "count": 14,
+        "mean": 46.6571,
+        "std": 15.9706,
+        "min": 17.0,
+        "q1_25pct": 35.5,
+        "median_50pct": 50.4,
+        "q3_75pct": 59.25,
+        "max": 66.6,
+        "iqr": 23.75,
+        "skewness": -0.4405
+      },
+      "distant_metastasis_pct": {
+        "count": 14,
+        "mean": 23.1071,
+        "std": 19.7928,
+        "min": 1.0,
+        "q1_25pct": 5.575,
+        "median_50pct": 18.85,
+        "q3_75pct": 40.75,
+        "max": 56.0,
+        "iqr": 35.175,
+        "skewness": 0.4464
+      },
+      "unknown_extent_pct": {
+        "count": 14,
+        "mean": 9.9857,
+        "std": 6.4157,
+        "min": 2.2,
+        "q1_25pct": 5.225,
+        "median_50pct": 8.0,
+        "q3_75pct": 16.0,
+        "max": 20.0,
+        "iqr": 10.775,
+        "skewness": 0.5437
+      },
+      "advanced_stage_pct": {
+        "count": 14,
+        "mean": 69.7643,
+        "std": 6.248,
+        "min": 57.0,
+        "q1_25pct": 66.25,
+        "median_50pct": 68.5,
+        "q3_75pct": 74.5,
+        "max": 81.0,
+        "iqr": 8.25,
+        "skewness": -0.0861
+      }
+    },
+    "Fact_Cancer_Trends_APC": {
+      "apc_percent": {
+        "count": 152,
+        "mean": 0.5829,
+        "std": 2.8543,
+        "min": -11.8,
+        "q1_25pct": -1.05,
+        "median_50pct": 0.45,
+        "q3_75pct": 2.1,
+        "max": 11.7,
+        "iqr": 3.15,
+        "skewness": -0.1117
+      }
+    },
+    "Fact_Screening_Programs": {
+      "persons_screened": {
+        "count": 3,
+        "mean": 198964367.6667,
+        "std": 133700908.0944,
+        "min": 87317364.0,
+        "q1_25pct": 124881352.0,
+        "median_50pct": 162445340.0,
+        "q3_75pct": 254787869.5,
+        "max": 347130399.0,
+        "iqr": 129906517.5,
+        "skewness": 1.1374
+      },
+      "cases_diagnosed": {
+        "count": 3,
+        "mean": 128125.6667,
+        "std": 74975.1065,
+        "min": 77107.0,
+        "q1_25pct": 85084.5,
+        "median_50pct": 93062.0,
+        "q3_75pct": 153635.0,
+        "max": 214208.0,
+        "iqr": 68550.5,
+        "skewness": 1.6442
+      },
+      "cases_on_treatment": {
+        "count": 3,
+        "mean": 112804.6667,
+        "std": 68203.8599,
+        "min": 68402.0,
+        "q1_25pct": 73539.0,
+        "median_50pct": 78676.0,
+        "q3_75pct": 135006.0,
+        "max": 191336.0,
+        "iqr": 61467.0,
+        "skewness": 1.6879
+      },
+      "detection_rate_per_100k": {
+        "count": 3,
+        "mean": 71.92,
+        "std": 30.8493,
+        "min": 47.47,
+        "q1_25pct": 54.59,
+        "median_50pct": 61.71,
+        "q3_75pct": 84.145,
+        "max": 106.58,
+        "iqr": 29.555,
+        "skewness": 1.3262
+      },
+      "treatment_retention_rate_pct": {
+        "count": 3,
+        "mean": 87.5233,
+        "std": 2.6016,
+        "min": 84.54,
+        "q1_25pct": 86.625,
+        "median_50pct": 88.71,
+        "q3_75pct": 89.015,
+        "max": 89.32,
+        "iqr": 2.39,
+        "skewness": -1.6255
+      }
+    },
+    "Fact_Healthcare_Infrastructure_National": {
+      "facility_count": {
+        "count": 7,
+        "mean": 1128.8571,
+        "std": 2344.5938,
+        "min": 19.0,
+        "q1_25pct": 21.0,
+        "median_50pct": 297.0,
+        "q3_75pct": 567.0,
+        "max": 6410.0,
+        "iqr": 546.0,
+        "skewness": 2.5733
+      }
+    }
+  },
+  "distribution_profiling": {
+    "top_10_states_2022": [
+      {
+        "state_name": "Uttar Pradesh",
+        "region_zone": "Central",
+        "incident_cases": 210958.0,
+        "national_share_pct": 0.144350692850207
+      },
+      {
+        "state_name": "Maharashtra",
+        "region_zone": "West",
+        "incident_cases": 121717.0,
+        "national_share_pct": 0.0832864043157818
+      },
+      {
+        "state_name": "West Bengal",
+        "region_zone": "East",
+        "incident_cases": 113581.0,
+        "national_share_pct": 0.0777192429043668
+      },
+      {
+        "state_name": "Bihar",
+        "region_zone": "East",
+        "incident_cases": 109274.0,
+        "national_share_pct": 0.0747721234108854
+      },
+      {
+        "state_name": "Tamil Nadu",
+        "region_zone": "South",
+        "incident_cases": 93536.0,
+        "national_share_pct": 0.0640031968753828
+      },
+      {
+        "state_name": "Karnataka",
+        "region_zone": "South",
+        "incident_cases": 90349.0,
+        "national_share_pct": 0.0618224516174944
+      },
+      {
+        "state_name": "Madhya Pradesh",
+        "region_zone": "Central",
+        "incident_cases": 81901.0,
+        "national_share_pct": 0.0560418002404499
+      },
+      {
+        "state_name": "Rajasthan",
+        "region_zone": "Central",
+        "incident_cases": 74725.0,
+        "national_share_pct": 0.0511315310309718
+      },
+      {
+        "state_name": "Andhra Pradesh",
+        "region_zone": "South",
+        "incident_cases": 73536.0,
+        "national_share_pct": 0.0503179426683646
+      },
+      {
+        "state_name": "Gujarat",
+        "region_zone": "West",
+        "incident_cases": 73382.0,
+        "national_share_pct": 0.0502125662109705
+      }
+    ],
+    "bottom_5_states_2022": [
+      {
+        "state_name": "Andaman and Nicobar Islands",
+        "region_zone": "South",
+        "incident_cases": 393.0,
+        "national_share_pct": 0.000268915245167908
+      },
+      {
+        "state_name": "Ladakh",
+        "region_zone": "North",
+        "incident_cases": 302.0,
+        "national_share_pct": 0.000206647338525975
+      },
+      {
+        "state_name": "Dadra and Nagar Haveli",
+        "region_zone": "West",
+        "incident_cases": 238.0,
+        "national_share_pct": 0.000162854525063517
+      },
+      {
+        "state_name": "Daman",
+        "region_zone": "West",
+        "incident_cases": 150.0,
+        "national_share_pct": 0.000102639406552637
+      },
+      {
+        "state_name": "Lakshadweep",
+        "region_zone": "South",
+        "incident_cases": 28.0,
+        "national_share_pct": 1.91593558898255e-05
+      }
+    ],
+    "regional_share_2022": {
+      "Central": 396837.0,
+      "East": 311675.0,
+      "North": 134035.0,
+      "North East": 53046.0,
+      "South": 368647.0,
+      "West": 197187.0
+    },
+    "top_5_male_sites_2022": [
+      {
+        "site_name": "All sites",
+        "incident_cases": 712176.0,
+        "crude_rate": 95.6,
+        "age_adjusted_rate": 105.7
+      },
+      {
+        "site_name": "Digestive system",
+        "incident_cases": 172025.0,
+        "crude_rate": 23.1,
+        "age_adjusted_rate": 25.9
+      },
+      {
+        "site_name": "Oral cavity and pharynx",
+        "incident_cases": 145844.0,
+        "crude_rate": 19.6,
+        "age_adjusted_rate": 21.2
+      },
+      {
+        "site_name": "Respiratory system",
+        "incident_cases": 108848.0,
+        "crude_rate": 14.6,
+        "age_adjusted_rate": 16.2
+      },
+      {
+        "site_name": "Lung and bronchus",
+        "incident_cases": 75474.0,
+        "crude_rate": 10.1,
+        "age_adjusted_rate": 11.6
+      }
+    ],
+    "top_5_female_sites_2022": [
+      {
+        "site_name": "All sites",
+        "incident_cases": 749251.0,
+        "crude_rate": 105.4,
+        "age_adjusted_rate": 109.0
+      },
+      {
+        "site_name": "Breast",
+        "incident_cases": 216108.0,
+        "crude_rate": 30.4,
+        "age_adjusted_rate": 31.2
+      },
+      {
+        "site_name": "Genital system",
+        "incident_cases": 163694.0,
+        "crude_rate": 23.0,
+        "age_adjusted_rate": 23.9
+      },
+      {
+        "site_name": "Digestive system",
+        "incident_cases": 116029.0,
+        "crude_rate": 16.3,
+        "age_adjusted_rate": 17.0
+      },
+      {
+        "site_name": "Uterine cervix",
+        "incident_cases": 79103.0,
+        "crude_rate": 11.1,
+        "age_adjusted_rate": 11.6
+      }
+    ],
+    "organ_systems_2024": [
+      {
+        "system_name": "All Sites Combined",
+        "total_cases": 3111483.0,
+        "total_deaths": 1800765.0
+      },
+      {
+        "system_name": "Digestive System",
+        "total_cases": 302867.0,
+        "total_deaths": 239605.0
+      },
+      {
+        "system_name": "Oral Cavity & Pharynx",
+        "total_cases": 274554.0,
+        "total_deaths": 122363.0
+      },
+      {
+        "system_name": "Breast",
+        "total_cases": 237231.0,
+        "total_deaths": 96100.0
+      },
+      {
+        "system_name": "Respiratory & Intrathoracic",
+        "total_cases": 147828.0,
+        "total_deaths": 115354.0
+      },
+      {
+        "system_name": "Endocrine & Other",
+        "total_cases": 144742.0,
+        "total_deaths": 63887.0
+      },
+      {
+        "system_name": "Female Genital Organs",
+        "total_cases": 131949.0,
+        "total_deaths": 67640.0
+      },
+      {
+        "system_name": "Lymphoid & Haematopoietic",
+        "total_cases": 77044.0,
+        "total_deaths": 48671.0
+      },
+      {
+        "system_name": "Male Genital Organs",
+        "total_cases": 51338.0,
+        "total_deaths": 20550.0
+      },
+      {
+        "system_name": "Urinary Tract",
+        "total_cases": 43300.0,
+        "total_deaths": 16169.0
+      }
+    ],
+    "temporal_state_progression": [
+      {
+        "year": 2019,
+        "epoch_category": "Extrapolated",
+        "measure_code": "ICMR_NCRP_ESTIMATE",
+        "total_cases": 1358415.0
+      },
+      {
+        "year": 2020,
+        "epoch_category": "Extrapolated",
+        "measure_code": "ICMR_NCRP_ESTIMATE",
+        "total_cases": 1392179.0
+      },
+      {
+        "year": 2021,
+        "epoch_category": "Extrapolated",
+        "measure_code": "ICMR_NCRP_ESTIMATE",
+        "total_cases": 1426447.0
+      },
+      {
+        "year": 2022,
+        "epoch_category": "Extrapolated",
+        "measure_code": "ICMR_NCRP_ESTIMATE",
+        "total_cases": 1461427.0
+      },
+      {
+        "year": 2026,
+        "epoch_category": "Projected",
+        "measure_code": "KUMAR_EXP_2026",
+        "total_cases": 1604194.0
+      },
+      {
+        "year": 2030,
+        "epoch_category": "Projected",
+        "measure_code": "KUMAR_EXP_2026",
+        "total_cases": 1766486.0
+      },
+      {
+        "year": 2045,
+        "epoch_category": "Projected",
+        "measure_code": "KUMAR_EXP_2026",
+        "total_cases": 2547851.0
+      }
+    ],
+    "apc_direction_summary": [
+      {
+        "direction": "Decrease",
+        "count": 58,
+        "avg_apc": -1.9793103448275862,
+        "min_apc": -11.8,
+        "max_apc": -0.1
+      },
+      {
+        "direction": "Increase",
+        "count": 90,
+        "avg_apc": 2.2600000000000002,
+        "min_apc": 0.1,
+        "max_apc": 11.7
+      },
+      {
+        "direction": "No change",
+        "count": 4,
+        "avg_apc": 0.0,
+        "min_apc": 0.0,
+        "max_apc": 0.0
+      }
+    ]
+  },
+  "data_quality_profiling": {
+    "state_incidence_outliers_2022": {
+      "upper_bound_iqr": 180905.0,
+      "outlier_count": 1,
+      "outliers": [
+        {
+          "state": "Uttar Pradesh",
+          "cases": 210958.0,
+          "threshold": 180905.0
+        }
+      ],
+      "justification": "Epidemiologically genuine high-population states (Uttar Pradesh, Maharashtra, West Bengal, Bihar, Tamil Nadu). Not data entry errors."
+    },
+    "mir_small_number_artifacts": [
+      {
+        "state_name": "Ladakh",
+        "time_id": 2021,
+        "reported_incidence": 1.0,
+        "reported_deaths": 1.0,
+        "mortality_incidence_ratio": 1.0
+      },
+      {
+        "state_name": "Ladakh",
+        "time_id": 2022,
+        "reported_incidence": 1.0,
+        "reported_deaths": 1.0,
+        "mortality_incidence_ratio": 1.0
+      },
+      {
+        "state_name": "Ladakh",
+        "time_id": 2023,
+        "reported_incidence": 1.0,
+        "reported_deaths": 1.0,
+        "mortality_incidence_ratio": 1.0
+      },
+      {
+        "state_name": "Ladakh",
+        "time_id": 2024,
+        "reported_incidence": 1.0,
+        "reported_deaths": 1.0,
+        "mortality_incidence_ratio": 1.0
+      },
+      {
+        "state_name": "Ladakh",
+        "time_id": 2025,
+        "reported_incidence": 1.0,
+        "reported_deaths": 1.0,
+        "mortality_incidence_ratio": 1.0
+      },
+      {
+        "state_name": "Lakshadweep",
+        "time_id": 2021,
+        "reported_incidence": 6.0,
+        "reported_deaths": 3.0,
+        "mortality_incidence_ratio": 0.5
+      },
+      {
+        "state_name": "Lakshadweep",
+        "time_id": 2022,
+        "reported_incidence": 6.0,
+        "reported_deaths": 3.0,
+        "mortality_incidence_ratio": 0.5
+      },
+      {
+        "state_name": "Lakshadweep",
+        "time_id": 2023,
+        "reported_incidence": 6.0,
+        "reported_deaths": 3.0,
+        "mortality_incidence_ratio": 0.5
+      },
+      {
+        "state_name": "Lakshadweep",
+        "time_id": 2024,
+        "reported_incidence": 6.0,
+        "reported_deaths": 3.0,
+        "mortality_incidence_ratio": 0.5
+      },
+      {
+        "state_name": "Lakshadweep",
+        "time_id": 2025,
+        "reported_incidence": 6.0,
+        "reported_deaths": 3.0,
+        "mortality_incidence_ratio": 0.5
+      }
+    ],
+    "incompatible_units_safeguards": [
+      {
+        "fields": [
+          "incident_cases",
+          "crude_rate",
+          "age_adjusted_rate"
+        ],
+        "rule": "Never sum counts and rates directly."
+      },
+      {
+        "fields": [
+          "cagr_observed",
+          "cagr_projected"
+        ],
+        "rule": "Percentages; evaluate with median or weighted average, not unweighted sum."
+      },
+      {
+        "fields": [
+          "mortality_incidence_ratio"
+        ],
+        "rule": "Ratio of deaths to incidence in single unidentified cancer cohort; not survival percentage."
+      }
+    ]
+  },
+  "analytical_readiness": {
+    "regression": {
+      "candidate_task": "State-level cancer incidence trend & forecast evaluation",
+      "available_observations": "37 states x 7 time points (259 records in Fact_State_Surveillance)",
+      "target_variable": "incident_cases",
+      "feature_availability": [
+        "state population proxy (rank/historic)",
+        "baseline 2019 cases",
+        "observed CAGR",
+        "geographic region"
+      ],
+      "data_limitations": "2019-2022 are model estimates; 2026-2045 are exponential forecasts. True ground-truth annual censuses do not exist for all 37 states.",
+      "justification": "FEASIBLE as an econometric trend regression comparing Linear Regression vs Ridge vs Polynomial on state historical baseline to validate forecast trajectories. Must document that targets are model estimates.",
+      "evaluation_metrics": [
+        "MAE",
+        "RMSE",
+        "R2"
+      ]
+    },
+    "decision_tree": {
+      "candidate_task": "State cancer burden categorization (Low, Moderate, High, Severe)",
+      "available_observations": "37 states (cross-sectional 2022 panel)",
+      "target_variable": "burden_tier (discretized by quartiles of 2022 incidence: Q1 < 5,800, Q2 5,800-24,000, Q3 24,000-72,000, Q4 > 72,000)",
+      "feature_availability": [
+        "observed CAGR",
+        "mortality burden proxy",
+        "region zone",
+        "infrastructure tiers"
+      ],
+      "data_limitations": "Small sample size (N=37). Risk of overfitting if tree depth > 3. Leave-One-Out or Stratified K-Fold (k=4) required.",
+      "justification": "FEASIBLE with strict depth control (max_depth=3) and transparent quartile thresholds. Report confusion matrix, precision, recall.",
+      "evaluation_metrics": [
+        "Accuracy",
+        "Macro F1-Score",
+        "Confusion Matrix"
+      ]
+    },
+    "naive_bayes": {
+      "candidate_task": "Probabilistic classification of cancer sites by primary risk attribution (Tobacco-Associated vs Non-Tobacco)",
+      "available_observations": "76 cancer sites in Dim_Cancer_Site or 28 registries in Fact_PBCR_Surveillance",
+      "target_variable": "is_tobacco_associated (Binary: 1 or 0)",
+      "feature_availability": [
+        "organ_system_id",
+        "gender prevalence ratio",
+        "age_adjusted_rate_tier"
+      ],
+      "data_limitations": "Aggregated site statistics, not individual patient histories. GaussianNB or CategoricalNB appropriate.",
+      "justification": "FEASIBLE for classifying site tobacco association based on epidemiological rate profiles. Document that this classifies cancer anatomical types, not individual patients.",
+      "evaluation_metrics": [
+        "Accuracy",
+        "ROC-AUC",
+        "F1-Score"
+      ]
+    },
+    "kmeans_clustering": {
+      "candidate_task": "Multivariate epidemiological profiling of 37 Indian States/UTs",
+      "available_observations": "37 states",
+      "features": [
+        "2022 incident cases (normalized)",
+        "observed CAGR",
+        "projected CAGR",
+        "mortality-to-incidence ratio"
+      ],
+      "data_limitations": "Outliers (UP, MH) skew unscaled data; StandardScaler mandatory. Optimal k evaluated via Silhouette Analysis and Elbow Method (k=3 to 5).",
+      "justification": "HIGHLY FEASIBLE and clinically meaningful for identifying homogeneous healthcare burden clusters.",
+      "evaluation_metrics": [
+        "Silhouette Score",
+        "Inertia (Elbow)"
+      ]
+    },
+    "hierarchical_clustering": {
+      "candidate_task": "Agglomerative hierarchical clustering with Dendrogram across 37 States and 32 Registries",
+      "available_observations": "37 states (state surveillance panel) and 28 registries (PBCR tobacco & rate vectors)",
+      "features": [
+        "standardized incidence, growth rates, and regional vectors"
+      ],
+      "distance_linkage": "Euclidean distance with Ward linkage",
+      "justification": "HIGHLY FEASIBLE. Produces a clear, readable dendrogram illustrating state and regional epidemiological clusters without overwhelming label clutter.",
+      "evaluation_metrics": [
+        "Cophenetic Correlation Coefficient"
+      ]
+    },
+    "apriori_association_mining": {
+      "candidate_task": "Market-Basket / Co-occurrence Mining of High-Risk Cancer Epidemiological Attributes",
+      "available_observations": "37 states or 76 sites discretized into categorical itemsets",
+      "transaction_definition": "States represented as baskets of categorical healthcare attributes (e.g., {'High_Incidence', 'High_Observed_Growth', 'High_Mortality_Ratio', 'Region_NorthEast', 'High_Tobacco_Burden'})",
+      "data_limitations": "Must discretize continuous metrics using statistically defensible quartile/median thresholds. Never fabricate fake transactions.",
+      "justification": "FEASIBLE under defensible quantile discretization. Report Support, Confidence, and Lift.",
+      "evaluation_metrics": [
+        "Support",
+        "Confidence",
+        "Lift"
+      ]
+    }
+  }
+}

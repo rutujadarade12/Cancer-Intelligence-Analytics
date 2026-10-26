@@ -1,0 +1,397 @@
+The academic resources available in VIT –
+Advice to Students:
+Attend every class!!! Missing even one class can have a substantial effect on your ability to understand the course. Be prepared to think and concentrate, in the class and outside. I will try to make the class very interactive. Participate in the class discussions. Ask questions when you don’t understand something. Keep up with the class readings. Start assignments and homework early. Meet me in office hour to discuss ideas, solutions or to check if, what you understand is correct.
+The v-Refer Link: https://vrefer.vidyalankar.edu.in/index.php/apps/files/files/1147115?dir=/vit%20vrefer/CMPN/SEM%20V/2026-27/Verticals/PC_PEC/Subjects/Data%20Warehousing%20and%20Data%20Mining_PECE02T/KS
+Collaboration Policy:
+We encourage discussion between students regarding the course material. However, no discussion of any sort is allowed with anyone on the assignment and homework for the class. If you find solution to some problems in a book or on the internet, you may use their idea for the solution; provided you acknowledge the source (name and page in the book or the website, if the idea is found on the internet). Even though you are allowed to use ideas from another source, you must write the solution in your own words. If you are unsure whether or not certain kinds of collaboration is possible, please ask the teacher.
+*  Recommended distribution: - 30 Marks from Assignments, 40 marks based on assignments with slightly enhance difficulty /complex, 30 marks from thought provoking
+# Recommended distribution: - 30 Marks from Assignments, 40 marks based on assignments/MSE with slightly enhance difficulty /complex, 30 marks from thought provoking
+Note: - As an attachment Annexure is required for assessment criteria of learning outcomes.
+Students can view lectures by VIT professors, captured through LMS ‘Lecture Capture’ in VIT campus for previous years.
+s
+Activity/ies should be designed as per reference of credit structure.
+If the subject is of 2 credit, activity/ assignment should be design for 2 hours with appropriate complexity and engaging time.
+Analysis of Assignment / Tutorial Questions and Related Resources
+* Tick (√) the Type of the Assignment: Online Tools (OT); Collaborative Assignments (CS); Design /Thought provoking (DTP)
+# Write number for textbook, reference book, other learning resource from this AAP – from Points 4.a to 4.d
+* Failures of IA test (IA1+IA2) shall appear for IA test in the next semester. There is no provision for re-test in the same semester.
+* Do not delete any activity. Give details for planned events. Write ‘NA’ for activity Not Planned.
+Consolidated Academic Administration Plan Prepared by (mention all theory teaching faculty names with signature)
+Please write below your name and sign with date of the external cluster mentor meeting
+Annexure:
+Assessment Criteria of Learning Outcomes:
+ | Consolidated Academic Administration Plan for the Course Data Warehousing and Mining(DWM)  Professional Elective (AIML and DA track) Sem. V – Program CMPN   2026-2027 –Odd Semester Faculty -Dr. Vidya Chitre (Cluster Mentor)  & Faculty – Dr. Kavita P Shirsat. __________________
+VMIS (ERP) | V-Refer and V-Live | VIT Library | VAC & MOOC Courses
+Institute & Department Vision and Mission | Former IA question papers and solutions (prepared by faculty) | Former IA question papers solutions - hardcopy | Value Added Courses (VAC) are conducted throughout the semester & in the semester break - Enrol for the VACs
+Program Educational Objectives (PEO) | MU end semester examination question papers and solutions (prepared by faculty) | MU end semester exam question paper & solutions - by faculty, hardcopy | Value Added Courses (VAC) are conducted throughout the semester & in the semester break - Enrol for the VACs
+Program Specific Outcome (PSO) | Class notes and Digital Content for the subject (scanned / typed by faculty) | All text books, reference books, e -books  mentioned in the syllabus & AAP | Online courses from NPTEL, Coursera etc. are pursued throughout the semester - Register for the course & get certified
+Program Outcome (PO) | Comprehensive question bank, EQ, GQ, PPT, Class Test papers | Technical journals and magazines for reference | Online courses from NPTEL, Coursera etc. are pursued throughout the semester - Register for the course & get certified
+Departmental Knowledge Map | Academic Administration Plan & Beyond Syllabus Activity report | VIT library has many resources e:g :- IEEE, Nimbus, xplore, EBSCO etc. | Watch former lectures captured in LMS at VIT
+1.a | Course Objectives (Write in detail – as per NBA guidelines)
+Cognitive | What do you want students to know? | Students should understand how to analyze data and choose relevant models and algorithms for respective applications. | 
+Affective | What do you want students to think / care about? | Students should think about designing data warehousing schemas and applying the right data mining algorithms effectively. | 
+Behavioural | What do you want students to be able to do? | Students should cultivate a research interest in innovations in data mining. | 
+1.b | Course Outcome (CO) Statements and Module-Wise Mapping (follow NBA guideline)
+CO No. | Statements | Related Module/s
+CO1 | Recall and explain the fundamental concepts and architecture of data warehousing, data lakes, and data mining. | All
+CO2 | Design dimensional data warehouse schemas (star, snowflake) and describe the ETL (Extract, Transform, Load) process involved in building and maintaining a data warehouse. | 1,2
+CO3 | Perform data preprocessing and visualization tasks to prepare datasets for mining, including data cleaning, transformation, and exploratory analysis. | 3,4,5,6
+CO4 | Analyze and compare various data mining algorithms (classification, clustering, association) for solving real-world problems, selecting the most appropriate approach. | 4, 5
+CO5 | Evaluate the effectiveness of implemented data mining solutions, interpret results, and propose improvements or optimizations for enhanced decision-making. | 6
+1.c | Course Outcome (CO) Statements and Module-Wise Mapping (follow NBA guideline)
+ | Mapped to Learning Outcomes
+CO1 | 1.1, 2.1, 2.2, 3.1, 4.1, 5.1, 6.1
+CO2 | 1.2, 1.3, 2.3,
+CO3 | 3.2, 3.3, 4.2, 5.2, 6.2
+CO4 | 4.3, 5.3
+CO5 | 6,3
+1.d | Mapping of COs with POs (mark S: Strong, M: Moderate, W: Weak, Dash ‘–’: not mapped) (List of POs is available in V-refer)
+ | PO 1 | PO 2 | PO 3 | PO 4 | PO 5 | PO 6 | PO 7 | PO 8 | PO 9 | PO 10 | PO 11 | PO 12
+ | Knowledge A | Analysis | Design | Investigation | Modern Tools | Society | Environment &sustainability | Ethics T | Teamwork C | Communication | Project Mgt | Life long learning
+CO 1 | 07/39 | 08/39 | - | - | 01/39 | - | - | - | - | - | - | --
+CO 2 | 03/39 | 02/39 | - | - | 03/39 | - | - | - | - | - | - | --
+CO 3 | 05/39 | 04/39 | - | 01/39 | - | - | - | - | - | - | - | --
+CO 4 | - | 02/39 | - | 02/39 | - | - | - | - | - | - | - | -
+CO 5 | - | 01/39 | - | 01/39 | - | - | - | - | - | - | - | -
+1.e | Mapping of COs with PSOs (mark S: Strong, M: Moderate, W: Weak, Dash ‘–’: not mapped)
+ | PSO 1 | PSO 2 | PSO 3
+CO1 | 15/39 | 01/39 | -
+CO2 | 05/39 | 03/39 | -
+CO3 | 10/39 | - | -
+CO4 | 04/39 | - | -
+CO5 | 02/39 | - | -
+1.f | Teaching and Examination Scheme (As specified by the autonomous syllabus) for the Course
+Verticals | BSC/ESC | Program Courses | Multidisciplinary Courses | Skill Courses | HSSM | Experiential Learning | Liberal Learning
+Tick suitable category |  | √ |  |  |  |  |  | 
+Subject Code | Subject Name | Teaching Scheme | Teaching Scheme | Teaching Scheme | Credits Assigned | Credits Assigned | Credits Assigned | Credits Assigned
+Subject Code | Subject Name | Theory | Practical | Tutorial | Theory | TW/Practical | Tutorial | Total
+PECE02T | Data Warehousing & Mining | 2 | - | - | 2 | - | - | 2
+PECE02P | Data Warehousing & Mining Lab | - | 2 | - | - | 1 | - | 1
+Subject Code | Subject Name |  |  |  |  | Examination Scheme | Examination Scheme | Examination Scheme | Examination Scheme | Examination Scheme | Examination Scheme
+Subject Code | Subject Name | Theory | Theory | Theory | Theory | Theory | Total (Theory) | Practical | Practical | Practical | Total (Practical)
+Subject Code | Subject Name | ISA | MSE | MSE | ESE | ESE | Total (Theory) | ISA | ESE | ORAL | Total (Practical)
+PECE02T | Data Warehousing & Mining | 15 | 20 | 20 | 40 | 40 | 75 |  |  |  | 
+PECE02P | Data Warehousing & Mining Lab |  | - | - |  |  | 25 | 25 |  |  | 50
+Subject Code | Subject Name | MSE-1* | MSE-1* | MSE-1*
+Subject Code | Subject Name | Q, No | Module wise % Distribution | Relevant to Bloom Taxonomy
+PECE02T | Data Warehousing & Mining | Q1 a | Module 1 10% | L2
+ |  | Q1b | Module 1 10% | L3
+ |  | Q2a | Module 2 10% | L3
+ |  | Q2b | Module 3 10% | L2
+Subject Code | Subject Name | MSE-2* | MSE-2* | MSE-2*
+Subject Code | Subject Name | Q, No | Module wise % Distribution | Relevant to Bloom Taxonomy
+PECE02T | Data Warehousing & Mining | Q1 a | Module 3 10% | L2
+ |  | Q1b | Module 4 10% | L2
+ |  | Q2a | Module 4 10% | L3
+ |  | Q2b | Module 5 10% | L3
+Subject Code | Subject Name | ESE# | ESE# | ESE#
+Subject Code | Subject Name | Q, No | Distribution | Relevant to Bloom Taxonomy
+PECE02T | Data Warehousing & Mining | Q1 a | Module 1 8% | L2
+ |  | Q1b | Module 2 8% | L3
+ |  | Q2a | Module 3 8% | L2
+ |  | Q2b | Module 4 8% | L2
+ |  | Q3 a | Module 5 8% | L2
+ |  | Q3b | Module 5 8% | L3
+ |  | Q4a | Module 6 8% | L3
+ |  | Q4b | Module 6 8% | L3
+1.g | Faculty-Wise Distribution of all Lecture-Practical-Tutorial Hours for the Course
+Divisions | Lecture (Hrs.) | Practical (Hrs.) | Practical (Hrs.) | Practical (Hrs.) | Practical (Hrs.) | Tutorial (Hrs.) | Tutorial (Hrs.) | Tutorial (Hrs.) | Tutorial (Hrs.)
+Divisions | Lecture (Hrs.) | Batch 1 | Batch 2 | Batch 3 | Batch 4 | Batch 1 | Batch 2 | Batch 3 | Batch 4
+A | KS | KS | KS | KS |  | - | - | - | -
+B | KS | KS | KS | KS |  | - | - | - | -
+C | KS | KS |  |  |  |  |  |  | 
+1.h | Office Hours (Faculty will be available in office in this duration for solving students’ query)
+Division | Day | Time (at least 1 Hr. / Division) | Venue (Office Room No.)
+A | Wednesday | 03:45 pm to 04:45 pm | M-209
+B | Wednesday | 3:45 pm to 4:45 pm | M-209
+C | Thursday | 3:45 pm to 4S:45 pm | M-209
+2.a | Syllabus: Module Wise Teaching Hours and % Weightage in autonomous syllabus Question Paper
+Module No. | Module Title and Brief Details | Teaching Hrs. for each module | % Weightage in autonomous syllabus Question Papers | % Weightage in autonomous syllabus Question Papers | % Weightage in autonomous syllabus Question Papers | Performance Indicator Mapping
+Module No. | Module Title and Brief Details | Teaching Hrs. for each module | ISA | MSE | ESE | Performance Indicator Mapping
+1 | Introduction to data warehouse and ETL Process | 8 | 18.18 | 25 | 10 | P.I.- 1.4.2 , 2.1.2,,2.1.4, 1.4.3 , 2.2.3,5.2.3,  1.4.2 , 5.2.1  5.3.2
+Learning Outcome-1.1 | Explain key data warehousing concepts and architectures(P.I.- 1.4.2 , 2.1.2 and 2.1.4).(CO1) | Explain key data warehousing concepts and architectures(P.I.- 1.4.2 , 2.1.2 and 2.1.4).(CO1) | Explain key data warehousing concepts and architectures(P.I.- 1.4.2 , 2.1.2 and 2.1.4).(CO1) | Explain key data warehousing concepts and architectures(P.I.- 1.4.2 , 2.1.2 and 2.1.4).(CO1) | Explain key data warehousing concepts and architectures(P.I.- 1.4.2 , 2.1.2 and 2.1.4).(CO1) | Explain key data warehousing concepts and architectures(P.I.- 1.4.2 , 2.1.2 and 2.1.4).(CO1)
+Learning Outcome-1.2 | Apply dimensional modeling techniques for designing warehouse schemas. (PI 1.4.3 , 2.2.3 and 5.2.3) (CO2) | Apply dimensional modeling techniques for designing warehouse schemas. (PI 1.4.3 , 2.2.3 and 5.2.3) (CO2) | Apply dimensional modeling techniques for designing warehouse schemas. (PI 1.4.3 , 2.2.3 and 5.2.3) (CO2) | Apply dimensional modeling techniques for designing warehouse schemas. (PI 1.4.3 , 2.2.3 and 5.2.3) (CO2) | Apply dimensional modeling techniques for designing warehouse schemas. (PI 1.4.3 , 2.2.3 and 5.2.3) (CO2) | Apply dimensional modeling techniques for designing warehouse schemas. (PI 1.4.3 , 2.2.3 and 5.2.3) (CO2)
+Learning Outcome-1.3 | Describe the role and steps of the ETL process. (PI 1.4.2 , 5.2.1 and 5.3.2) (CO2) | Describe the role and steps of the ETL process. (PI 1.4.2 , 5.2.1 and 5.3.2) (CO2) | Describe the role and steps of the ETL process. (PI 1.4.2 , 5.2.1 and 5.3.2) (CO2) | Describe the role and steps of the ETL process. (PI 1.4.2 , 5.2.1 and 5.3.2) (CO2) | Describe the role and steps of the ETL process. (PI 1.4.2 , 5.2.1 and 5.3.2) (CO2) | Describe the role and steps of the ETL process. (PI 1.4.2 , 5.2.1 and 5.3.2) (CO2)
+2 | Introduction to Data Lakes | 3 | 9.09 | 12.5 | 10 | 1.4.1, 2.1.2, 2.1.4 , 5.2.4, 2.1.5 ,1.4.2
+Learning Outcome-2.1 | Explain the purpose and structure of data lakes. (PI 1.4.1 , and 2.1.2) (CO1) | Explain the purpose and structure of data lakes. (PI 1.4.1 , and 2.1.2) (CO1) | Explain the purpose and structure of data lakes. (PI 1.4.1 , and 2.1.2) (CO1) | Explain the purpose and structure of data lakes. (PI 1.4.1 , and 2.1.2) (CO1) | Explain the purpose and structure of data lakes. (PI 1.4.1 , and 2.1.2) (CO1) | Explain the purpose and structure of data lakes. (PI 1.4.1 , and 2.1.2) (CO1)
+Learning Outcome-2.2 | Compare and contrast data lakes with data warehouses. (PI 2.1.4 and 5.2.4 ) (CO1) | Compare and contrast data lakes with data warehouses. (PI 2.1.4 and 5.2.4 ) (CO1) | Compare and contrast data lakes with data warehouses. (PI 2.1.4 and 5.2.4 ) (CO1) | Compare and contrast data lakes with data warehouses. (PI 2.1.4 and 5.2.4 ) (CO1) | Compare and contrast data lakes with data warehouses. (PI 2.1.4 and 5.2.4 ) (CO1) | Compare and contrast data lakes with data warehouses. (PI 2.1.4 and 5.2.4 ) (CO1)
+Learning Outcome-2.3 | Identify key challenges and functionalities of data lakes in large-scale data storage. (PI 2.1.5 and 1.4.2 ) (CO2) | Identify key challenges and functionalities of data lakes in large-scale data storage. (PI 2.1.5 and 1.4.2 ) (CO2) | Identify key challenges and functionalities of data lakes in large-scale data storage. (PI 2.1.5 and 1.4.2 ) (CO2) | Identify key challenges and functionalities of data lakes in large-scale data storage. (PI 2.1.5 and 1.4.2 ) (CO2) | Identify key challenges and functionalities of data lakes in large-scale data storage. (PI 2.1.5 and 1.4.2 ) (CO2) | Identify key challenges and functionalities of data lakes in large-scale data storage. (PI 2.1.5 and 1.4.2 ) (CO2)
+3 | Data Exploration and Data Preprocessing | 5 | 18.18 | 25 | 15% | 1.4.2 , 2.1.2, 1.4.3 ,  2.4.3, 4.3.4 , .1.3
+Learning Outcome-3.1 | Explain the KDD process and role of preprocessing. (PI 1.4.2 , and 2.1.2)  (CO1) | Explain the KDD process and role of preprocessing. (PI 1.4.2 , and 2.1.2)  (CO1) | Explain the KDD process and role of preprocessing. (PI 1.4.2 , and 2.1.2)  (CO1) | Explain the KDD process and role of preprocessing. (PI 1.4.2 , and 2.1.2)  (CO1) | Explain the KDD process and role of preprocessing. (PI 1.4.2 , and 2.1.2)  (CO1) | Explain the KDD process and role of preprocessing. (PI 1.4.2 , and 2.1.2)  (CO1)
+Learning Outcome-3.2 | Apply data cleaning, integration, and transformation methods. (PI 1.4.3 , and 2.4.3)  (CO3) | Apply data cleaning, integration, and transformation methods. (PI 1.4.3 , and 2.4.3)  (CO3) | Apply data cleaning, integration, and transformation methods. (PI 1.4.3 , and 2.4.3)  (CO3) | Apply data cleaning, integration, and transformation methods. (PI 1.4.3 , and 2.4.3)  (CO3) | Apply data cleaning, integration, and transformation methods. (PI 1.4.3 , and 2.4.3)  (CO3) | Apply data cleaning, integration, and transformation methods. (PI 1.4.3 , and 2.4.3)  (CO3)
+Learning Outcome-3.3 | Perform exploratory data analysis using visualization techniques. (PI 4.3.4 , and 1.1.3) (CO3) | Perform exploratory data analysis using visualization techniques. (PI 4.3.4 , and 1.1.3) (CO3) | Perform exploratory data analysis using visualization techniques. (PI 4.3.4 , and 1.1.3) (CO3) | Perform exploratory data analysis using visualization techniques. (PI 4.3.4 , and 1.1.3) (CO3) | Perform exploratory data analysis using visualization techniques. (PI 4.3.4 , and 1.1.3) (CO3) | Perform exploratory data analysis using visualization techniques. (PI 4.3.4 , and 1.1.3) (CO3)
+4 | Classification | 5 | 18.18 | 25 | 15% | 1.4.2 , 2.1.2 1.4.3 , 2.4.3, 4.3.5 , 2.4.4
+25%Learning Outcome-4.1 | Explain the principles of decision tree and Naïve Bayes classifiers. (PI 1.4.2 , and 2.1.2) (CO1) | Explain the principles of decision tree and Naïve Bayes classifiers. (PI 1.4.2 , and 2.1.2) (CO1) | Explain the principles of decision tree and Naïve Bayes classifiers. (PI 1.4.2 , and 2.1.2) (CO1) | Explain the principles of decision tree and Naïve Bayes classifiers. (PI 1.4.2 , and 2.1.2) (CO1) | Explain the principles of decision tree and Naïve Bayes classifiers. (PI 1.4.2 , and 2.1.2) (CO1) | Explain the principles of decision tree and Naïve Bayes classifiers. (PI 1.4.2 , and 2.1.2) (CO1)
+Learning Outcome-4.2 | Apply classification and regression techniques on sample datasets. (PI 1.4.3 , and 2.4.3) (CO3) | Apply classification and regression techniques on sample datasets. (PI 1.4.3 , and 2.4.3) (CO3) | Apply classification and regression techniques on sample datasets. (PI 1.4.3 , and 2.4.3) (CO3) | Apply classification and regression techniques on sample datasets. (PI 1.4.3 , and 2.4.3) (CO3) | Apply classification and regression techniques on sample datasets. (PI 1.4.3 , and 2.4.3) (CO3) | Apply classification and regression techniques on sample datasets. (PI 1.4.3 , and 2.4.3) (CO3)
+Learning Outcome-4.3 | Analyze the strengths and weaknesses of various classifiers. (PI 4.3.5 , and 2.4.4)  (CO4) | Analyze the strengths and weaknesses of various classifiers. (PI 4.3.5 , and 2.4.4)  (CO4) | Analyze the strengths and weaknesses of various classifiers. (PI 4.3.5 , and 2.4.4)  (CO4) | Analyze the strengths and weaknesses of various classifiers. (PI 4.3.5 , and 2.4.4)  (CO4) | Analyze the strengths and weaknesses of various classifiers. (PI 4.3.5 , and 2.4.4)  (CO4) | Analyze the strengths and weaknesses of various classifiers. (PI 4.3.5 , and 2.4.4)  (CO4)
+5 | Clustering | 4 | 18.18 | 12.5 | 25% | 1.4.2 , 2.1.2, 1.4.3 ,2.4.3, 4.3.4 , 2.4.4
+Learning Outcome-5.1 | Explain partition-based and hierarchical clustering methods. (PI 1.4.2 , and 2.1.2)  (CO1) | Explain partition-based and hierarchical clustering methods. (PI 1.4.2 , and 2.1.2)  (CO1) | Explain partition-based and hierarchical clustering methods. (PI 1.4.2 , and 2.1.2)  (CO1) | Explain partition-based and hierarchical clustering methods. (PI 1.4.2 , and 2.1.2)  (CO1) | Explain partition-based and hierarchical clustering methods. (PI 1.4.2 , and 2.1.2)  (CO1) | Explain partition-based and hierarchical clustering methods. (PI 1.4.2 , and 2.1.2)  (CO1)
+Learning Outcome-5.2 | Apply K-means and hierarchical clustering on datasets. (PI 1.4.3 , and 2.4.3) (CO3) | Apply K-means and hierarchical clustering on datasets. (PI 1.4.3 , and 2.4.3) (CO3) | Apply K-means and hierarchical clustering on datasets. (PI 1.4.3 , and 2.4.3) (CO3) | Apply K-means and hierarchical clustering on datasets. (PI 1.4.3 , and 2.4.3) (CO3) | Apply K-means and hierarchical clustering on datasets. (PI 1.4.3 , and 2.4.3) (CO3) | Apply K-means and hierarchical clustering on datasets. (PI 1.4.3 , and 2.4.3) (CO3)
+Learning Outcome-5.3 | Analyze clustering results and interpret cluster quality. (PI 4.3.4 , and 2.4.4) (CO4) | Analyze clustering results and interpret cluster quality. (PI 4.3.4 , and 2.4.4) (CO4) | Analyze clustering results and interpret cluster quality. (PI 4.3.4 , and 2.4.4) (CO4) | Analyze clustering results and interpret cluster quality. (PI 4.3.4 , and 2.4.4) (CO4) | Analyze clustering results and interpret cluster quality. (PI 4.3.4 , and 2.4.4) (CO4) | Analyze clustering results and interpret cluster quality. (PI 4.3.4 , and 2.4.4) (CO4)
+6 | Mining frequent patterns and associations | 5 | 18.18 | 0 | 25% | 1.4.2 , 2.1.2, 1.4.3 , 2.4.3, 4.3.5 , 2.4.5
+Learning Outcome-6.1 | Explain frequent itemsets, closed itemsets, and association rule concepts. (PI 1.4.2 , and 2.1.2)  (CO1) | Explain frequent itemsets, closed itemsets, and association rule concepts. (PI 1.4.2 , and 2.1.2)  (CO1) | Explain frequent itemsets, closed itemsets, and association rule concepts. (PI 1.4.2 , and 2.1.2)  (CO1) | Explain frequent itemsets, closed itemsets, and association rule concepts. (PI 1.4.2 , and 2.1.2)  (CO1) | Explain frequent itemsets, closed itemsets, and association rule concepts. (PI 1.4.2 , and 2.1.2)  (CO1) | Explain frequent itemsets, closed itemsets, and association rule concepts. (PI 1.4.2 , and 2.1.2)  (CO1)
+Learning Outcome-6.2 | Apply Apriori and pattern-growth algorithms to discover frequent patterns. (PI 1.4.3 , and 2.4.3) (CO3) | Apply Apriori and pattern-growth algorithms to discover frequent patterns. (PI 1.4.3 , and 2.4.3) (CO3) | Apply Apriori and pattern-growth algorithms to discover frequent patterns. (PI 1.4.3 , and 2.4.3) (CO3) | Apply Apriori and pattern-growth algorithms to discover frequent patterns. (PI 1.4.3 , and 2.4.3) (CO3) | Apply Apriori and pattern-growth algorithms to discover frequent patterns. (PI 1.4.3 , and 2.4.3) (CO3) | Apply Apriori and pattern-growth algorithms to discover frequent patterns. (PI 1.4.3 , and 2.4.3) (CO3)
+Learning Outcome-6.3 | Evaluate the performance and effectiveness of frequent pattern mining techniques. (PI 4.3.5 , and 2.4.5)  (CO5) | Evaluate the performance and effectiveness of frequent pattern mining techniques. (PI 4.3.5 , and 2.4.5)  (CO5) | Evaluate the performance and effectiveness of frequent pattern mining techniques. (PI 4.3.5 , and 2.4.5)  (CO5) | Evaluate the performance and effectiveness of frequent pattern mining techniques. (PI 4.3.5 , and 2.4.5)  (CO5) | Evaluate the performance and effectiveness of frequent pattern mining techniques. (PI 4.3.5 , and 2.4.5)  (CO5) | Evaluate the performance and effectiveness of frequent pattern mining techniques. (PI 4.3.5 , and 2.4.5)  (CO5)
+* Insert rows for more modules in the Course                                             Total | * Insert rows for more modules in the Course                                             Total | 30 | 15 | 60 | 80 | 
+2.b | Prerequisite Courses
+No. | Semester | Name of the Course | Topic/s
+1 | IV | DBMS | DB design & fundamental concepts
+2.c | Relevance to Future Courses
+No. | Semester | Name of the Course
+1 | VI | Machine Learning
+2 | VIII | Deep learning (Professional Elective)
+3 | VII, VIII | Projects
+2.d | See :- Identify real life scenarios/examples which uses the knowledge of the subject ,(Discussion on how to prepare examples and case studies e.g. “Boeing Plane”: C Programming Language – Intro to Computer Science – Harvard’s CS50 (2018) – Bing video)
+Real Life Scenario | Concept Used
+Classifying medical images  Detecting tumours from MRI scans Categorizing emails into spam or non-spam/  Identifying abnormalities in X-rays or MRI scans. | Classification Algorithm
+Weather/ Stock Market Prediction Predicting patient recovery time | Regression Algorithm
+Customer or patient segmentation To identify anomalous network traffic behaviour   detect cybersecurity threats.  Credit card fraud detection. | Clustering Algorithm
+Market Basket Analysis Identifying co-occurring symptoms in medical records Analysing DNA sequences to discover genetic markers associated with specific diseases Examining social media interactions to identify influential users | Association Mining Algorithm
+3 | Past Results – Division-Wise
+Details | Target – Dec 2026 | Dec 2025 | Dec 2024 | 
+Course Passing % – Average of 2 Divisions | 100% | 97.97% | 98% | 
+Marks Obtained by Course Topper (mark/75) | 75 | 75 | 80/80 | 
+ | Division A | Division A | Division B | Division B
+Year | Initials of Teacher | % Result | Initials of Teacher | % Result
+Dec  2025 | KS | 98 | KS | 96
+Dec 2024 | KS | 97 | KS | 98
+4 | All the Learning Resources – Books and E-Resources
+4.a | List of Textbooks (T – Symbol for Textbooks) to be Referred by Students
+Sr. No | Textbook Titles | Author/s | Publisher | Edition | Module Nos. | Available in our Library
+1 | Data Mining Concepts and Techniques | Han, Kamber | Elsevier | 3nd edition | 3,4,5 | Yes
+2 | Data Warehousing: Fundamentals for IT Professionals. | Paulraj Ponniah, | Wiley India | 3nd edition | 1 | Yes
+3 | Data Lake Architecture | Bill Inmon, | Technics Publication | 1st edition | 2 | Yes
+4 | The Data Warehouse Toolkit | Margy Ross and Ralph Kimball, | Willey | 3rd edition | 1 | Yes
+4.b | List of Reference Books (R – Symbol for Reference Books) to be Referred by Students
+Sr. No | Reference Book Titles | Author/s | Publisher | Edition | Module Nos. | Available in our Library
+1 | Data Mining Concepts and Techniques | Han, Kamber | Elsevier | 3nd edition | 3,4,5 | Yes
+2 | Data Warehousing: Fundamentals for IT Professionals. | Paulraj Ponniah, | Wiley India | 3nd edition | 1 | Yes
+3 | Data Lake Architecture | Bill Inmon, | Technics Publication | 1st edition | 2 | Yes
+4.c | List of E - Books (E – Symbol for E-Books) to be Referred by Students
+Sr. No | E- Book Titles | Author/s | Publisher | Edition | Module Nos. | Available in our Library
+1 | Building the Data Warehouse | W. H. Inmon | Wiley Computer Publishing | 3rd edition, | 1 | Yes
+2 | Data Mining | Ian H. Witten, Eibe Frank and Mark A. Hall | Morgan kaufmann publisher | 3nd edition | 3,4,5 | Yes
+3 | Introduction to Data Mining | Pang-Ning Tan, Vipin Kumar, Michael Steinbach | Pearson Education | 2nd edition | 3,4,5 | yes
+4.d | Reading latest / top rated research papers (at least 5 papers)
+Name of Paper | Name of Authors (Background) | Published in | Published in | Problem Statement | Available in our Library
+Name of Paper | Name of Authors (Background) | Date | Journal | Problem Statement | Available in our Library
+Gender-Based Analysis of User Reactions to Facebook Posts | Yassine El Moudene,Jaafar Idrais | 25 December 2024 | Big Data Mining and Analytics IEEE Explore | Visualize the correlation of reactions on Online Social Networks (OSNs)with emotional expressions | IEEE Xplore
+Modelling Audiograms for People with Dementia Who Experience Hearing Loss Using Multiple Linear Regression Method | Abeer Elkhouly Advanced Communication Engineering (ACE) Centre of Excellence Universiti Malaysia Perlis | 18 November 2020 | IEEE Explore | Create a mathematical model of audiograms of individuals with dementia who experience hearing loss. by using multiple regression polynomial. | IEEE Xplore
+Stock Price Forecasting Based on Improved Support Vector Regression | Yuhan Fang Hong Kong University of Science and Technology School of Economics Hong Kong,China | 20 September 2021 | IEEE Xplore | Stock Market Analysis Using Linear Regression | IEEE Xplore
+Understanding Residents’ Behavior for Smart City Management by Sequential and Periodic Pattern Mining | Cong Ma; Huy Quan Vu Department of Information Systems and Business Analytics Deakin University Burwood, VIC, Australia | February 2024 | IEEE Transactions on Computational Social Systems | Smart City :Human Activity Analysis Based on Pattern Mining | IEEE Xplore
+Time Series Data Mining: A Case Study With Big Data Analytics Approach | Fang Wang; Menggang Li; Yiduo Mei; Wenrui Li | 14 January 2020 | IEEE Access | Time series Stock Market prediction to accurately predict the trend. | IEEE
+4.e | Based on research paper an identify the current Problem statement
+Problem Statement |  |  | Used in | Used in | Used in | Used in | Used in
+Problem Statement | Quiz | Assignment | Lab | Mini Project | Poster Presentation | Test | Any Other
+1. Visualize the correlation of reactions on Online Social Networks (OSNs)with emotional expressions |  |  | ✓ |  |  |  | 
+2. Create a mathematical model of audiograms of individuals with dementia who experience hearing loss. by using multiple regression polynomial. |  |  |  | ✓ |  |  | 
+3. Stock Market Analysis Using Linear Regression |  | ✓ |  |  |  |  | 
+4. Smart City :Human Activity Analysis Based on Pattern Mining |  |  |  | ✓ |  |  | 
+5, Time series Stock Market prediction to accurately predict the trend. |  |  |  | ✓ |  |  | 
+4.f | Identify Companies / Industries which use the knowledge of the subject and thus may provide Internships and final Placements
+Name of the Company | To be / Contacted for | To be / Contacted for | To be / Contacted for
+Name of the Company | Student Internship | Student Final Placement | Faculty Internship
+Think Analytics Pvt Ltd Credence Analytics (I) Pvt. Ltd. Deloitte Accenture Fractal Analytics | Student Internship |  | 
+4.g | Identify suitable relevant TOP Guest Speakers from Industry,  Example: -  (CS50 Lecture by Mark Zuckerberg - 7 December 2005 - YouTube)
+Name of the Identified Guest Speaker | Designation | Name of the Company
+Mr. Hemant Tendolkar | Enterprise Architect, AWS Business Unit | TCS
+4.h | Identify relevant technical competitions to participate [Competitions -Paper Presentations, Projects, Hackathons, IVs etc..]
+Name of the Relevant Technical Competition Identified to participate | Organized by | Date of the Event
+Kaggle Competitions | Kaggle | Entire year
+AlgoNation | AlgoNation | 6 Sep 2026
+Smart India Hackathon | Government of India, Pune University, and Various Deemed university | 21st August 2026
+4.i | Identify faculty in TOP schools / Universities who are teaching same / similar subject and develop rapport e.g. Exchange Lecture Material (Assignments / Tests / Project etc..), Joint Paper Publication
+University | Name of the Course | Name of Faculty | Type of Collaboration | Type of Collaboration | Type of Collaboration
+University | Name of the Course | Name of Faculty | Exchange of Lecture Material | Joint Publication/ Research | Other
+IIT Kharagpur | Data Mining | Prof. Pabitra Mitra | Lecture notes |  | https://youtu.be/PiGtQK7_fg4
+NITT Tiruchirappalli | Data Warehousing and Data Mining | Dr. E Sivasankar | Chapter 1 PPT |  | https://hamronotes.com/bit/semester-8/data-warehousing-and-data-mining/chapters
+4.j | Module Best Available in – Title of the best resource [from 4.a to 4.d in this AAP] and other details as necessary
+Module No. | Title of the Module | Textbook | Mention the Tile | Mention the Tile | Mention the Tile | Mention the Tile | Mention the Tile | Mention the Tile
+Module No. | Title of the Module | Textbook | Reference Book | E-books | Journal | E-Journal | Available in our Library | V-refer
+1 | Introduction to Data Warehouse and ETL Process | Dataware housing and OLAP operation | A Review: Analysis on Data Warehousing and Data Mining IEEE |  |  |  | 1 | Introduction to Data Warehouse and ETL Process
+2 | Introduction to Data Lakes |  | IEEE Transactions on Knowledge and Data Engineering |  | Introduction to Data Lakes | https://www.altexsoft.com/blog/data-lake-architecture/ | 2 | Introduction to Data Lakes
+3 | Data Exploration and Data Preprocessing | https://youtu.be/NSxEiohAH5o | Data Mining and Knowledge Discovery Springer |  |  |  | 3 | Data Exploration and Data Preprocessing
+4 | Classification | https://archive.nptel.ac.in/courses/ 111/106/111106164/ | International Journal of Data Mining, Modelling and Management. Inder Science |  |  |  | 4 | Classification
+5 | Clustering | https://www.youtube.com/watch?v=ZTP6b3LaVGg | Statistical Analysis and Data Mining Wiley |  |  |  | 5 | Clustering
+6 | Mining frequent patterns and associations | Association Mining | Frequent Pattern Mining Algorithms for Finding Associated  Science Direct |  |  |  | 6 | Mining frequent patterns and associations
+4.k | Referred to any top-rated university in that subject for content
+University | Name of the Course | Name of Faculty | Date of Delivery of the Course | Remarks
+MIT | Prediction Machine learning and statistics | Prof. Cynthia Rudin | Winter 2021 | https://ocw.mit.edu/courses/15-097-prediction-machine-learning-and-statistics-spring-2012/resources/lecture-notes/?utm_source=chatgpt.com
+Buffalo | Data Mining | Sargur Srihari | Winter 2021 | https://cedar.buffalo.edu/~srihari/CSE574/?utm_source=chatgpt.com
+IIT Kharagpur | Data Mining | Prof. Pabitra Mitra | Feb 2021 | https://youtu.be/PiGtQK7_fg4
+4.l | Faculty received any certification related to this subject. List of Certifications Identified / Done
+Course | Certifying Agency | No. of Hours | Level of the Course | Level of the Course | Certification | Certification | Remarks
+Course | Certifying Agency | No. of Hours | Introductory | Advance Skill Development | Done on | Proposed to be on | Remarks
+Deep learning and AI | Coursera | 2022 |  | Advance | 20/2/22 |  | completed
+Crash course on Machine Learning | Great Learning | 47 | Basic course |  | 30 January 2024 |  | completed
+Application of ML in Sustainable Technologies | NIIT Rourkela | 1 week |  | Advance | January 2024 |  | completed
+4.m | Completed subject wise/cluster wise training with cluster mentor. List of relevant Refresher Course Identified / Done
+Course | Certifying Agency (As suggested by DAB/Cluster Mentor/Industry/University other than MU) | Certification | Certification | Remarks
+Course | Certifying Agency (As suggested by DAB/Cluster Mentor/Industry/University other than MU) | Done on | Proposed to be on | Remarks
+Pedagogy | Coursera | 2021 | Data mining | Completed
+Pedagogy | Udemy | 2022 | Machine learning | Completed
+PBL | Coursera | 2019 | Optimization | Completed
+PBL | Udemy | 2019 | Data mining | Completed
+Sub. Content Training | Coursera | 2022 | Machine learning | Completed
+Sub. Content Training | Udemy Great Learning | 2022 2024 | Machine learning Machine Learning | Completed
+4.n | Best Practices Identified and adopted
+No. | Item | Best Practices Identified | Best Practices Identified | Best Practices Identified
+No. | Item | IIT Ropar and Kharagpur | MIT | NIT  Rourkela
+1 | Microsite |  |  | 
+2 | Video Lectures | ✓ | ✓ | 
+3 | Assignments | ✓ |  | 
+4 | Mini Project | ✓ | ✓ | 
+5 | Assessment Metric |  |  | 
+6 | Quizzes | ✓ | ✓ | ✓
+7 | Labs/ Practical (PBL) | ✓ |  | ✓
+8 | Tests |  |  | 
+9 | Peer Assessment |  |  | 
+10 | Any Other |  |  | 
+4.o | Web Links for Online Notes/YouTube/VIT Digital Content/VIT Lecture Capture/NPTEL Videos
+No. | Websites / Links | Module Nos.
+1 | https://youtu.be/PiGtQK7_fg4 | All
+2 | https://www.coursera.org/specializations/data-mining | 3 to 6
+4.p | Recommended MOOC Courses like Coursera / NPTEL / MIT-OCW / edX/VAC etc.
+Sr. No. | MOOC Course Link | Course conducted by – Person / University / Institute / Industry | Course Duration | Certificate (Y / N)
+1 | https://www.mygreatlearning.com/academy/courses/11331425/94723 | Great Learning | 42 hrs | Y
+2 | https://www.coursera.org/specializations/data-mining | Coursera | 3 months | Y
+5 | Consolidated Course Lesson Plan
+ | From (date/month/year) | From (date/month/year) | Total Number of Weeks
+Semester Duration | 06/07/2026 | 23/010/2026 | 15
+Week | Lecture no. | Module No. | Lecture Topics / MSE /                                           BSA planned to be covered | Actual date of Completion (Handwritten) | Mapping Bloom Taxonomy level | COs Mapped | Recommended  Prior Viewing / Reading | Recommended  Prior Viewing / Reading
+Week | Lecture no. | Module No. | Lecture Topics / MSE /                                           BSA planned to be covered | Actual date of Completion (Handwritten) | Mapping Bloom Taxonomy level | COs Mapped | Lecture No. (on LMS) | Chapter No./ Books/ Web Site
+1 | 1 | 1 | Chapter 1: Introduction to Data Warehouse and ETL Process Introduction to Data Warehouse and Data Mart, Data Warehouse architecture. |  | L2 | CO1 |  | Fundamentals Paulraj Ponnianh Chapter 15 page no 373– 405
+1 | 2 | 1 | Data Warehouse vs Data Marts Information Package Diagram |  | L2 | CO1 |  | Data Mining Concepts and Techniques, Han, Kamber page no 135-164
+2 | 3 | 1 | Data Warehouse Schemas; Star Schema, Snowflake Schema, Fact Constellation Schema. |  | L2 | CO1 | Yes | Fundamental  Paulraj Ponnianh Chapter 15 page no 373– 405 Data Mining Concepts and Techniques Han, Kamber, page no 135-164
+2 | 4 | 1 | Factless Fact Table, Update to the dimension tables. |  | L3 | CO1 | Yes | Fundamental  Paulraj Ponnianh Chapter 15 page no 373– 405 Data Mining Concepts and Techniques Han, Kamber, page no 135-164
+3 | 5 | 1 | OLAP operations |  | L3 | CO1 | Yes | Data Mining Concepts and Techniques,Han, Kamberpage no   - 327-434
+3 | 6 | 1 | Rollup, drill down, Slice, Dice, pivot |  | L3 | CO1 | Yes | Data Mining Concepts and Techniques, Han, Kamber page no   - 327-434
+4 | 7 | 1 | Basic steps of the ETL process, different extraction methods, transformations |  | L1 | CO1 | Yes | Data Mining Concepts and Techniques, Han, Kamber page no - 248-265
+4 | 8 | 1 | Different loading techniques |  | L1 | CO1 | Yes | Data Mining Concepts and Techniques, Han, Kamber page no - 248-265
+5 | 9 | 2 | Introduction to Data Lakes Definition, key attributes of the data lake |  | L1 | CO2 | Yes | Data Lake ArchitectureBill Inmon, Page no 30-37
+5 | 10 | 2 | challenges, functionalities, architecture, Curating data lakes |  | L1 | CO2 | Yes | Data Lake Architecture Bill Inmon, Page no 47-63
+6 | 11 | 2 | Data Lake vs. Data Warehouse |  | L1 | CO2 | Yes | Data Lake Architecture Bill Inmon, Page no 63-77
+6 | 12 | 3 | Data Exploration and Data Preprocessing  The KDD process, Data mining system architecture, Data Exploration: Types of Attributes |  | L1 | CO3 | Yes | Data Mining Concepts and Techniques, Han, Kamber page no 83-117
+7 | 13 | 3 | Statistical Description of Data |  | L2 | CO3 | Yes | Data Mining Concepts and Techniques, Han, Kamber page no 83-117
+7 | 14 | 3 | Data Visualization: box plots, line & bar charts, and scatter plots. |  | L2 | CO3 | Yes | Data Mining Concepts and Techniques, Han, Kamber page no   - 327-434,
+8 | 15 | 3 | Data Preprocessing: Descriptive data |  | L2 | CO3 | Yes | Data Mining Concepts and Technique Han, Kamber page no   - 327-434
+8 | 16 | 3 | summarization, Cleaning, Integration & |  | L2 | CO3 | Yes | Data Mining Concepts and TechniqueHan,Kamber page no - 248-265
+9 | 17 | 3 | transformation, Data reduction. |  | L2 | CO3 | Yes | Data Mining Concepts and Techniques, Han, Kamber page no - 248-265
+9 | 18 | 4 | Introduction to data mining techniques, Classification: |  | L2 | CO4 | Yes | Data Mining Concepts and Techniques, Han, Kamber page no 83-117
+10 | 19 | 4 | Decision Tree Induction |  | L3 | CO4 | Yes | Data Mining Concepts and Techniques, Han, Kamber page no 83-117
+10 | 20 | 4 | Naïve Bayesian Classification. |  | L3 | CO4 | Yes | Data Mining Concepts and Techniques, Han, Kamber page no 83-117
+11 | 21 | 4 | Simple Regression |  | L3 | CO4 | Yes | Data Mining Concepts and Techniques, Han, Kamber page no 83-117
+11 | 22 | 4 | Multiple Regression |  | L3 | CO4 | Yes | Data Mining Concepts and Techniques, Han, Kamber page no 83-117
+12 | 23 | 5 | Clustering: Partition based: |  | L3 | CO5 | Yes | Data Mining Concepts and Techniques, Han, Kamber page no 444-487
+12 | 24 | 5 | K-means Clustering (Single and double) |  | L3 | CO5 | Yes | Data Mining Concepts and Techniques, Han, Kamber
+13 | 25 | 5 | Hierarchical Methods (Agglomerative, Divisive) |  | L3 | CO5 | Yes | Data Mining Concepts and Techniques, Han, Kamber
+13 | 26 | 6 | Basic Concepts: Market Basket Analysis, Frequent Itemset, Closed Itemset, and Association  Rules; The Apriori Algorithm:  Finding Frequent Itemset Using Candidate Generation, Generating Association Rules from requent Itemset, |  | L2 | CO6 | Yes | Data Mining Concepts and Techniques, Han, Kamber
+14 | 27 | 6 | Improving the Efficiency of Apriori, A pattern growth approach for mining |  | L3 | CO6 | Yes | Data Mining Concepts and Techniques, Han, Kamber
+14 | 28 | 6 | Frequent Itemset.  Mining Methods: Frequent Itemset, Mining Frequent Itemset using vertical data formats. |  | L1 | CO6 | Yes | Data Mining Concepts and Techniques, Han, Kamber
+15 | 29 |  | Revision |  |  | CO6 | Yes | 
+15 | 30 |  | Revision |  |  | CO6 | Yes | 
+6 | Rubric for Grading and Marking of Term Work (inform students at the beginning of semester)
+Theory (ISA=15 ) | Theory (ISA=15 ) | Theory (ISA=15 ) | Theory (ISA=15 ) | Theory (ISA=15 ) | Theory (ISA=15 ) | Theory (ISA=15 ) | Theory (ISA=15 ) |  |  |  |  | Total
+Class Participation | Activity-1 | Activity-2 | Activity-3 | Activity-4 | Activity-5 | Activity-6 | Activity-7 | Activity-8 | Activity-9 | Activity-10 | Activity-11 | Total
+04 | Assignment 1 marks | Assignment 1 marks | Assignment 1 marks (Mooc Course) | Assignment 1 marks  Class test 1marks | Assignment 1 marks | Assignment 1 marks | Assignment 1 marks | Assignment 1 marks | Assignment Poster 1 marks | Assignment IEEE paper Review 1 marks | Assignment 1 marks | 15
+Practical  (ISA=25 ) | Practical  (ISA=25 ) | Practical  (ISA=25 ) | Practical  (ISA=25 ) | Practical  (ISA=25 ) | Practical  (ISA=25 ) | Practical  (ISA=25 ) | Practical  (ISA=25 ) |  |  |  |  | Total
+Class Participation | Activity-1 | Activity-2 | Activity-3 | Activity-4 | Activity-5 | Activity-6 | Activity-7 | Activity-8 | Activity-9 | Activity-10 | Activity-11 | Total
+10 | Experiment  1 marks | Experiment  1 marks | Experiment  1 marks | Experiment  1 marks | Experiment  1 marks | Experiment  1 marks | Experiment  1 marks | Experiment  1 marks | Mini project 5 marks | Experiment 1 marks | Experiment  1 marks | 25
+Class Participation | Class Participation | MSE-1 | MSE-2 | ESE | Total
+15 marks | 15 marks | 20 | 20 | 40 | Total -75 marks
+7 | 7 | Assignments / Tutorials Details | Assignments / Tutorials Details | Assignments / Tutorials Details | Assignments / Tutorials Details | Assignments / Tutorials Details | Assignments / Tutorials Details
+Assignment/ Tutorial No. | Title of the Assignments / Tutorials | CO Map | Mapping Bloom Taxonomy Level | Assignment/ Tutorials given to Students on | Assignments to be submitted back on
+1 | Data Modelling for given problem statement | 01 | L2 | Week 2 | Week 3
+2 | Different tasks using OLAP operation-Case Study | 01 | L2 | Week 3 | Week 4
+3 | Data Cleaning & Preprocessing of dataset | 02 | L3 | Week 4 | Week 5
+4 | Analysis Using Linear Regression Model | 02 | L3 | Week 5 | Week 6
+5 | Classification Algorithms – Case Study Analysis | 02 | L3 | Week 6 | Week 7
+6 | Clustering  Algorithms- – Case Study Analysis | 03 | L3 | Week 7 | Week 8
+7 | Association Mining Algorithm-Case Study Analysis | 03 | L3 | Week 8 | Week 9
+8 | Data Lakes Architecture and Design- Case Study Based | 03 | L3 | Week 9 | Week 10
+9 | Evaluation on different Data-mining Tasks | 03 | L4 | Week 10 | Week 11
+10 | Research Paper Review Emerging Data Mining Technique | 04 | L4 | Week 11 | Week 12
+11 | Poster: To visually communicate key concepts, applications, and insights on a selected topic in Data Warehousing or Data Mining, promoting clarity, creativity, and understanding. | 04 | L4 | Week 12 | Week 5
+Assignment / Tutorial No. | Week No. | Type* (√) | Type* (√) | Type* (√) | Module No. | Based on # | Based on # | Based on # | Question Type (√) | Question Type (√)
+Assignment / Tutorial No. | Week No. | OT | CS | DTP | Module No. | Textbook | Reference  Book | Other Learning Resource | Real Life Assignments | Thought Provoking
+1 | Week 2 |  | √ |  | 1 |  | √ |  | √ | 
+2 | Week 3 |  | √ |  | 2 |  |  | √ | √ | 
+3 | Week 4 |  | √ |  | 2 |  | √ |  | √ | √
+4 | Week 5 |  | √ |  | 3 |  |  | √ | √ | √
+5 | Week 6 |  | √ |  | 3 |  |  | √ | √ | √
+6 | Week 7 |  | √ |  | 3 |  |  | √ |  | √
+7 | Week 8 |  | √ |  | 4 |  | √ |  | √ | √
+8 | Week 9 |  | √ |  | 4 |  |  | √ | √ | 
+9 | Week 10 |  | √ |  | 5 |  |  | √ | √ | 
+10 | Week 11 |  | √ |  | 5 |  | √ |  |  | √
+11 | Week 12 |  | √ |  | 5 |  |  | √ | √ | 
+8 | In Semester Assessment (ISE) / Other Class Test / Open Book Test (OBT)/Take Home Test (THT) Details
+Tests | Test Dates | Module No. | CO Map | MSE Question Paper Pattern | Policy
+ISE | Week 4 | 3 | CO1 |  | 
+Minute Paper | Week 5 | 4 | CO4 |  | 
+Pop Quiz | Week 8 | 5 | CO3 | 10 questions from IIT Ropar assignments | 
+Class Test | Week 10 | 6 | CO4 |  | 
+9. | Practical Activities
+Practical No. | Module No. | Title of the Experiments | Type of Experiment | Type of Experiment | Topics to be highlighted | CO Map
+Practical No. | Module No. | Title of the Experiments | PBL | Newly Added | Topics to be highlighted | CO Map
+1 | 1 | Build Data Warehouse/Data Mart for a given problem statement i) Identifying the source tables and populating sample data ii) Design dimensional data model i.e. Star schema, Snowflake schema, and Fact Constellation schema(if applicable) |  |  | Data Warehouse schema design | CO1
+2 | 1 | You are a data analyst for RetailMart, a large retail chain that stores its sales data in a star schema data warehouse. The fact table Sales_Fact records daily sales transactions and is connected to the following dimension tables: Date_Dim(Date_ID, Day, Month, Quarter, Year) Store_Dim(Store_ID, Store_Name, City, State, Region) Product_Dim(Product_ID, Product_Name, Category, Sub_Category) Customer_Dim(Customer_ID, Gender, Age_Group, Income_Bracket) The fact table has the following fields: Sales_Fact(Sales_ID, Date_ID, Store_ID, Product_ID, Customer_ID, Units_Sold, Revenue) a) Describe the ROLL-UP operation needed to produce this summary from the base-level daily transaction data. b) Later, they want to DRILL-DOWN from region to individual cities within the region to identify underperforming cities. What would this operation look like? A marketing analyst wants to understand customer buying behavior for female customers in the age group 25–35, focused only on Electronics category. a) Define a SLICE operation to restrict the data to this age group and gender. b) Then apply a DICE operation to compare revenue by category and region only for this sliced group. c)The CEO wants a pivoted sales report that shows quarters as columns and product categories as rows, with revenue values filled in. Describe how you would achieve this using OLAP cube or SQL-based pivot. |  | New | OLAP | CO1
+3 | 3 | Implement and apply various data visualization techniques on a given dataset to explore and understand the characteristics of the data. Use appropriate univariate, bivariate, and multivariate plots to analyze distributions, trends, and relationships. Interpret the findings and summarize the insights gained from each visualization |  |  | Data Visualization | CO3
+4 | 4 | A retail company wants to predict the monthly sales revenue of its stores based on past data. Initially, the company believes that the revenue depends mainly on the store's advertising budget. Later, they also consider other influencing factors such as store location rating, number of staff, and customer footfall. Implement linear regression models (both single-variable and multiple-variable) to: Predict sales using only the advertising budget (simple linear regression). Predict sales using multiple features such as advertising budget, location rating, staff count, and footfall (multiple linear regression). Compare the performance of both models. Visualize and interpret the results." |  | PBL | Regression analysis | CO4
+5 | 4 | A healthcare company wants to identify which patient attributes are most influential in predicting whether a patient will be readmitted within 30 days. You are provided with a dataset containing patient demographics, medical history, treatment type, and past admission records. Use Decision Tree-based attribute relevance analysis to: Determine the most important features affecting patient readmission. Visualize the decision tree. Interpret and rank the attributes by their relevance. Suggest how this analysis can support hospital resource planning and patient car Dataset Link: https://www.kaggle.com/datasets/uciml/diabetes |  |  | Classification | CO4
+6 | 5 | A telecom company wants to segment its customer base to design targeted marketing strategies. You are given a dataset containing information about customer usage patterns such as call duration, data consumption, monthly charges, and number of customer service calls. Your task is to implement the K-Means clustering algorithm to group customers with similar behavior. Analyze and interpret the resulting clusters to identify distinct customer segments and recommend suitable service plans for each cluster. Preprocess the data (scaling, normalization if needed). Apply the K-Means algorithm to find optimal customer segments. Use Elbow Method to determine the number of clusters. Visualize clusters using 2D or 3D plots. Interpret cluster characteristics and suggest targeted strategies.  Dataset Link: https://www.kaggle.com/datasets/jpacse/datasets-for-churn-telecom |  | New | Clustering | CO5
+7 | 5 | An e-commerce company wants to segment its customers based on their purchasing behavior to better tailor product recommendations. The company provides you with customer data including average order value, frequency of purchases, total spending, and product category preferences. Your task is to implement the Agglomerative Hierarchical Clustering algorithm to group customers into meaningful segments. Analyze the resulting clusters to understand different customer profiles and recommend targeted marketing strategies for each group Preprocess the data (encode categorical features, normalize numeric values). Apply Agglomerative Clustering using distance metrics (Euclidean, Ward). Use a dendrogram to decide the optimal number of clusters. Label and visualize the clusters in 2D space. Interpret the characteristics of each cluster.  Dataset Link  https://github.com/AakritiKinra/Agglomerative-Hierarchical-clustering/blob/main/Wholesale%20customers%20data. |  | New | Clustering | CO5
+8 | 6 | A supermarket wants to understand customer purchasing behavior to improve product placement and offer personalized promotions. You're provided with a dataset of transaction records, where each row lists the items bought together. Your task is to implement the Apriori algorithm to identify frequent itemsets and generate association rules. Use the results to suggest product bundling strategies  Dataset Link https://www.kaggle.com/datasets/mkechinov/ecommerce-behavior-data-from-multi-category-store |  | New | Association Analysis | CO6
+9 | 1,2,3,4,5,6 | Mini-Project on Data Mining Techniques: Classification, Clustering, and Association" on a real-world dataset using data mining tools. Each student/group must: Select a real-world dataset (e.g., retail, health, education, e-commerce). Perform Data Preprocessing Handle missing values, encoding, scaling, etc. Apply Classification Algorithm (e.g., Decision Tree, Naive Bayes) Apply Clustering Algorithm (e.g., K-Means, Agglomerative) Apply Association Rule Mining (e.g., Apriori) Interpret results and provide visualizations Prepare a concise project report summarizing methodology, findings, and insights . |  | New | ALL | CO6
+10 | 6 | Problem Statement: "A multinational retail chain generates millions of daily transactions across different product categories and locations. The management wants to uncover hidden purchase patterns to improve cross-selling strategies and inventory planning. Your task is to implement an optimized FP-Tree–based mining solution that can efficiently handle high-dimensional, sparse, and large-scale transaction data. You must construct the FP-Tree manually (not using built-in libraries), extract frequent itemsets using conditional pattern bases, and generate meaningful product association rules. Further, analyze and recommend how the insights can be used for dynamic shelf placement or personalized promotions." Tasks  Manually build the FP-Tree data structure from a cleaned dataset. Extract conditional pattern bases and generate frequent itemsets. Implement FP-Growth algorithm without using ready-made libraries. Apply min-support dynamically for high/low frequency categories. Compare association rules across locations or time periods. Visualize the FP-Tree structure (using graphviz or custom tool). Give business interpretations and strategy suggestions. | PBL | New | Association Analysis | 
+11 | 6 | Title:User Behavior and Influence Analysis in Social Networks using Classification and Clustering.  Problem Statement: A social media platform wants to understand how users interact with content and each other to improve personalization, moderation, and influence detection. Given a dataset of user profiles, posts, likes, comments, and follower connections, your task is to apply clustering and classification techniques to analyze user behavior. Specifically, cluster users based on activity patterns (e.g., lurkers, influencers, content creators), and classify new users into behavior categories using supervised learning. Evaluate how these insights can improve recommendation systems or flag anomalous behavior." | PBL |  | Application of clustering and classification | 
+10 | Uncovering syllabus with different Activities.
+No. | Type of the Activity | Type of the Activity | Activities | Number of beneficiaries | Other Details –  guest profile, feedback, mark sheet, report | Other Details –  guest profile, feedback, mark sheet, report
+1 | Experiential learning/Interaction with Outside World | Experiential learning/Interaction with Outside World | 1- Guest Lectures by Industry Expert | Hemant Tendolkar TCS | Senior Analyst | Senior Analyst
+1 | Experiential learning/Interaction with Outside World | Experiential learning/Interaction with Outside World | 2- Workshops |  |  | 
+1 | Experiential learning/Interaction with Outside World | Experiential learning/Interaction with Outside World | 3- Mini Project | YES |  | 
+1 | Experiential learning/Interaction with Outside World | Experiential learning/Interaction with Outside World | 4- Industrial Visit |  |  | 
+1 | Experiential learning/Interaction with Outside World | Experiential learning/Interaction with Outside World | 5- Any other activity | YES |  | 
+2 | Collaborative & Group Activity | Collaborative & Group Activity | 6- Poster Presentation | YES |  | 
+2 | Collaborative & Group Activity | Collaborative & Group Activity | 7- Minute Papers | YES |  | 
+2 | Collaborative & Group Activity | Collaborative & Group Activity | 8- Students Seminars | YES |  | 
+2 | Collaborative & Group Activity | Collaborative & Group Activity | 9- Students Debates |  |  | 
+2 | Collaborative & Group Activity | Collaborative & Group Activity | 10- Panel Discussion / Mock GD |  |  | 
+2 | Collaborative & Group Activity | Collaborative & Group Activity | 11- Mock Interview |  |  | 
+2 | Collaborative & Group Activity | Collaborative & Group Activity | 12- Any other activity |  |  | 
+3 | Co-Curricular Activity | Co-Curricular Activity | 13- Informative videos (NPTEL/YouTube /TEDx/ MIT OW/edX) | YES |  | 
+3 | Co-Curricular Activity | Co-Curricular Activity | 14- Lecture Capture Usage | YES |  | 
+3 | Co-Curricular Activity | Co-Curricular Activity | 15- Any other activity |  |  | 
+4 | Tests & Assessments | Tests & Assessments | 16- Class Tests/ Weekly Tests | YES |  | 
+4 | Tests & Assessments | Tests & Assessments | 17- Pop Quiz | YES |  | 
+4 | Tests & Assessments | Tests & Assessments | 18- Mobile App Based Quiz |  |  | 
+4 | Tests & Assessments | Tests & Assessments | 19- Open Book Test |  |  | 
+4 | Tests & Assessments | Tests & Assessments | 20- Take Home Test | YES |  | 
+4 | Tests & Assessments | Tests & Assessments | 21- Any other activity | YES |  | 
+11 | 11 | AAP | AAP | AAP | AAP
+No. | Programme | Course | Uploaded on V-refer | Date
+1 | CMPN | Dataware housing and mining |  | 
+12 | Lecture Guide
+No. | Programme | Course | Uploaded on V-refer | Date
+1 | CMPN | Data warehousing and mining | Yes | 06/07/2025
+Dr Kavita P. Shirsat |  | 
+Dr. Anuradha B External Industry Mentor | Dr. S. K Shinde External Academic Mentor | Dr. Vidya Chitre VIT Cluster Mentor | Dr. Ravindra Sangle. Program HOD
+Learning Outcomes: The Learner will: | Assessment Criteria: The Learner can: | Evaluated under ISA/MSE/ESE/LAB
+LO1: Understand core concepts of data warehousing and architectures | 1.1 Explain key data warehousing concepts and architectures. | ISA, MSE, ESE
+LO1: Understand core concepts of data warehousing and architectures | 1.2 Explain the purpose and structure of data lakes. | ISA
+LO1: Understand core concepts of data warehousing and architectures | 1.3 Compare and contrast data lakes with data warehouses. | MSE
+LO1: Understand core concepts of data warehousing and architectures | 1.4 Explain the KDD process and role of preprocessing. | ISA
+LO1: Understand core concepts of data warehousing and architectures | 1.5 Explain the principles of decision tree and Naïve Bayes classifiers. | ISA, MSE
+LO1: Understand core concepts of data warehousing and architectures | 1.6 Explain partition-based and hierarchical clustering methods. | ISA
+LO1: Understand core concepts of data warehousing and architectures | 1.7 Explain frequent itemsets, closed itemsets, and association rule concepts. | ISA, ESE
+LO2: Apply dimensional modeling and ETL process | 2.1 Apply dimensional modeling techniques for designing warehouse schemas. | LAB, MSE
+LO2: Apply dimensional modeling and ETL process | 2.2 Describe the role and steps of the ETL process. | ISA, MSE
+LO2: Apply dimensional modeling and ETL process | 2.3 Identify key challenges and functionalities of data lakes in large-scale data storage. | ISA
+LO3: Apply data preprocessing, visualization, and classification techniques | 3.1 Apply data cleaning, integration, and transformation methods. | LAB
+LO3: Apply data preprocessing, visualization, and classification techniques | 3.2 Perform exploratory data analysis using visualization techniques. | ISA, LAB
+LO3: Apply data preprocessing, visualization, and classification techniques | 3.3 Apply classification and regression techniques on sample datasets. | ISA, LAB
+LO3: Apply data preprocessing, visualization, and classification techniques | 3.4 Apply K-means and hierarchical clustering on datasets. | ISA, LAB
+LO3: Apply data preprocessing, visualization, and classification techniques | 3.5 Apply Apriori and pattern-growth algorithms to discover frequent patterns. | ISA, LAB
+LO4: Analyze models for pattern recognition and classification | 4.1 Analyze strengths and weaknesses of classifiers. | MSE, ESE
+LO4: Analyze models for pattern recognition and classification | 4.2 Analyze clustering results and interpret cluster quality. | MSE
+LO5: Evaluate frequent pattern mining techniques | 5.1 Evaluate the performance and effectiveness of frequent pattern mining techniques. | ISA, LAB, MSE
